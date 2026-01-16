@@ -13,7 +13,7 @@
 74SOFTWARE,74SW,XPAR,"EUR 38,40","-1,03%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0011040500-XPAR
 A.B.P. NOCIVELLI,ABP,EXGM,"EUR 7,10","0,71%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005439861-EXGM
 A2A,A2A,MTAA,"EUR 2,476","0,53%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001233417-MTAA
-A2A,2A2A,MTAH,"EUR 2,458","-0,20%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0001233417-MTAH
+A2A,2A2A,MTAH,"EUR 2,481","0,20%",18:51 CET,https://live.euronext.com/pt/product/equities/IT0001233417-MTAH
 AAK AB,1AAK,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0011337708-BGEM
 AALBERTS NV,AALB,XAMS,"EUR 30,00","-0,60%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000852564-XAMS
 AALBERTS NV,2AALB,MTAH,"EUR 34,00",-,25 Mar 2025,https://live.euronext.com/pt/product/equities/NL0000852564-MTAH
@@ -27,8 +27,8 @@ AB SCIENCE BSAAU25,ABBSA,ALXP,-,-,-,https://live.euronext.com/pt/product/equitie
 ABATTOIR,,VPXB,"EUR 45,00","-10,00%",22 Oct 2024,https://live.euronext.com/pt/product/equities/BE0946377455-VPXB
 ABB Ltd,1ABB,BGEM,"EUR 66,90","1,06%",10:41 CET,https://live.euronext.com/pt/product/equities/CH0012221716-BGEM
 Abbott LaB,1ABT,BGEM,"EUR 106,44","-0,06%",15:04 CET,https://live.euronext.com/pt/product/equities/US0028241000-BGEM
-ABBVIE,4ABBV,ETLX,"EUR 186,40","-0,85%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US00287Y1091-ETLX
 ABBVIE,1ABBV,BGEM,"EUR 184,80",-,14:28 CET,https://live.euronext.com/pt/product/equities/US00287Y1091-BGEM
+ABBVIE,4ABBV,ETLX,"EUR 186,40","-0,85%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US00287Y1091-ETLX
 ABBVIE,2ABBV,MTAH,"EUR 190,00","-0,42%",11 Dec 2025,https://live.euronext.com/pt/product/equities/US00287Y1091-MTAH
 ABC ARBITRAGE,ABCA,XPAR,"EUR 5,35","-0,56%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0004040608-XPAR
 ABC COMPANY,ABC,EXGM,"EUR 3,76",-,02 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005466294-EXGM
@@ -91,141 +91,1020 @@ ADP,ADP,XPAR,"EUR 109,30","-0,18%",17:35 CET,https://live.euronext.com/pt/produc
 ADS MARITIME HOLD,ADS,MERK,"NOK 2,40","7,14%",13:18 CET,https://live.euronext.com/pt/product/equities/CY0108052115-MERK
 ADUX,ALDUX,ALXP,"EUR 2,07","-1,43%",13:30 CET,https://live.euronext.com/pt/product/equities/FR0012821890-ALXP
 ADVANCED MICRO DEV,1AMD,BGEM,"EUR 200,55","-1,47%",17:35 CET,https://live.euronext.com/pt/product/equities/US0079031078-BGEM
-ADVANCED MICRO DEV,2AMDV,MTAH,"EUR 201,80","-0,86%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US0079031078-MTAH
-2020 BULKERS,2020,XOSL,"NOK 143,50","1,20%",16:26 CET,https://live.euronext.com/pt/product/equities/BMG9156K1018-XOSL
-2CRSI,AL2SI,ALXP,"EUR 12,18","-0,81%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013341781-ALXP
-AEDES,AEDES,MTAA,"EUR 0,1705","-0,29%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005349052-MTAA
-AEDIFICA,AED,"XBRU, XAMS","EUR 75,05","0,81%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003851681-XBRU
+ADVANCED MICRO DEV,2AMDV,MTAH,"EUR 200,55",-,18:22 CET,https://live.euronext.com/pt/product/equities/US0079031078-MTAH
+ADVANCED MICRO DEV,4AMD,ETLX,"EUR 199,20","-2,19%",10:45 CET,https://live.euronext.com/pt/product/equities/US0079031078-ETLX
+ADVENTURE,ADV,EXGM,"EUR 23,00","4,55%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005607715-EXGM
+ADVICENNE,ALDVI,ALXP,"EUR 1,692","-4,52%",16:40 CET,https://live.euronext.com/pt/product/equities/FR0013296746-ALXP
+ADVINI,ALAVI,ALXP,"EUR 14,10","0,71%",17:27 CET,https://live.euronext.com/pt/product/equities/FR0000053043-ALXP
+ADYEN,ADYEN,XAMS,"EUR 1 392,20","-1,51%",17:39 CET,https://live.euronext.com/pt/product/equities/NL0012969182-XAMS
+ADYEN,2ADYEN,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0012969182-MTAH
+ADYEN,4ADYEN,ETLX,"EUR 1 460,80","-2,07%",03 Nov 2025,https://live.euronext.com/pt/product/equities/NL0012969182-ETLX
 ALNYLAM PHARMACEUT,1ALNY,BGEM,"EUR 320,00","5,72%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US02043Q1076-BGEM
 ALPES (COMPAGNIE),CDA,XPAR,"EUR 25,00","0,40%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000053324-XPAR
 ALPHABET CLASSE A,4GOOGL,ETLX,"EUR 285,40","-0,31%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US02079K3059-ETLX
-ALPHABET CLASSE A,2GOOGL,MTAH,"EUR 287,15","0,44%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US02079K3059-MTAH
-APPEAR,APR,XOSL,"NOK 77,50","-0,36%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013683821-XOSL
-APPFOLIO INC - A,1APPF,BGEM,"EUR 181,00","-1,95%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US03783C1009-BGEM
-BAWAG Group,1BGA,BGEM,"EUR 140,90","6,34%",13:01 CET,https://live.euronext.com/pt/product/equities/AT0000BAWAG2-BGEM
-BAXTER INTERN,2BAX,MTAH,"EUR 16,12","-0,58%",12 Nov 2025,https://live.euronext.com/pt/product/equities/US0718131099-MTAH
+ALPHABET CLASSE A,2GOOGL,MTAH,"EUR 284,70",-,18:13 CET,https://live.euronext.com/pt/product/equities/US02079K3059-MTAH
+ALPHABET CLASSE A,1GOOGL,BGEM,"EUR 284,70","-0,42%",17:35 CET,https://live.euronext.com/pt/product/equities/US02079K3059-BGEM
+ALPHABET CLASSE C,2GOOG,MTAH,"EUR 287,80","0,49%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US02079K1079-MTAH
+ALPHABET CLASSE C,1GOOG,BGEM,"EUR 284,90","-0,52%",17:30 CET,https://live.euronext.com/pt/product/equities/US02079K1079-BGEM
+ALPHABET CLASSE C,4GOOG,ETLX,"EUR 294,65","2,81%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US02079K1079-ETLX
+ALSTOM,4ALO,ETLX,"EUR 25,91","-0,84%",13:16 CET,https://live.euronext.com/pt/product/equities/FR0010220475-ETLX
+ALSTOM,ALO,XPAR,"EUR 26,08","-0,15%",17:39 CET,https://live.euronext.com/pt/product/equities/FR0010220475-XPAR
+ALSTOM,2ALO,MTAH,"EUR 20,09",-,15 May 2025,https://live.euronext.com/pt/product/equities/FR0010220475-MTAH
+ALTAMIR,LTA,XPAR,"EUR 29,80","0,30%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000053837-XPAR
+ALTAREA,2ALTA,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000033219-MTAH
+ALTAREA,ALTA,XPAR,"EUR 113,20","0,53%",17:37 CET,https://live.euronext.com/pt/product/equities/FR0000033219-XPAR
+ALTAREIT,AREIT,XPAR,"EUR 510,00",-,09:00 CET,https://live.euronext.com/pt/product/equities/FR0000039216-XPAR
+ALTEA GREEN POWER,AGP,MTAA,"EUR 8,12",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0005472730-MTAA
+ALTEN,2ATE,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000071946-MTAH
+ALTEN,ATE,XPAR,"EUR 74,70","-1,71%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000071946-XPAR
+ALTHEORA,ALORA,ALXP,"EUR 0,578","-4,93%",17:26 CET,https://live.euronext.com/pt/product/equities/FR0000061244-ALXP
+ALTRI SGPS,ALTR,XLIS,"EUR 4,53","-0,77%",16:35 WET,https://live.euronext.com/pt/product/equities/PTALT0AE0002-XLIS
+ALTRI SGPS,2ALTR,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/PTALT0AE0002-MTAH
+ALTRIA GROUP,1MO,BGEM,"EUR 53,01","-0,11%",16:46 CET,https://live.euronext.com/pt/product/equities/US02209S1033-BGEM
+ALTRIA GROUP,4MO,ETLX,"EUR 51,06",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/US02209S1033-ETLX
+ALTRIA GROUP,2MO,MTAH,"EUR 49,42","0,74%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US02209S1033-MTAH
+ALUMEXX N.V.,ALX,XAMS,"EUR 1,35","0,75%",14:17 CET,https://live.euronext.com/pt/product/equities/NL0012194724-XAMS
+ALVEEN,MLALV,XMLI,"EUR 0,103",-,10 Sep 2025,https://live.euronext.com/pt/product/equities/FR0013253812-XMLI
+AMA CORPORATION,ALAMA,ALXP,"EUR 0,164","-0,30%",09:00 CET,https://live.euronext.com/pt/product/equities/GB00BNKGZC51-ALXP
+AMADEUS FIRE,2AAD,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/DE0005093108-MTAH
+AMADEUS FIRE,4AAD,ETLX,"EUR 42,20",-,09:56 CET,https://live.euronext.com/pt/product/equities/DE0005093108-ETLX
+AMADEUS FIRE,1AAD,BGEM,"EUR 42,05","-0,71%",15 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005093108-BGEM
+AMADEUS IT GROUP,4AMS,ETLX,"EUR 61,60","-0,84%",17 Dec 2025,https://live.euronext.com/pt/product/equities/ES0109067019-ETLX
+AMADEUS IT GROUP,2AMS,MTAH,"EUR 75,36","2,95%",24 Mar 2025,https://live.euronext.com/pt/product/equities/ES0109067019-MTAH
+AMADEUS IT GROUP,1AMS,BGEM,"EUR 61,50","1,99%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0109067019-BGEM
+AMATHEON AGRI,MLAAH,XMLI,"EUR 0,021","2,44%",11:30 CET,https://live.euronext.com/pt/product/equities/NL0010273694-XMLI
+AMAZON,4AMZN,ETLX,"EUR 207,20","1,10%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US0231351067-ETLX
+AMAZON,1AMZN,BGEM,"EUR 205,10","-0,32%",17:35 CET,https://live.euronext.com/pt/product/equities/US0231351067-BGEM
+AMAZON,2AMZN,MTAH,"EUR 205,15","-0,29%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US0231351067-MTAH
+AMBARELLA INC,1AMBA,BGEM,"EUR 55,80","-3,86%",14 Jan 2026,https://live.euronext.com/pt/product/equities/KYG037AX1015-BGEM
+AMBROMOBILIARE,AMB,EXGM,"EUR 0,72","-0,69%",15:58 CET,https://live.euronext.com/pt/product/equities/IT0004779515-EXGM
+AMC ENTERTAINMENT,2AMC,MTAH,"EUR 4,06","-2,99%",11 Dec 2024,https://live.euronext.com/pt/product/equities/US00165C3025-MTAH
+AMC ENTERTAINMENT,1AMC,BGEM,"EUR 1,425","1,32%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US00165C3025-BGEM
+Amcor PLC,1AMCR,BGEM,"EUR 7,45","5,76%",27 Oct 2025,https://live.euronext.com/pt/product/equities/JE00BV7DQ550-BGEM
+Amentum H,1AMTM,BGEM,"EUR 30,00","2,74%",17:15 CET,https://live.euronext.com/pt/product/equities/US0239391016-BGEM
+Ameren Corp,1AEE,BGEM,"EUR 85,00","-0,58%",16 Dec 2025,https://live.euronext.com/pt/product/equities/US0236081024-BGEM
+AMERICAN AIRLINES,1AAL,BGEM,"EUR 13,33","-1,60%",16:33 CET,https://live.euronext.com/pt/product/equities/US02376R1023-BGEM
+AMERICAN AIRLINES,2AAL,MTAH,"EUR 11,884","-0,29%",24 Oct 2025,https://live.euronext.com/pt/product/equities/US02376R1023-MTAH
+AMERICAN AIRLINES,4AAL,ETLX,"EUR 13,706","0,03%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US02376R1023-ETLX
+AMERICAN EAGLE OUT,1AEO,BGEM,"EUR 23,60",-,18 Dec 2025,https://live.euronext.com/pt/product/equities/US02553E1064-BGEM
+American Electric,1AEP,BGEM,"EUR 100,50","0,70%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US0255371017-BGEM
+AMERICAN EXPRESS,2AXP,MTAH,"EUR 316,50","0,56%",18:34 CET,https://live.euronext.com/pt/product/equities/US0258161092-MTAH
+AMERICAN EXPRESS,1AXP,BGEM,"EUR 313,25","1,28%",16:43 CET,https://live.euronext.com/pt/product/equities/US0258161092-BGEM
+AMERICAN EXPRESS,4AXP,ETLX,"EUR 326,00","0,59%",17 Dec 2025,https://live.euronext.com/pt/product/equities/US0258161092-ETLX
+AMERICAN INTERN,2AIG,MTAH,"EUR 72,43","0,01%",16 Dec 2025,https://live.euronext.com/pt/product/equities/US0268747849-MTAH
+AMERICAN INTERN,4AIG,ETLX,"EUR 68,28","1,97%",24 Jul 2025,https://live.euronext.com/pt/product/equities/US0268747849-ETLX
+AMERICAN INTERN,1AIG,BGEM,"EUR 62,39","-0,43%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US0268747849-BGEM
+AMERICAN SUPERCOND,1AMSC,BGEM,"EUR 26,52","0,87%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US0301112076-BGEM
+AMERICAN TOWER R,2AMT,MTAH,"EUR 186,50",-,15 Nov 2024,https://live.euronext.com/pt/product/equities/US03027X1000-MTAH
+AMERICAN TOWER R,1AMT,BGEM,"EUR 156,12","0,76%",12:07 CET,https://live.euronext.com/pt/product/equities/US03027X1000-BGEM
+AMERICAN TOWER R,4AMT,ETLX,"EUR 187,68","1,72%",25 Feb 2025,https://live.euronext.com/pt/product/equities/US03027X1000-ETLX
+AMERICAN WATER WOR,4AWK,ETLX,"EUR 119,25","2,27%",06 Oct 2025,https://live.euronext.com/pt/product/equities/US0304201033-ETLX
+AMERICAN WATER WOR,2AWK,MTAH,"EUR 124,70","1,30%",06 Nov 2024,https://live.euronext.com/pt/product/equities/US0304201033-MTAH
+AMERICAN WATER WOR,1AWK,BGEM,"EUR 110,60","-1,82%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US0304201033-BGEM
+Ameriprise Fin,1AMP,BGEM,"EUR 423,00","0,09%",02 Jan 2026,https://live.euronext.com/pt/product/equities/US03076C1062-BGEM
+AMETEK Inc,1AME,BGEM,"EUR 180,24",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/US0311001004-BGEM
+AMG,2AMG,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0000888691-MTAH
+AMG,AMG,XAMS,"EUR 37,46","-2,50%",17:36 CET,https://live.euronext.com/pt/product/equities/NL0000888691-XAMS
+AMGEN,2AMGN,MTAH,"EUR 292,45","0,21%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US0311621009-MTAH
+AMGEN,4AMGN,ETLX,"EUR 290,75","-0,90%",13 Nov 2025,https://live.euronext.com/pt/product/equities/US0311621009-ETLX
+AMGEN,1AMGN,BGEM,"EUR 283,50","1,30%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US0311621009-BGEM
+AMOEBA,ALMIB,ALXP,"EUR 0,93","-3,53%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0011051598-ALXP
+Amphenol Corp,4APH,ETLX,"EUR 108,14","0,50%",14 Oct 2025,https://live.euronext.com/pt/product/equities/US0320951017-ETLX
+Amphenol Corp,2APH,MTAH,"EUR 126,94","2,24%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US0320951017-MTAH
+Amphenol Corp,1APH,BGEM,"EUR 133,32","-0,70%",15:27 CET,https://live.euronext.com/pt/product/equities/US0320951017-BGEM
+AMPLIFON,2AMP,MTAH,"EUR 13,57","-0,55%",18:29 CET,https://live.euronext.com/pt/product/equities/IT0004056880-MTAH
+AMPLIFON,AMP,MTAA,"EUR 13,645","-1,12%",17:36 CET,https://live.euronext.com/pt/product/equities/IT0004056880-MTAA
+ams-OSRAM,1AMSO,BGEM,"EUR 9,57","2,13%",07 Jan 2026,https://live.euronext.com/pt/product/equities/AT0000A3EPA4-BGEM
+AMUNDI,2AMUN,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0004125920-MTAH
+AMUNDI,4AMUN,ETLX,"EUR 66,85","-0,67%",12 Nov 2025,https://live.euronext.com/pt/product/equities/FR0004125920-ETLX
+AMUNDI,AMUN,XPAR,"EUR 75,05","0,33%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0004125920-XPAR
+ANALOG DEVICES,2ADI,MTAH,"EUR 240,25","0,02%",12 Dec 2025,https://live.euronext.com/pt/product/equities/US0326541051-MTAH
+ANALOG DEVICES,1ADI,BGEM,"EUR 267,15","1,81%",15:43 CET,https://live.euronext.com/pt/product/equities/US0326541051-BGEM
+ANALOG DEVICES,4ADI,ETLX,"EUR 237,45",-,08 Dec 2025,https://live.euronext.com/pt/product/equities/US0326541051-ETLX
+ANDFJORD SALMON GR,ANDF,MERK,"NOK 25,30","1,20%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010829765-MERK
+ANDINO GLOBAL,MLAIG,XMLI,"EUR 2,24","12,00%",11:30 CET,https://live.euronext.com/pt/product/equities/ES0105744009-XMLI
+ANDRITZ,1ANDR,BGEM,"EUR 70,60","3,14%",09 Jan 2026,https://live.euronext.com/pt/product/equities/AT0000730007-BGEM
+ANGLOGOLD ASHANTI,1ANGU,BGEM,"EUR 83,50","-1,67%",14:05 CET,https://live.euronext.com/pt/product/equities/GB00BRXH2664-BGEM
+ANHEUSER-BUSCH,1ABI,BGEM,"EUR 58,80","-0,98%",15:55 CET,https://live.euronext.com/pt/product/equities/BE0974293251-BGEM
+ANHEUSER-BUSCH,2ABI,MTAH,"EUR 59,38","2,95%",29 Jul 2025,https://live.euronext.com/pt/product/equities/BE0974293251-MTAH
+ANHEUSER-BUSCH,4ABI,ETLX,"EUR 51,50","0,47%",14 Oct 2025,https://live.euronext.com/pt/product/equities/BE0974293251-ETLX
+ANIMA HOLDING,ANIM,MTAA,"EUR 6,44","1,42%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0004998065-MTAA
+ANTARES VISION,AV,MTAA,"EUR 5,03","0,20%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005366601-MTAA
+ANTIN INFRA PARTN,2ANTIN,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0014005AL0-MTAH
+ANTIN INFRA PARTN,ANTIN,XPAR,"EUR 10,56","-5,55%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014005AL0-XPAR
+Aon PLC,1AON,BGEM,"EUR 298,90","-1,16%",13 Jan 2026,https://live.euronext.com/pt/product/equities/IE00BLP1HW54-BGEM
+APA Corp,1APA,BGEM,"EUR 22,34","-0,56%",17:04 CET,https://live.euronext.com/pt/product/equities/US03743Q1085-BGEM
+APELLIS PHARMACEUT,1APLS,BGEM,"EUR 21,67","-0,51%",18 Dec 2025,https://live.euronext.com/pt/product/equities/US03753U1060-BGEM
+APERAM,APAM,"XAMS, XBRU, XPAR","EUR 35,56","-2,25%",17:38 CET,https://live.euronext.com/pt/product/equities/LU0569974404-XAMS
+APERAM,2APAM,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/LU0569974404-MTAH
+APODACA INVERSIONE,MLASO,XMLI,"EUR 70,00",-,07 Nov 2022,https://live.euronext.com/pt/product/equities/ES0105658001-XMLI
+APOLLO GLOBAL MANA,1APO,BGEM,"EUR 125,15","-0,48%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US03769M1062-BGEM
+AUMANN,2AAG,MTAH,"EUR 9,88",-,13 Mar 2025,https://live.euronext.com/pt/product/equities/DE000A2DAM03-MTAH
+Aumovio,1AUMO,BGEM,"EUR 43,86","-3,44%",16:39 CET,https://live.euronext.com/pt/product/equities/DE000AUM0V10-BGEM
+AUREA,AURE,XPAR,"EUR 5,86","0,34%",13:40 CET,https://live.euronext.com/pt/product/equities/FR0000039232-XPAR
+AURSKOG SPAREBANK,AURG,XOSL,"NOK 265,00","1,90%",13:03 CET,https://live.euronext.com/pt/product/equities/NO0006001601-XOSL
+Aurubis,1AUR,BGEM,"EUR 142,90","-2,59%",15:27 CET,https://live.euronext.com/pt/product/equities/DE0006766504-BGEM
+AUSTEVOLL SEAFOOD,AUSS,XOSL,"NOK 95,00","-1,66%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010073489-XOSL
+AUTO1 Group SE,1AG1,BGEM,"EUR 30,08","-2,02%",14 Jan 2026,https://live.euronext.com/pt/product/equities/DE000A2LQ884-BGEM
+AUTODESK,2ADSK,MTAH,"EUR 254,10","-1,03%",13 Nov 2025,https://live.euronext.com/pt/product/equities/US0527691069-MTAH
+AUTODESK,1ADSK,BGEM,"EUR 226,40","0,53%",16:11 CET,https://live.euronext.com/pt/product/equities/US0527691069-BGEM
+AUTODESK,4ADSK,ETLX,"EUR 274,55","-0,79%",08 Sep 2025,https://live.euronext.com/pt/product/equities/US0527691069-ETLX
+AUTOMATIC DATA PRO,4ADP,ETLX,"EUR 225,95","-6,40%",29 Oct 2025,https://live.euronext.com/pt/product/equities/US0530151036-ETLX
+AUTOMATIC DATA PRO,2ADP,MTAH,"EUR 249,65","0,48%",19 Sep 2025,https://live.euronext.com/pt/product/equities/US0530151036-MTAH
+AUTOMATIC DATA PRO,1ADP,BGEM,"EUR 226,10","-0,53%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US0530151036-BGEM
+AUTOSTORE HOLDINGS,AUTO,XOSL,"NOK 12,95","-0,84%",16:25 CET,https://live.euronext.com/pt/product/equities/BMG0670A1099-XOSL
+AUTOSTRADE MERID,AUTME,MTAA,"EUR 2,915","0,52%",17:13 CET,https://live.euronext.com/pt/product/equities/IT0000084043-MTAA
+AUTOZONE,4AZO,ETLX,"EUR 2 572,00","0,63%",27 Feb 2024,https://live.euronext.com/pt/product/equities/US0533321024-ETLX
+AUTOZONE,2AZO,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/US0533321024-MTAH
+AUTOZONE,1AZO,BGEM,"EUR 2 852,00","2,11%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US0533321024-BGEM
+AVANTIUM,AVTX,"XAMS, XBRU","EUR 7,166","-0,89%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015002IE0-XAMS
+Avanza Bank,1AZA,BGEM,"EUR 33,63","-1,09%",03 Nov 2025,https://live.euronext.com/pt/product/equities/SE0012454072-BGEM
+AVENIR TELECOM,AVT,XPAR,"EUR 0,0332","0,61%",17:18 CET,https://live.euronext.com/pt/product/equities/FR001400CFI7-XPAR
+AVENTADOR,ALAVE,ALXP,"EUR 0,0008",-,12 Nov 2024,https://live.euronext.com/pt/product/equities/FR001400IV58-ALXP
+Avery Den,1AVY,BGEM,"EUR 157,00","-0,63%",11 Jun 2025,https://live.euronext.com/pt/product/equities/US0536111091-BGEM
+AVIO,AVIO,MTAA,"EUR 38,65","1,58%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005119810-MTAA
+AVIS BUDGET GROUP,1CAR,BGEM,"EUR 109,90","-3,77%",15 Dec 2025,https://live.euronext.com/pt/product/equities/US0537741052-BGEM
+AVOLTA,1AVOL,BGEM,"EUR 49,80","0,40%",15 Jan 2026,https://live.euronext.com/pt/product/equities/CH0023405456-BGEM
+AWILCO LNG,ALNG,XOAS,"NOK 3,35","0,30%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010607971-XOAS
+AXA,1CS,BGEM,"EUR 39,14","-0,63%",15:52 CET,https://live.euronext.com/pt/product/equities/FR0000120628-BGEM
+AXA,CS,XPAR,"EUR 39,27","-0,23%",17:39 CET,https://live.euronext.com/pt/product/equities/FR0000120628-XPAR
+AXA,4CS,ETLX,"EUR 39,53","-1,20%",12 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000120628-ETLX
+AXA,2CS,MTAH,"EUR 42,08","2,96%",15 Dec 2025,https://live.euronext.com/pt/product/equities/FR0000120628-MTAH
+AXA NV26,CSNV,XPAR,-,-,-,https://live.euronext.com/pt/product/equities/FR0014013Q98-XPAR
+AXACTOR,ACR,XOSL,"NOK 8,12","-2,87%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010840515-XOSL
+AXCELIS TECHNOLOGI,1ACLS,BGEM,"EUR 83,18","-1,80%",15:57 CET,https://live.euronext.com/pt/product/equities/US0545402085-BGEM
+Axfood AB,1AXFO,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0006993770-BGEM
+Axon Ent,1AXON,BGEM,"EUR 541,40","1,58%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US05464C1018-BGEM
+AXSOME THERAPEUTIC,1AXSM,BGEM,"EUR 151,45","-0,49%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US05464T1043-BGEM
+AYFIE INTERNATIONA,AIX,MERK,"NOK 3,46","1,47%",14:06 CET,https://live.euronext.com/pt/product/equities/NO0012861683-MERK
+AYVENS,AYV,XPAR,"EUR 11,71","-1,27%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013258662-XPAR
+AYVENS,2AYV,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0013258662-MTAH
+AZ LEASING,MLAZL,XMLI,"EUR 0,625",-,06 Mar 2024,https://live.euronext.com/pt/product/equities/IT0004812258-XMLI
+AZELIS GROUP,AZE,XBRU,"EUR 8,485","-5,20%",17:37 CET,https://live.euronext.com/pt/product/equities/BE0974400328-XBRU
+AZERION,AZRN,XAMS,"EUR 1,10","-2,66%",17:35 CET,https://live.euronext.com/pt/product/equities/NL00150006Z9-XAMS
+AZERION WARRANTS,AZRNW,XAMS,"EUR 0,0005",-,29 Dec 2025,https://live.euronext.com/pt/product/equities/NL00150007A0-XAMS
+AZIMUT,AZM,MTAA,"EUR 37,16","0,35%",17:38 CET,https://live.euronext.com/pt/product/equities/IT0003261697-MTAA
+AZIMUT,2AZM,MTAH,"EUR 37,03","-0,35%",18:38 CET,https://live.euronext.com/pt/product/equities/IT0003261697-MTAH
+AZOREAN TECH,MLAAT,XMLI,"EUR 0,25",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/PTAZR0AM0006-XMLI
+B&C SPEAKERS,BEC,MTAA,"EUR 14,95","0,67%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001268561-MTAA
+B.COM.PORTUGUES,2BCP,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/PTBCP0AM0015-MTAH
+B.COM.PORTUGUES,BCP,XLIS,"EUR 0,8984","0,13%",16:35 WET,https://live.euronext.com/pt/product/equities/PTBCP0AM0015-XLIS
+B.F.,BFG,MTAA,"EUR 4,19","0,48%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005187460-MTAA
+B2 Impact,B2I,XOSL,"NOK 20,15","1,46%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010633951-XOSL
+BAIKOWSKI,ALBKK,ALXP,"EUR 22,40","-0,89%",14:20 CET,https://live.euronext.com/pt/product/equities/FR0013384369-ALXP
+BAINS MER MONACO,BAIN,XPAR,"EUR 122,00","4,27%",17:35 CET,https://live.euronext.com/pt/product/equities/MC0000031187-XPAR
+BAKKAFROST,BAKKA,XOSL,"NOK 476,40","-0,58%",16:25 CET,https://live.euronext.com/pt/product/equities/FO0000000179-XOSL
+Ball Corp,1BALL,BGEM,"EUR 43,00","-0,23%",03 Oct 2025,https://live.euronext.com/pt/product/equities/US0584981064-BGEM
+BALTIC SEA PROP,BALT,MERK,"NOK 49,40","-0,80%",15:18 CET,https://live.euronext.com/pt/product/equities/NO0010810476-MERK
+BALYO,BALYO,XPAR,"EUR 0,598","-0,33%",16:00 CET,https://live.euronext.com/pt/product/equities/FR0013258399-XPAR
+BAM GROEP KON,BAMNB,XAMS,"EUR 9,41","0,27%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000337319-XAMS
+BANCA GENERALI,BGN,MTAA,"EUR 58,25",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0001031084-MTAA
+BANCA GENERALI,2BGN,MTAH,"EUR 58,60","0,60%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0001031084-MTAH
+BANCA IFIS,IF,MTAA,"EUR 26,78","-0,15%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0003188064-MTAA
+BANCA MEDIOLANUM,2BMED,MTAH,"EUR 19,70","-0,25%",18:47 CET,https://live.euronext.com/pt/product/equities/IT0004776628-MTAH
+BANCA MEDIOLANUM,BMED,MTAA,"EUR 19,75","0,05%",17:38 CET,https://live.euronext.com/pt/product/equities/IT0004776628-MTAA
+BANCA MPS,2BMPS,MTAH,"EUR 8,838","0,23%",18:53 CET,https://live.euronext.com/pt/product/equities/IT0005508921-MTAH
+BANCA MPS,BMPS,MTAA,"EUR 8,818","-4,18%",17:38 CET,https://live.euronext.com/pt/product/equities/IT0005508921-MTAA
+BANCA SISTEMA,BST,MTAA,"EUR 1,74","0,23%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0003173629-MTAA
+BANCO BPM,2BAMI,MTAH,"EUR 12,745",-,18:54 CET,https://live.euronext.com/pt/product/equities/IT0005218380-MTAH
+BANCO BPM,BAMI,MTAA,"EUR 12,745","-0,47%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005218380-MTAA
+BANCO DE SABADELL,2SAB,MTAH,"EUR 3,485","4,78%",12 Jan 2026,https://live.euronext.com/pt/product/equities/ES0113860A34-MTAH
+BANCO DE SABADELL,4SAB,ETLX,"EUR 3,063","-2,42%",21 Nov 2025,https://live.euronext.com/pt/product/equities/ES0113860A34-ETLX
+BANCO DE SABADELL,1SAB,BGEM,"EUR 3,221","-1,11%",17:05 CET,https://live.euronext.com/pt/product/equities/ES0113860A34-BGEM
+BANCO SANTANDER,1SANX,BGEM,"EUR 10,29","-2,52%",17:35 CET,https://live.euronext.com/pt/product/equities/ES0113900J37-BGEM
+BANCO SANTANDER,2SANX,MTAH,"EUR 10,416","2,93%",07 Jan 2026,https://live.euronext.com/pt/product/equities/ES0113900J37-MTAH
+BANCO SANTANDER,4SANX,ETLX,"EUR 10,132","-1,59%",07 Jan 2026,https://live.euronext.com/pt/product/equities/ES0113900J37-ETLX
+BANIJAY GROUP,BNJ,XAMS,"EUR 8,20",-,17:35 CET,https://live.euronext.com/pt/product/equities/NL0015000X07-XAMS
+BANIJAY GROUP WARR,BNJW,XAMS,"EUR 0,25","-16,67%",15 Mar 2022,https://live.euronext.com/pt/product/equities/NL0015000H56-XAMS
+BANIMMO A,BANI,XBRU,"EUR 2,84",-,16:42 CET,https://live.euronext.com/pt/product/equities/BE0003870871-XBRU
+BANK OF AMERICA,2BAC,MTAH,"EUR 46,885","-0,49%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US0605051046-MTAH
+BANK OF AMERICA,4BAC,ETLX,"EUR 47,50","0,09%",23 Dec 2025,https://live.euronext.com/pt/product/equities/US0605051046-ETLX
+BANK OF AMERICA,1BAC,BGEM,"EUR 45,53","-0,01%",17:35 CET,https://live.euronext.com/pt/product/equities/US0605051046-BGEM
+BANK OF IRELAND GP,BIRG,XMSM,"EUR 16,835","0,36%",16:30 GMT,https://live.euronext.com/pt/product/equities/IE00BD1RP616-XMSM
+BANK OZK,1OZK,BGEM,"EUR 41,11","-1,75%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US06417N1037-BGEM
+Bankinter,1BKT,BGEM,"EUR 14,325","7,22%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0113679I37-BGEM
+BANQUP GROUP,BANQ,XBRU,"EUR 3,34","1,83%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974371032-XBRU
+BARBARA BUI,BUI,XPAR,"EUR 5,00","0,81%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0000062788-XPAR
+BARCO,2BAR,MTAH,"EUR 9,745",-,08 Jan 2025,https://live.euronext.com/pt/product/equities/BE0974362940-MTAH
+BARCO,BAR,XBRU,"EUR 12,13","-0,41%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974362940-XBRU
+BARINGS CORE SPAIN,MLBAR,XMLI,"EUR 1,50",-,18 Sep 2018,https://live.euronext.com/pt/product/equities/ES0105362000-XMLI
+BARRAMUNDI GROUP,BARRA,MERK,"NOK 0,459","-6,14%",16:26 CET,https://live.euronext.com/pt/product/equities/SGXZ33675836-MERK
+BARRY CALLEBAUT,1BARN,BGEM,"EUR 1 350,00","-2,17%",17:11 CET,https://live.euronext.com/pt/product/equities/CH0009002962-BGEM
+BASF,2BAS,MTAH,"EUR 42,67","0,02%",20 Nov 2025,https://live.euronext.com/pt/product/equities/DE000BASF111-MTAH
+BASF,1BAS,BGEM,"EUR 44,76","-3,41%",17:29 CET,https://live.euronext.com/pt/product/equities/DE000BASF111-BGEM
+BASF,4BAS,ETLX,"EUR 44,98","-2,94%",15:46 CET,https://live.euronext.com/pt/product/equities/DE000BASF111-ETLX
+BASIC-FIT,2BFIT,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0011872650-MTAH
+BASIC-FIT,BFIT,XAMS,"EUR 31,26","4,90%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0011872650-XAMS
+BASICNET,BAN,MTAA,"EUR 7,26","-0,14%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001033700-MTAA
+BASSAC,BASS,XPAR,"EUR 53,60","0,37%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0004023208-XPAR
+BASTIDE LE CONFORT,BLC,XPAR,"EUR 24,70","-1,20%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000035370-XPAR
+BASTOGI SPA,B,MTAA,"EUR 0,816","-2,16%",17:27 CET,https://live.euronext.com/pt/product/equities/IT0004412497-MTAA
 BM3EAC,BACE,XAMS,"USD 10,00","1,01%",14 Mar 2023,https://live.euronext.com/pt/product/equities/KYG137071075-XAMS
 BMW,4BMW,ETLX,"EUR 89,34","-1,13%",13:56 CET,https://live.euronext.com/pt/product/equities/DE0005190003-ETLX
 BMW,1BMW,BGEM,"EUR 88,80","-1,73%",17:19 CET,https://live.euronext.com/pt/product/equities/DE0005190003-BGEM
+BMW,2BMW,MTAH,"EUR 87,30","-1,69%",18:12 CET,https://live.euronext.com/pt/product/equities/DE0005190003-MTAH
+BMW PREF,1BMW3,BGEM,"EUR 89,95","4,41%",15 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005190037-BGEM
+BMW PREF,4BMW3,ETLX,"EUR 89,50","1,53%",14 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005190037-ETLX
+BMW PREF,2BMW3,MTAH,"EUR 73,00","-2,34%",08 Oct 2025,https://live.euronext.com/pt/product/equities/DE0005190037-MTAH
+BNP PARIBAS,2BNP,MTAH,"EUR 87,00",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000131104-MTAH
+BNP PARIBAS,4BNP,ETLX,"EUR 87,04",-,13 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000131104-ETLX
+BNP PARIBAS,1BNP,BGEM,"EUR 87,07","-0,47%",17:39 CET,https://live.euronext.com/pt/product/equities/FR0000131104-BGEM
+BNP PARIBAS ACT.A,BNP,XPAR,"EUR 87,21","-0,19%",17:39 CET,https://live.euronext.com/pt/product/equities/FR0000131104-XPAR
+BNP PARIBAS FORTIS,,VPXB,"EUR 39,00","-9,30%",13 Jan 2026,https://live.euronext.com/pt/product/equities/BE0172505399-VPXB
+BOA CONCEPT,ALBOA,ALXP,"EUR 13,30","-1,12%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0011365907-ALXP
+BODY ONE,MLONE,XMLI,"EUR 0,32",-,11:31 CET,https://live.euronext.com/pt/product/equities/FR0010106039-XMLI
+BOEING,2BA,MTAH,"EUR 213,00","0,02%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US0970231058-MTAH
+BOEING,1BA,BGEM,"EUR 212,40","-0,26%",17:29 CET,https://live.euronext.com/pt/product/equities/US0970231058-BGEM
+BOEING,4BA,ETLX,"EUR 206,75","-1,90%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US0970231058-ETLX
+BOIRON,BOI,XPAR,"EUR 30,60","1,33%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000061129-XPAR
+Boliden,1BOL,BGEM,"EUR 53,54","-9,10%",16:58 CET,https://live.euronext.com/pt/product/equities/SE0020050417-BGEM
+BOLLORE,2BOL,MTAH,"EUR 5,985",-,19 Feb 2025,https://live.euronext.com/pt/product/equities/FR0000039299-MTAH
+BOLLORE,BOL,XPAR,"EUR 4,794","0,88%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000039299-XPAR
+BOLOGNAFIERE,BF,EXGM,-,-,-,https://live.euronext.com/pt/product/equities/IT0003516066-EXGM
+BONDUELLE,BON,XPAR,"EUR 9,93","-3,59%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000063935-XPAR
+BONHEUR,BONHR,XOSL,"NOK 257,00","1,78%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0003110603-XOSL
+BONYF,MLBON,XMLI,"EUR 4,90",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/BE6333353298-XMLI
+BOOKING HOLDINGS,1BKNG,BGEM,"EUR 4 613,00","1,68%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US09857L1089-BGEM
+BOOKING HOLDINGS,4BKNG,ETLX,"EUR 4 100,00","0,49%",20 Nov 2025,https://live.euronext.com/pt/product/equities/US09857L1089-ETLX
+BOOKING HOLDINGS,2BKNG,MTAH,"EUR 4 500,00","0,49%",10 Dec 2025,https://live.euronext.com/pt/product/equities/US09857L1089-MTAH
+BOOSTHEAT,ALBOO,ALXP,"EUR 0,0002",-,17:18 CET,https://live.euronext.com/pt/product/equities/FR001400OS22-ALXP
+BOOZ ALLEN HAMILTO,1BAH,BGEM,"EUR 73,26","-0,57%",22 Dec 2025,https://live.euronext.com/pt/product/equities/US0995021062-BGEM
+BORGESTAD,BOR,XOSL,"NOK 18,25","3,11%",09:12 CET,https://live.euronext.com/pt/product/equities/NO0013256180-XOSL
+BORGOSESIA,BO,MTAA,"EUR 0,558",-,16:44 CET,https://live.euronext.com/pt/product/equities/IT0003217335-MTAA
+BorgWarner,1BWA,BGEM,"EUR 38,985","3,60%",23 Dec 2025,https://live.euronext.com/pt/product/equities/US0997241064-BGEM
+BORR DRILLING,BORR,MERK,"NOK 43,975","-0,40%",16:25 CET,https://live.euronext.com/pt/product/equities/BMG1466R1732-MERK
+BORREGAARD,BRG,XOSL,"NOK 198,20","-0,70%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010657505-XOSL
+BORUSSIA DORTMUND,2BOD,MTAH,"EUR 4,04",-,15 May 2025,https://live.euronext.com/pt/product/equities/DE0005493092-MTAH
+BORUSSIA DORTMUND,1BOD,BGEM,"EUR 3,37","4,82%",29 Dec 2025,https://live.euronext.com/pt/product/equities/DE0005493092-BGEM
+BOSTON SCIENTIFIC,4BSX,ETLX,"EUR 88,20","0,23%",15 Sep 2025,https://live.euronext.com/pt/product/equities/US1011371077-ETLX
+BOSTON SCIENTIFIC,2BSX,MTAH,"EUR 88,80",-,14 Nov 2025,https://live.euronext.com/pt/product/equities/US1011371077-MTAH
+BOSTON SCIENTIFIC,1BSX,BGEM,"EUR 77,60","0,52%",14:31 CET,https://live.euronext.com/pt/product/equities/US1011371077-BGEM
+BOUFFIOULX-St-NICO,,VPXB,"EUR 34,20","-18,56%",21 Oct 2025,https://live.euronext.com/pt/product/equities/BE0014799556-VPXB
+BOURRELIER GROUP,ALBOU,ALXP,"EUR 41,80","-6,28%",11:30 CET,https://live.euronext.com/pt/product/equities/FR0000054421-ALXP
+BOURSE DIRECT,BSD,XPAR,"EUR 5,30",-,17:14 CET,https://live.euronext.com/pt/product/equities/FR0000074254-XPAR
+BOUVET,BOUV,XOSL,"NOK 59,50","-1,16%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010360266-XOSL
+BOUYGUES,2EN,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000120503-MTAH
+BOUYGUES,4EN,ETLX,"EUR 44,44","-0,07%",23 Dec 2025,https://live.euronext.com/pt/product/equities/FR0000120503-ETLX
+BOUYGUES,EN,XPAR,"EUR 45,32","-0,15%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000120503-XPAR
+BOUYGUES NV26,ENNV,XPAR,"EUR 43,70","-15,10%",07 Jan 2026,https://live.euronext.com/pt/product/equities/FR0014014J13-XPAR
+BPER BANCA,2BPE,MTAH,"EUR 12,14","-0,12%",18:48 CET,https://live.euronext.com/pt/product/equities/IT0000066123-MTAH
+BPER BANCA,BPE,MTAA,"EUR 12,155",-,17:36 CET,https://live.euronext.com/pt/product/equities/IT0000066123-MTAA
+BPOST,BPOST,XBRU,"EUR 2,20","-0,68%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974268972-XBRU
+BQUE NAT. BELGIQUE,BNB,XBRU,"EUR 417,00","-2,80%",16:19 CET,https://live.euronext.com/pt/product/equities/BE0003008019-XBRU
+BRAGA MORO,BRM,EXGM,"EUR 3,50","-0,57%",10:13 CET,https://live.euronext.com/pt/product/equities/IT0005640286-EXGM
+BRAZE INC-A,1BRZE,BGEM,"EUR 20,27","-11,87%",16:36 CET,https://live.euronext.com/pt/product/equities/US10576N1028-BGEM
+BREDERODE,BREB,XBRU,"EUR 106,00","-1,30%",17:35 CET,https://live.euronext.com/pt/product/equities/LU1068091351-XBRU
+BREMBO,BRE,MTAA,"EUR 9,81","-1,01%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015001KT6-MTAA
+BRENNTAG,2BRE,MTAH,"EUR 65,86",-,06 Jun 2024,https://live.euronext.com/pt/product/equities/DE000A1DAHH0-MTAH
+BRENNTAG,1BRE,BGEM,"EUR 50,30","-0,24%",22 Oct 2025,https://live.euronext.com/pt/product/equities/DE000A1DAHH0-BGEM
+BRIDGEBIO PHARMA I,1BBIO,BGEM,"EUR 67,00","-2,02%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US10806X1028-BGEM
+BRINKER INTERNATIO,1EAT,BGEM,"EUR 122,00","-1,61%",02 Jan 2026,https://live.euronext.com/pt/product/equities/US1096411004-BGEM
+BRIOSCHI,BRI,MTAA,"EUR 0,0652","-0,31%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0000066180-MTAA
+BRISTOL-MYERS SQ,1BMY,BGEM,"EUR 48,11","-0,53%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US1101221083-BGEM
+BRISTOL-MYERS SQ,4BMY,ETLX,"EUR 41,975","-0,70%",26 Nov 2025,https://live.euronext.com/pt/product/equities/US1101221083-ETLX
+BRISTOL-MYERS SQ,2BMY,MTAH,"EUR 48,025","0,62%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US1101221083-MTAH
+BROADCOM,4AVGO,ETLX,"EUR 302,00","-1,42%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US11135F1012-ETLX
+BROADCOM,1AVGO,BGEM,"EUR 299,80","0,17%",17:35 CET,https://live.euronext.com/pt/product/equities/US11135F1012-BGEM
+BROADCOM,2AVGO,MTAH,"EUR 297,00","-0,77%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US11135F1012-MTAH
+BROADPEAK,ALBPK,ALXP,"EUR 2,14","-4,04%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400AJZ7-ALXP
+Brown Brown,1BRO,BGEM,"EUR 69,20",-,09 Jan 2026,https://live.euronext.com/pt/product/equities/US1152361010-BGEM
+Brown-Forman,1BFB,BGEM,"EUR 22,11","3,41%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US1156372096-BGEM
+BRUKER CORP,1BRKR,BGEM,"EUR 44,35","4,67%",13:58 CET,https://live.euronext.com/pt/product/equities/US1167941087-BGEM
+BRUNEL INTERNAT,BRNL,XAMS,"EUR 7,60","-1,43%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0010776944-XAMS
+BRUNELLO CUCINELLI,2BC,MTAH,"EUR 87,80","0,32%",18:55 CET,https://live.euronext.com/pt/product/equities/IT0004764699-MTAH
+BRUNELLO CUCINELLI,BC,MTAA,"EUR 87,52","-5,38%",17:37 CET,https://live.euronext.com/pt/product/equities/IT0004764699-MTAA
+BRUTON,BRUT,MERK,"NOK 46,80","1,74%",16:14 CET,https://live.euronext.com/pt/product/equities/NO0013036814-MERK
+Builders FS,1BLDR,BGEM,"EUR 111,60","2,86%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US12008R1077-BGEM
+BUREAU VERITAS,BVI,XPAR,"EUR 27,20","-0,95%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0006174348-XPAR
+BUREAU VERITAS,2BVI,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0006174348-MTAH
+BURELLE,BUR,XPAR,"EUR 430,00",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0000061137-XPAR
+BUZZI,2BZU,MTAH,"EUR 50,75","-0,20%",18:41 CET,https://live.euronext.com/pt/product/equities/IT0001347308-MTAH
+BUZZI,BZU,MTAA,"EUR 50,85","-1,93%",17:37 CET,https://live.euronext.com/pt/product/equities/IT0001347308-MTAA
+BW ENERGY LIMITED,BWE,XOSL,"NOK 44,80","-1,32%",16:25 CET,https://live.euronext.com/pt/product/equities/BMG0702P1086-XOSL
+BW LPG,BWLPG,XOSL,"NOK 147,80","3,21%",16:29 CET,https://live.euronext.com/pt/product/equities/SGXZ69436764-XOSL
+BW OFFSHORE LTD,BWO,XOSL,"NOK 46,30","1,87%",16:25 CET,https://live.euronext.com/pt/product/equities/BMG1738J1247-XOSL
+BYGGMA,BMA,MERK,"NOK 14,60","-3,31%",16:18 CET,https://live.euronext.com/pt/product/equities/NO0003087603-MERK
+C. LATTE D'ITALIA,CLI,MTAA,"EUR 4,76",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0003023980-MTAA
+C3.ai Inc,1C3,BGEM,"EUR 11,78","0,49%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US12468P1049-BGEM
+C3.ai Inc,2C3,MTAH,"EUR 16,012","2,69%",24 Oct 2025,https://live.euronext.com/pt/product/equities/US12468P1049-MTAH
+CA Immobilien,1CAI,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/AT0000641352-BGEM
+CA TOULOUSE 31 CCI,CAT31,XPAR,"EUR 120,40","-0,17%",16:51 CET,https://live.euronext.com/pt/product/equities/FR0000045544-XPAR
+CABASSE,ALCAB,ALXP,"EUR 0,0034",-,17:21 CET,https://live.euronext.com/pt/product/equities/FR001400DIY6-ALXP
+CABKA,CABKA,XAMS,"EUR 1,70",-,17:35 CET,https://live.euronext.com/pt/product/equities/NL00150000S7-XAMS
+CABKA DSC2 TS,DSC2S,XAMS,-,-,-,https://live.euronext.com/pt/product/equities/NL00150002R5-XAMS
+CABKA EUR 12W,DSCW2,XAMS,"EUR 0,0005",-,29 Dec 2025,https://live.euronext.com/pt/product/equities/NL00150000U3-XAMS
+CABKA EUR 13W,DSCW3,XAMS,"EUR 0,0005",-,29 Dec 2025,https://live.euronext.com/pt/product/equities/NL00150000V1-XAMS
+CADELER,CADLR,XOSL,"NOK 55,30","2,22%",16:29 CET,https://live.euronext.com/pt/product/equities/DK0061412772-XOSL
+Cadence Design,1CDNS,BGEM,"EUR 282,95","1,33%",11:11 CET,https://live.euronext.com/pt/product/equities/US1273871087-BGEM
+CAFOM,ALCAF,ALXP,"EUR 11,65","0,43%",12:15 CET,https://live.euronext.com/pt/product/equities/FR0010151589-ALXP
+CAIRN HOMES PLC,C5H,XMSM,"EUR 2,115","0,48%",16:30 GMT,https://live.euronext.com/pt/product/equities/IE00BWY4ZF18-XMSM
+CAIRO COMMUNICAT,CAI,MTAA,"EUR 2,82","-1,40%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0004329733-MTAA
 CAIXABANK,2CABK,MTAH,"EUR 7,648","2,96%",15 May 2025,https://live.euronext.com/pt/product/equities/ES0140609019-MTAH
 CAIXABANK,1CABK,BGEM,"EUR 10,68","-1,20%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0140609019-BGEM
 CAIXABANK,4CABK,ETLX,"EUR 10,57","1,10%",29 Dec 2025,https://live.euronext.com/pt/product/equities/ES0140609019-ETLX
+CAL-MAINE FOODS IN,1CALM,BGEM,"EUR 62,20","-0,19%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US1280302027-BGEM
+CALEFFI,CLF,MTAA,"EUR 0,934","2,64%",17:27 CET,https://live.euronext.com/pt/product/equities/IT0003025019-MTAA
+CALIBRE,ALIBR,ALXP,"EUR 0,0004",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0014004QR6-ALXP
+CALIBRE BSA K2A,IBRKA,ALXP,"EUR 0,0005",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0013507985-ALXP
+CALIBRE BSA K2B,IBRKB,ALXP,"EUR 0,0005",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/FR0013508009-ALXP
+CALTAGIRONE,CALT,MTAA,"EUR 9,94","-2,07%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0003127930-MTAA
+CALTAGIRONE EDIT,CED,MTAA,"EUR 1,875","0,81%",16:47 CET,https://live.euronext.com/pt/product/equities/IT0001472171-MTAA
+CAMBI,CAMBI,MERK,"NOK 17,95","-1,37%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010078850-MERK
+CAMBODGE NOM.,CBDG,XPAR,"EUR 96,00","-0,52%",17:21 CET,https://live.euronext.com/pt/product/equities/FR001400SUB7-XPAR
+CAMPARI,2CPR,MTAH,"EUR 5,812","-0,55%",18:48 CET,https://live.euronext.com/pt/product/equities/NL0015435975-MTAH
+CAMPARI,CPR,MTAA,"EUR 5,844","3,80%",17:36 CET,https://live.euronext.com/pt/product/equities/NL0015435975-MTAA
+CAMPINE,CAMB,XBRU,"EUR 226,00",-,17:35 CET,https://live.euronext.com/pt/product/equities/BE0003825420-XBRU
+CANDELA INVEST,CAND,ALXB,"EUR 2,30","35,29%",06 Jan 2026,https://live.euronext.com/pt/product/equities/BE0974298300-ALXB
+CAPGEMINI,4CAP,ETLX,"EUR 145,40","-0,92%",08 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000125338-ETLX
+CAPGEMINI,CAP,XPAR,"EUR 141,60","-1,29%",17:36 CET,https://live.euronext.com/pt/product/equities/FR0000125338-XPAR
+CAPGEMINI,2CAP,MTAH,"EUR 154,95","2,96%",06 Jun 2025,https://live.euronext.com/pt/product/equities/FR0000125338-MTAH
+CAPITAL B,ALCPB,ALXP,"EUR 0,86","-3,26%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0011053636-ALXP
+CAPITAL B BSA 26,CPBBS,ALXP,"EUR 0,051","-3,77%",17:07 CET,https://live.euronext.com/pt/product/equities/FR001400YPQ3-ALXP
+Capital One Fin,1COF,BGEM,"EUR 208,00","0,97%",16:32 CET,https://live.euronext.com/pt/product/equities/US14040H1059-BGEM
+CAPSOL TECHNOLOGI,CAPSL,XOSL,"NOK 5,98",-,16:02 CET,https://live.euronext.com/pt/product/equities/NO0010923121-XOSL
+CARBIOS,ALCRB,ALXP,"EUR 11,27","-1,57%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0011648716-ALXP
+Cardinal Health,1CAH,BGEM,"EUR 176,05","-2,17%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US14149Y1082-BGEM
+CARE PROPERTY INV.,CPINV,XBRU,"EUR 12,16","-0,98%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974273055-XBRU
+CAREL INDUSTRIES,CRL,MTAA,"EUR 23,65","-1,25%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005331019-MTAA
+CARL ZEISS MEDITEC,4AFX,ETLX,"EUR 43,66","-1,40%",10 Oct 2025,https://live.euronext.com/pt/product/equities/DE0005313704-ETLX
+CARL ZEISS MEDITEC,2AFX,MTAH,"EUR 40,92","2,92%",11 Dec 2025,https://live.euronext.com/pt/product/equities/DE0005313704-MTAH
+CARL ZEISS MEDITEC,1AFX,BGEM,"EUR 39,68","-0,15%",16:08 CET,https://live.euronext.com/pt/product/equities/DE0005313704-BGEM
+CARLYLE GROUP,1CG,BGEM,"EUR 54,22","10,06%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US14316J1088-BGEM
+CARMAT,ALCAR,ALXP,"EUR 0,099","-1,00%",24 Sep 2025,https://live.euronext.com/pt/product/equities/FR0010907956-ALXP
+CARMILA,CARM,XPAR,"EUR 16,30","-0,37%",17:38 CET,https://live.euronext.com/pt/product/equities/FR0010828137-XPAR
+CARMILA,2CARM,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0010828137-MTAH
+CARREFOUR,4CA,ETLX,"EUR 14,25","0,35%",06 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000120172-ETLX
+CARREFOUR,2CA,MTAH,"EUR 14,435","4,49%",07 Jan 2025,https://live.euronext.com/pt/product/equities/FR0000120172-MTAH
+CARREFOUR,CA,XPAR,"EUR 13,79","-1,25%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000120172-XPAR
+Carrier Global,1CARR,BGEM,"EUR 47,85","-0,52%",15:30 CET,https://live.euronext.com/pt/product/equities/US14448C1045-BGEM
+CARVANA CO,1CVNA,BGEM,"EUR 396,05","0,01%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US1468691027-BGEM
+CASINO BSA1,COBS1,XPAR,-,-,-,https://live.euronext.com/pt/product/equities/FR001400OJ72-XPAR
+CASINO BSA3,COBS3,XPAR,"EUR 0,0005",-,25 Nov 2025,https://live.euronext.com/pt/product/equities/FR001400OJ98-XPAR
+CASINO GUICHARD,2CO,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR001400OKR3-MTAH
+CASINO GUICHARD,CO,XPAR,"EUR 0,2456","-0,89%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400OKR3-XPAR
+CASTA DIVA GROUP,CDG,EXGM,"EUR 2,59","2,78%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005003782-EXGM
+Castellum,1CAST,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0000379190-BGEM
+CATANA GROUP,ALCAT,ALXP,"EUR 2,86",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0010193052-ALXP
+CATERING INTL SCES,ALCIS,ALXP,"EUR 13,55","0,37%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000064446-ALXP
+CATERPILLAR,1CAT,BGEM,"EUR 558,00","-0,71%",17:29 CET,https://live.euronext.com/pt/product/equities/US1491231015-BGEM
+CATERPILLAR,2CAT,MTAH,"EUR 561,00","-0,18%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US1491231015-MTAH
+CAVENDISH HYDROGEN,CAVEN,XOSL,"NOK 7,68",-,16:25 CET,https://live.euronext.com/pt/product/equities/NO0013219535-XOSL
+CBI,ALCBI,ALXP,"EUR 0,16","-4,76%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014007LW0-ALXP
+CBI BSA A,CBBSA,ALXP,"EUR 0,0095",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR001400O416-ALXP
+CBI BSA B,CBSAB,ALXP,"EUR 0,0035","-12,50%",14:01 CET,https://live.euronext.com/pt/product/equities/FR001400O408-ALXP
+CBO TERRITORIA,CBOT,XPAR,"EUR 3,67","-0,27%",17:25 CET,https://live.euronext.com/pt/product/equities/FR0010193979-XPAR
+Cboe Global,1CBOE,BGEM,"EUR 212,30","0,09%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US12503M1080-BGEM
+CBRE Group Inc,1CBRE,BGEM,"EUR 142,00","3,65%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US12504L1098-BGEM
+CDW Corp/DE,1CDW,BGEM,"EUR 115,75","5,32%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US12514G1085-BGEM
+CECONOMY,1CEC,BGEM,"EUR 4,405","-0,79%",02 Jan 2026,https://live.euronext.com/pt/product/equities/DE0007257503-BGEM
+CECONOMY,4CEC,ETLX,"EUR 4,175","0,72%",28 Jul 2025,https://live.euronext.com/pt/product/equities/DE0007257503-ETLX
+CECONOMY,2CEC,MTAH,"EUR 3,002",-,02 Dec 2024,https://live.euronext.com/pt/product/equities/DE0007257503-MTAH
+CEGEDIM,ALCGM,ALXP,"EUR 13,75","-0,36%",17:38 CET,https://live.euronext.com/pt/product/equities/FR0000053506-ALXP
+Celanese Corp,1CE,BGEM,"EUR 39,03","6,96%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US1508701034-BGEM
+CELLECTIS,ALCLS,ALXP,"EUR 3,49","-2,51%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010425595-ALXP
+Cellnex Telecom,1CLNX,BGEM,"EUR 26,00","-0,54%",13:39 CET,https://live.euronext.com/pt/product/equities/ES0105066007-BGEM
+CELLULARLINE,CELL,MTAA,"EUR 2,55",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0005244618-MTAA
+CELYAD ONCOLOGY,CYAD,"XBRU, XPAR","EUR 0,175","1,16%",17:28 CET,https://live.euronext.com/pt/product/equities/BE0974260896-XBRU
+CEMBRE,CMB,MTAA,"EUR 67,90","1,19%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001128047-MTAA
+CEMENTIR HOLDING,CEM,MTAA,"EUR 19,42","-0,92%",17:36 CET,https://live.euronext.com/pt/product/equities/NL0013995087-MTAA
+Cencora Inc,1COR,BGEM,"EUR 298,30","1,12%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US03073E1055-BGEM
+CENERGY,CENER,XBRU,"EUR 17,48","3,80%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974303357-XBRU
+CENTENE,4CNC,ETLX,"EUR 40,08","-0,76%",11:13 CET,https://live.euronext.com/pt/product/equities/US15135B1017-ETLX
+CENTENE,1CNC,BGEM,"EUR 40,09","-0,74%",16:03 CET,https://live.euronext.com/pt/product/equities/US15135B1017-BGEM
+CENTENE,2CNC,MTAH,"EUR 34,365","0,61%",25 Nov 2025,https://live.euronext.com/pt/product/equities/US15135B1017-MTAH
+CenterPoint En,1CNP,BGEM,"EUR 33,00","-1,79%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US15189T1079-BGEM
+CERINNOV GROUP,ALPCV,ALXP,"EUR 0,0266",-,23 Dec 2025,https://live.euronext.com/pt/product/equities/FR0013178712-ALXP
+CF Industries,1CF,BGEM,"EUR 73,39","-1,75%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US1252691001-BGEM
+CFE,CFEB,XBRU,"EUR 9,08","-0,66%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003883031-XBRU
+CFI,CFI,XPAR,"EUR 1,64","2,50%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0000037475-XPAR
+CFM INDOSUEZWEALTH,MLCFM,XMLI,"EUR 1 290,00","0,78%",09 Jan 2026,https://live.euronext.com/pt/product/equities/MC0010000826-XMLI
+CH.FER DEPARTEMENT,MLCFD,XMLI,"EUR 915,00","-8,04%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0000037871-XMLI
+CHARB BONNIER,,VPXB,"EUR 103,00","8,99%",29 Oct 2024,https://live.euronext.com/pt/product/equities/BE0010381029-VPXB
+Charles Schwab,1SCHW,BGEM,"EUR 87,30","1,57%",29 Dec 2025,https://live.euronext.com/pt/product/equities/US8085131055-BGEM
+CHARTER COMM,4CHTR,ETLX,"EUR 346,10","0,64%",05 Jun 2025,https://live.euronext.com/pt/product/equities/US16119P1084-ETLX
+CHARTER COMM,2CHTR,MTAH,"EUR 197,30","2,22%",05 Nov 2025,https://live.euronext.com/pt/product/equities/US16119P1084-MTAH
+CHARTER COMM,1CHTR,BGEM,"EUR 178,52","-0,15%",02 Jan 2026,https://live.euronext.com/pt/product/equities/US16119P1084-BGEM
+CHARWOOD ENERGY,ALCWE,ALXP,"EUR 3,00","3,45%",15:53 CET,https://live.euronext.com/pt/product/equities/FR001400AJ60-ALXP
+CHAUSSERIA,CHSR,XPAR,"EUR 6,50",-,31 Dec 2025,https://live.euronext.com/pt/product/equities/FR0000060907-XPAR
+CHEESECAKE FACTORY,1CAKE,BGEM,"EUR 44,73","0,86%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US1630721017-BGEM
+CHENIERE ENERGY IN,1LNG,BGEM,"EUR 173,45","-0,40%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US16411R2085-BGEM
+CHEOPS TECHNOLOGY,MLCHE,XMLI,"EUR 60,50","1,68%",09 Jan 2026,https://live.euronext.com/pt/product/equities/FR0010447086-XMLI
+CHEVRON,1CVX,BGEM,"EUR 143,70","-0,33%",17:16 CET,https://live.euronext.com/pt/product/equities/US1667641005-BGEM
+CHEVRON,4CVX,ETLX,"EUR 143,00","-0,42%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US1667641005-ETLX
+CHEVRON,2CVX,MTAH,"EUR 139,66","0,17%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US1667641005-MTAH
+CHEWY CLASS A,1CHWY,BGEM,"EUR 28,47","-2,75%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US16679L1098-BGEM
+CHIPOTLE MEXICAN,1CMG,BGEM,"EUR 35,02","2,44%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US1696561059-BGEM
+CHOICE,MLTV,MLXB,"EUR 0,22",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/BE0974370026-MLXB
+CHRISTIAN DIOR,CDI,XPAR,"EUR 566,00","-3,25%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000130403-XPAR
+Chubb Ltd,1CB,BGEM,"EUR 260,00","-1,52%",13 Jan 2026,https://live.euronext.com/pt/product/equities/CH0044328745-BGEM
+Church & Dwight,1CHD,BGEM,"EUR 70,72","-2,91%",08 Dec 2025,https://live.euronext.com/pt/product/equities/US1713401024-BGEM
+CIAGEST - SIGI S.A,MLCIA,ENXL,"EUR 2,21",-,17 Dec 2025,https://live.euronext.com/pt/product/equities/PTIAG0AM0005-ENXL
 CIBIX,,VPXB,-,-,-,https://live.euronext.com/pt/product/equities/BE0003706208-VPXB
 CIBOX INTER A CTIV,ALCBX,ALXP,"EUR 0,0152","-5,00%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000054322-ALXP
-CIE BOIS SAUVAGE,COMB,XBRU,"EUR 299,00","-1,32%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003592038-XBRU
-CONSOLIDATED EDIS,1ED,BGEM,"EUR 85,08","0,14%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US2091151041-BGEM
-CONSORT NT,MLCNT,XMLI,"EUR 70,00",-,27 Feb 2023,https://live.euronext.com/pt/product/equities/FR0000077828-XMLI
-CONSTELLATION BR,4STZ,ETLX,"EUR 122,70","0,70%",08 Oct 2025,https://live.euronext.com/pt/product/equities/US21036P1084-ETLX
-CUMULEX,CLEX,XBRU,"EUR 0,745",-,13 Nov 2025,https://live.euronext.com/pt/product/equities/BE0003463685-XBRU
-ECONOCOM GROUP,ECONB,XBRU,"EUR 1,73","-3,57%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974313455-XBRU
-ECOSLOPS,ALESA,ALXP,"EUR 0,93","18,02%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0011490648-ALXP
-ECOSUNTEK,ECK,EXGM,"EUR 2,36","-2,48%",17:03 CET,https://live.euronext.com/pt/product/equities/IT0005654766-EXGM
-EVS BROADC.EQUIPM.,EVS,XBRU,"EUR 36,50","0,14%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003820371-XBRU
-EXACOMPTA CLAIREF.,ALEXA,ALXP,"EUR 165,00",-,16:30 CET,https://live.euronext.com/pt/product/equities/FR0000064164-ALXP
-EXACT SCIENCES COR,1EXAS,BGEM,"EUR 85,35","-1,44%",02 Jan 2026,https://live.euronext.com/pt/product/equities/US30063P1057-BGEM
+DEUTZ,2DEZ,MTAH,"EUR 9,67","-2,27%",08 Sep 2025,https://live.euronext.com/pt/product/equities/DE0006305006-MTAH
+DEVERNOIS,ALDEV,ALXP,"EUR 11,50","12,75%",07 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000060840-ALXP
+DEVON ENERGY,4DY6,ETLX,"EUR 33,50","5,15%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US25179M1036-ETLX
+DEVON ENERGY,2DY6,MTAH,"EUR 28,145","0,61%",30 Oct 2025,https://live.euronext.com/pt/product/equities/US25179M1036-MTAH
+DEVON ENERGY,1DY6,BGEM,"EUR 31,625","-2,42%",13:27 CET,https://live.euronext.com/pt/product/equities/US25179M1036-BGEM
+Dexcom Inc,1DXCM,BGEM,"EUR 59,69","0,07%",09:00 CET,https://live.euronext.com/pt/product/equities/US2521311074-BGEM
+DEXELANCE,DEX,MTAA,"EUR 4,07",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0005543480-MTAA
+DEXIA HOLDING,DEXB,VPXB,"EUR 0,30",-,02 Dec 2025,https://live.euronext.com/pt/product/equities/BE0974290224-VPXB
+DHH,DHH,EXGM,"EUR 24,00","-3,23%",14:50 CET,https://live.euronext.com/pt/product/equities/IT0005203622-EXGM
+DIADEMA CAPITAL,DIAD,EXGM,"EUR 1,71","-5,00%",12 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005605636-EXGM
+DIAGNOSTIC MEDICAL,ALDMS,ALXP,"EUR 1,305","-0,38%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0012202497-ALXP
+Diamondback Energy,1FANG,BGEM,"EUR 130,94","-1,30%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US25278X1090-BGEM
+DIASORIN,DIA,MTAA,"EUR 74,62","-1,79%",17:37 CET,https://live.euronext.com/pt/product/equities/IT0003492391-MTAA
+DIASORIN,2DIA,MTAH,"EUR 75,00","0,51%",18:46 CET,https://live.euronext.com/pt/product/equities/IT0003492391-MTAH
+DICK'S SPORTING G,1DKS,BGEM,"EUR 181,88","-0,18%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US2533931026-BGEM
+DIEGEM KENNEDYCERT,DIEG,XBRU,"EUR 103,00","-0,96%",15 Jan 2026,https://live.euronext.com/pt/product/equities/BE0003698124-XBRU
+DIERK. ANTWERP.,,VPXB,"EUR 103,00",-,03 Jun 2025,https://live.euronext.com/pt/product/equities/BE0036367895-VPXB
+DIERKUNDE ANTW,,VPXB,"EUR 270,00","21,62%",14 Feb 2023,https://live.euronext.com/pt/product/equities/BE0026342551-VPXB
+DIGITAL BROS,DIB,MTAA,"EUR 13,00","-1,22%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001469995-MTAA
+DIGITAL TURBINE IN,1APPS,BGEM,"EUR 4,763","4,50%",10:44 CET,https://live.euronext.com/pt/product/equities/US25400W1027-BGEM
+DIGITAL VALUE,DGV,MTAA,"EUR 28,60","-0,17%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005347429-MTAA
+DIGITOUCH,DGT,EXGM,"EUR 2,00",-,16:51 CET,https://live.euronext.com/pt/product/equities/IT0005089476-EXGM
+DIRECTA SIM,D,EXGM,"EUR 5,30",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0001463063-EXGM
+DIS ELET ADRIATICA,DEA,EXGM,"EUR 8,00",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005600249-EXGM
+DISTRI-LAND CERT,DISL,XBRU,"EUR 218,00",-,31 Dec 2025,https://live.euronext.com/pt/product/equities/BE0003605160-XBRU
+DNB BANK,DNB,XOSL,"NOK 282,70","0,04%",16:29 CET,https://live.euronext.com/pt/product/equities/NO0010161896-XOSL
+DNO,DNO,XOSL,"NOK 16,44","3,59%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0003921009-XOSL
+DNXCORP,ALDNX,ALXP,"EUR 14,60","0,34%",17:24 CET,https://live.euronext.com/pt/product/equities/FR0010436584-ALXP
+DO & CO AG,1DOC,BGEM,"EUR 198,00","4,98%",02 Dec 2025,https://live.euronext.com/pt/product/equities/AT0000818802-BGEM
+DOCK.PETR.AMBES AM,DPAM,XPAR,"EUR 885,00",-,16:30 CET,https://live.euronext.com/pt/product/equities/FR0000065260-XPAR
+DOF GROUP,DOFG,XOSL,"NOK 109,10","1,77%",16:29 CET,https://live.euronext.com/pt/product/equities/NO0012851874-XOSL
+DOLFINES,ALDOL,ALXP,"EUR 1,50","1,70%",14:06 CET,https://live.euronext.com/pt/product/equities/FR001400SP13-ALXP
+DOLLAR GENERAL,2DGX,MTAH,"EUR 115,48","0,93%",05 Dec 2025,https://live.euronext.com/pt/product/equities/US2566771059-MTAH
+DOLLAR GENERAL,4DGX,ETLX,"EUR 120,00","-2,99%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US2566771059-ETLX
+DOLLAR GENERAL,1DGX,BGEM,"EUR 131,36","0,37%",13:26 CET,https://live.euronext.com/pt/product/equities/US2566771059-BGEM
+Dollar Tree Inc,1DLTR,BGEM,"EUR 118,90","1,45%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US2567461080-BGEM
+DOLPHIN DRILLING,DDRIL,MERK,"NOK 2,55","3,66%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013711739-MERK
+DOMINION ENERGY,2D,MTAH,"EUR 52,75","-0,13%",07 Oct 2025,https://live.euronext.com/pt/product/equities/US25746U1097-MTAH
+DOMINION ENERGY,4D,ETLX,"EUR 50,94","-0,86%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US25746U1097-ETLX
+DOMINION ENERGY,1D,BGEM,"EUR 52,25","1,69%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US25746U1097-BGEM
+Domino's Pizza,1DPZ,BGEM,"EUR 352,90","0,34%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US25754A2015-BGEM
+DONEGAL INVESTMENT,DQ7A,XESM,"EUR 18,398","1,09%",05 Nov 2025,https://live.euronext.com/pt/product/equities/IE000Y2HN3O9-XESM
+DONTNOD,ALDNE,ALXP,"EUR 0,666","-1,77%",15:52 CET,https://live.euronext.com/pt/product/equities/FR0013331212-ALXP
+DOORDASH,1DASH,BGEM,"EUR 180,84","-0,30%",09:00 CET,https://live.euronext.com/pt/product/equities/US25809K1051-BGEM
+DOORDASH,4DASH,ETLX,"EUR 223,10","3,22%",24 Oct 2025,https://live.euronext.com/pt/product/equities/US25809K1051-ETLX
+DOORDASH,2DASH,MTAH,"EUR 202,95","0,72%",19 Dec 2025,https://live.euronext.com/pt/product/equities/US25809K1051-MTAH
+DOTSTAY,DOT,EXGM,"EUR 2,46","7,90%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005523839-EXGM
+DOVALUE,DOV,MTAA,"EUR 2,856","-4,10%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005610958-MTAA
+Dover Corp,1DOV,BGEM,"EUR 152,90","0,39%",24 Oct 2025,https://live.euronext.com/pt/product/equities/US2600031080-BGEM
+DOW,1DOW,BGEM,"EUR 23,00","0,44%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US2605571031-BGEM
+DOW,2DOW,MTAH,"EUR 19,20","1,05%",15 Oct 2025,https://live.euronext.com/pt/product/equities/US2605571031-MTAH
+DOW,4DOW,ETLX,"EUR 18,95","0,26%",22 Oct 2025,https://live.euronext.com/pt/product/equities/US2605571031-ETLX
+DOXEE,DOX,EXGM,"EUR 3,82","-1,04%",16:39 CET,https://live.euronext.com/pt/product/equities/IT0005394413-EXGM
+DR Horton Inc,1DHI,BGEM,"EUR 136,74","-0,80%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US23331A1097-BGEM
+DRAFTKINGS INC A,1DKNG,BGEM,"EUR 30,71","0,24%",13:04 CET,https://live.euronext.com/pt/product/equities/US26142V1052-BGEM
+DRONE VOLT,ALDRV,ALXP,"EUR 0,639","-6,31%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400SVN0-ALXP
+DRONE VOLT BS28,BNBS,ALXP,"EUR 0,0105",-,15:30 CET,https://live.euronext.com/pt/product/equities/FR0014007951-ALXP
+DRONE VOLT BSA,DRVBS,ALXP,-,-,-,https://live.euronext.com/pt/product/equities/FR001400YNA2-ALXP
+DRONE VOLT BSA,DRNBS,ALXP,-,-,-,https://live.euronext.com/pt/product/equities/FR0014011219-ALXP
+DROPBOX INC-CLASS,1DBX,BGEM,"EUR 23,50","3,62%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US26210C1045-BGEM
+DSM FIRMENICH AG,DSFIR,XAMS,"EUR 66,60","-2,46%",17:35 CET,https://live.euronext.com/pt/product/equities/CH1216478797-XAMS
+Duke Energy Corp,1DUK,BGEM,"EUR 101,88","1,86%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US26441C2044-BGEM
+DUPONT DE NEMOURS,2DD,MTAH,"EUR 36,535","-0,56%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US26614N1028-MTAH
+DUPONT DE NEMOURS,1DD,BGEM,"EUR 37,40","0,25%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US26614N1028-BGEM
+DUPONT DE NEMOURS,4DD,ETLX,"EUR 36,88",-,08 Jan 2026,https://live.euronext.com/pt/product/equities/US26614N1028-ETLX
+DURR,2DUE,MTAH,"EUR 19,92","-2,83%",07 Oct 2025,https://live.euronext.com/pt/product/equities/DE0005565204-MTAH
+DURR,1DUE,BGEM,"EUR 23,35","1,30%",07 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005565204-BGEM
+DURR,4DUE,ETLX,"EUR 19,16","3,91%",08 Apr 2025,https://live.euronext.com/pt/product/equities/DE0005565204-ETLX
+DYNAFOND,MLDYN,XMLI,"EUR 0,70",-,01 Oct 2025,https://live.euronext.com/pt/product/equities/FR0000052920-XMLI
+DYNATRACE,1DYT,BGEM,"EUR 35,60","-2,73%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US2681501092-BGEM
+E PANGO,ALAGO,ALXP,"EUR 0,1248","-0,95%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014004339-ALXP
+E-GLOBE,EGB,EXGM,"EUR 0,54",-,11:26 CET,https://live.euronext.com/pt/product/equities/IT0005557514-EXGM
+E-NOVIA,E9IA,EXGM,"EUR 2,00","-4,76%",27 Aug 2025,https://live.euronext.com/pt/product/equities/IT0005391229-EXGM
+E.ON,1EOAN,BGEM,"EUR 17,335","1,08%",15:12 CET,https://live.euronext.com/pt/product/equities/DE000ENAG999-BGEM
+E.ON,2EOAN,MTAH,"EUR 17,24","2,96%",07 Jan 2026,https://live.euronext.com/pt/product/equities/DE000ENAG999-MTAH
+E.ON,4EOAN,ETLX,"EUR 16,08","0,66%",30 Dec 2025,https://live.euronext.com/pt/product/equities/DE000ENAG999-ETLX
+E.P.H.,EPH,MTAA,"EUR 0,126","-6,67%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005623845-MTAA
+E.T.S.,ETS,EXGM,"EUR 5,26","-2,23%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005669558-EXGM
+EAGLEFOOTBALLGROUP,EFG,XPAR,"EUR 1,68",-,15:49 CET,https://live.euronext.com/pt/product/equities/FR0010428771-XPAR
+EAM SOLAR,EAM,MERK,"NOK 1,72","-14,00%",16:26 CET,https://live.euronext.com/pt/product/equities/NO0013601245-MERK
+EASE2PAY NV,EAS2P,XAMS,"EUR 0,43","-2,05%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000345627-XAMS
+EASSON HOLDINGS,MLEAS,XMLI,"EUR 1,26","-0,79%",06 Jan 2025,https://live.euronext.com/pt/product/equities/HK0000038783-XMLI
+Eastman Chemical,1EMN,BGEM,"EUR 52,62","-2,01%",08 Dec 2025,https://live.euronext.com/pt/product/equities/US2774321002-BGEM
+Eaton Corp PLC,1ETN,BGEM,"EUR 297,75","2,27%",16:34 CET,https://live.euronext.com/pt/product/equities/IE00B8KQN827-BGEM
+EAUX DE ROYAN,MLEDR,XMLI,"EUR 41,20","-5,51%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0007200100-XMLI
+EAVS,MLEAV,XMLI,"EUR 13,00",-,28 Sep 2022,https://live.euronext.com/pt/product/equities/FR0010536185-XMLI
+EBAY,2EBAY,MTAH,"EUR 72,82","0,79%",12 Dec 2025,https://live.euronext.com/pt/product/equities/US2786421030-MTAH
+EBAY,1EBAY,BGEM,"EUR 82,16","-1,20%",15:31 CET,https://live.euronext.com/pt/product/equities/US2786421030-BGEM
+EBAY,4EBAY,ETLX,"EUR 81,13","0,67%",22 Oct 2025,https://live.euronext.com/pt/product/equities/US2786421030-ETLX
+EBUSCO HOLDING,EBUS,XAMS,"EUR 0,421","-1,36%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015002AG2-XAMS
+ECFC,,VPXB,"EUR 4 120,00","8,99%",26 May 2020,https://live.euronext.com/pt/product/equities/BE0003783975-VPXB
+ECHOSTAR CORP-A,1SATS,BGEM,"EUR 104,00","-4,59%",17:17 CET,https://live.euronext.com/pt/product/equities/US2787681061-BGEM
+ECKERT & ZIEGLER,1EUZ,BGEM,"EUR 16,33","0,31%",12 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005659700-BGEM
+ECKERT & ZIEGLER,4EUZ,ETLX,"EUR 66,40","2,47%",09 Jul 2025,https://live.euronext.com/pt/product/equities/DE0005659700-ETLX
+ECKERT&ZIEGLER,2EUZ,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/DE0005659700-MTAH
+ECOLAB,1ECL,BGEM,"EUR 235,70","0,90%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US2788651006-BGEM
+ECOLAB,4ECL,ETLX,"EUR 222,00","-3,01%",04 Apr 2025,https://live.euronext.com/pt/product/equities/US2788651006-ETLX
+ECOLAB,2ECL,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/US2788651006-MTAH
+ECOMEMBRANE,ECMB,EXGM,"EUR 3,66","-2,14%",17:20 CET,https://live.euronext.com/pt/product/equities/IT0005543332-EXGM
+ECOMIAM,ALECO,ALXP,"EUR 2,20","0,46%",16:33 CET,https://live.euronext.com/pt/product/equities/FR0013534617-ALXP
+ENOGIA,ALENO,ALXP,"EUR 6,70","1,82%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014004974-ALXP
+ENOVIX CORP,1ENVX,BGEM,"EUR 7,059","-0,90%",16:37 CET,https://live.euronext.com/pt/product/equities/US2935941078-BGEM
+Enphase Energy,1ENPH,BGEM,"EUR 30,27","-0,39%",16:37 CET,https://live.euronext.com/pt/product/equities/US29355A1079-BGEM
+ENSIGN GROUP INC,1ENSG,BGEM,"EUR 148,00",-,28 Aug 2025,https://live.euronext.com/pt/product/equities/US29358P1012-BGEM
+ENSURGE MICROPOWER,ENSU,XOSL,"NOK 0,78","-2,50%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013186460-XOSL
+ENTECH,ALESE,ALXP,"EUR 8,46","1,68%",17:27 CET,https://live.euronext.com/pt/product/equities/FR0014004362-ALXP
+ENTEGRIS INC,1ENTG,BGEM,"EUR 99,81","0,72%",14:54 CET,https://live.euronext.com/pt/product/equities/US29362U1043-BGEM
+Entergy Corp,1ETR,BGEM,"EUR 84,50","1,20%",07 Nov 2025,https://live.euronext.com/pt/product/equities/US29364G1031-BGEM
+ENTRA,ENTRA,XOSL,"NOK 114,60","0,35%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010716418-XOSL
+ENTREPRENDRE,ALENR,ALXP,"EUR 6,60","-1,49%",01 Jul 2025,https://live.euronext.com/pt/product/equities/FR0000045122-ALXP
+ENVIPCO,ENVI,XAMS,"EUR 4,51","0,67%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015000GX8-XAMS
+ENVIPCO HOLDING,ENVIP,XOSL,"NOK 53,20","1,92%",16:27 CET,https://live.euronext.com/pt/product/equities/NL0015000GX8-XOSL
+EO2,ALEO2,ALXP,"EUR 2,78",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0010465534-ALXP
+EOG Resources Inc,1EOG,BGEM,"EUR 93,10","-1,66%",10:52 CET,https://live.euronext.com/pt/product/equities/US26875P1012-BGEM
+EPAM Systems Inc,1EPAM,BGEM,"EUR 185,90","-0,54%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US29414B1044-BGEM
+Epiroc,1EPIA,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0015658109-BGEM
+EPRCOMUNICAZIONE,EPRB,EXGM,"EUR 1,37","-0,72%",17:08 CET,https://live.euronext.com/pt/product/equities/IT0005519837-EXGM
+EQT AB,1EQT,BGEM,"EUR 32,00","4,68%",14 Jan 2026,https://live.euronext.com/pt/product/equities/SE0012853455-BGEM
+EQT Corp,1EQTC,BGEM,"EUR 43,125","-0,65%",14:55 CET,https://live.euronext.com/pt/product/equities/US26884L1098-BGEM
+EQUASENS,EQS,XPAR,"EUR 40,85","-2,51%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0012882389-XPAR
+Equifax Inc,1EFX,BGEM,"EUR 194,00","1,57%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US2944291051-BGEM
+EQUINOR,EQNR,XOSL,"NOK 256,00","3,48%",16:29 CET,https://live.euronext.com/pt/product/equities/NO0010096985-XOSL
+EQUITA GROUP,EQUI,MTAA,"EUR 6,44","0,47%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005312027-MTAA
+EQVA,EQVA,XOSL,"NOK 3,20","2,56%",15:34 CET,https://live.euronext.com/pt/product/equities/NO0010708605-XOSL
+ER Capital,ERC,XAMS,"EUR 0,935","6,25%",13:19 CET,https://live.euronext.com/pt/product/equities/NL0010389508-XAMS
+ERAMET,2ERA,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000131757-MTAH
+ERAMET,ERA,XPAR,"EUR 80,85","-5,11%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000131757-XPAR
+ERG,2ERG,MTAH,"EUR 22,66",-,18:32 CET,https://live.euronext.com/pt/product/equities/IT0001157020-MTAH
+ERG,ERG,MTAA,"EUR 22,66","1,34%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001157020-MTAA
+ERICSSON - CLASS B,2ERICB,MTAH,"EUR 7,014","-2,96%",30 Jun 2025,https://live.euronext.com/pt/product/equities/SE0000108656-MTAH
+ERICSSON - CLASS B,1ERICB,BGEM,"EUR 8,126","-0,71%",06 Jan 2026,https://live.euronext.com/pt/product/equities/SE0000108656-BGEM
+ERICSSON - CLASS B,4ERICB,ETLX,"EUR 7,168","-2,24%",09 Jul 2025,https://live.euronext.com/pt/product/equities/SE0000108656-ETLX
+ERREDUE,RDUE,EXGM,"EUR 7,55","0,67%",16:32 CET,https://live.euronext.com/pt/product/equities/IT0005521247-EXGM
+Erste Group Bank,4EBS,ETLX,"EUR 101,60","1,86%",19 Dec 2025,https://live.euronext.com/pt/product/equities/AT0000652011-ETLX
+Erste Group Bank,1EBS,BGEM,"EUR 105,00","0,48%",15 Jan 2026,https://live.euronext.com/pt/product/equities/AT0000652011-BGEM
+ES VEDRA,MLESV,XMLI,"EUR 1,11",-,18 Dec 2025,https://live.euronext.com/pt/product/equities/ES0105964003-XMLI
+ESAUTOMOTION,ESAU,EXGM,"EUR 3,08","-0,65%",17:02 CET,https://live.euronext.com/pt/product/equities/IT0005337107-EXGM
+ESI,ESIGM,EXGM,"EUR 1,465","2,45%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005421885-EXGM
+ESPE,ESPE,EXGM,"EUR 2,96","-0,67%",12:56 CET,https://live.euronext.com/pt/product/equities/IT0005573818-EXGM
+ESPRINET,PRT,MTAA,"EUR 6,13","-1,45%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0003850929-MTAA
+ESSILORLUXOTTICA,2EL,MTAH,"EUR 281,00","-0,35%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000121667-MTAH
+ESSILORLUXOTTICA,1EL,BGEM,"EUR 270,60","-4,25%",17:29 CET,https://live.euronext.com/pt/product/equities/FR0000121667-BGEM
+ESSILORLUXOTTICA,4EL,ETLX,"EUR 271,10","-4,10%",17:27 CET,https://live.euronext.com/pt/product/equities/FR0000121667-ETLX
+ESSILORLUXOTTICA,EL,XPAR,"EUR 271,00","-3,90%",17:37 CET,https://live.euronext.com/pt/product/equities/FR0000121667-XPAR
+Essity,1ESSI,BGEM,"EUR 22,10","1,10%",14 Aug 2025,https://live.euronext.com/pt/product/equities/SE0009922164-BGEM
+ESTEE LAUDER COMP,2ELX,MTAH,"EUR 89,60","0,90%",09 Dec 2025,https://live.euronext.com/pt/product/equities/US5184391044-MTAH
+ESTEE LAUDER COMP,4ELX,ETLX,"EUR 75,40","-0,79%",21 Nov 2025,https://live.euronext.com/pt/product/equities/US5184391044-ETLX
+ESTEE LAUDER COMP,1ELX,BGEM,"EUR 98,00","-2,97%",17:35 CET,https://live.euronext.com/pt/product/equities/US5184391044-BGEM
+ESTORIL SOL N,ESON,XLIS,"EUR 3,20",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/PTESO0AM0000-XLIS
+ESTRIMA,ESTM,EXGM,"EUR 0,1355","-4,24%",10:39 CET,https://live.euronext.com/pt/product/equities/IT0005468191-EXGM
+ETEX,,VPXB,"EUR 13,00",-,13 Jan 2026,https://live.euronext.com/pt/product/equities/BE0941244536-VPXB
+ETHERO,ALENT,ALXP,"EUR 1,375","-0,36%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010424697-ALXP
+ETSY,2ETSY,MTAH,"EUR 54,19","-0,57%",26 Sep 2025,https://live.euronext.com/pt/product/equities/US29786A1060-MTAH
+ETSY,4ETSY,ETLX,"EUR 66,36","3,90%",29 Oct 2025,https://live.euronext.com/pt/product/equities/US29786A1060-ETLX
+ETSY,1ETSY,BGEM,"EUR 46,385","1,61%",16 Dec 2025,https://live.euronext.com/pt/product/equities/US29786A1060-BGEM
+EUKEDOS,EUK,MTAA,"EUR 0,72","4,35%",17:29 CET,https://live.euronext.com/pt/product/equities/IT0004818297-MTAA
+EURASIA FONC INV,EFI,XPAR,"EUR 0,186",-,21 Nov 2025,https://live.euronext.com/pt/product/equities/FR0000061475-XPAR
+EURASIA GROUPE,ALEUA,ALXP,"EUR 1,22",-,05 Jun 2025,https://live.euronext.com/pt/product/equities/FR0010844001-ALXP
+EURAZEO,2RF,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000121121-MTAH
+EURAZEO,RF,XPAR,"EUR 53,05","-0,28%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000121121-XPAR
+EUROAPI,2EAPI,MTAH,"EUR 2,73","-2,92%",20 Feb 2025,https://live.euronext.com/pt/product/equities/FR0014008VX5-MTAH
+EUROAPI,EAPI,XPAR,"EUR 2,184","0,18%",17:38 CET,https://live.euronext.com/pt/product/equities/FR0014008VX5-XPAR
+EUROBIO-SCIENTIFIC,ALERS,ALXP,"EUR 23,80","-0,83%",15:54 CET,https://live.euronext.com/pt/product/equities/FR0013240934-ALXP
+EUROCASTLE INVEST.,ECT,XAMS,"EUR 12,40","5,98%",15:17 CET,https://live.euronext.com/pt/product/equities/GB00B94QM994-XAMS
+EUROCOMMERCIAL,2ECMPA,MTAH,"EUR 27,40","4,78%",26 Sep 2025,https://live.euronext.com/pt/product/equities/NL0015000K93-MTAH
+EUROCOMMERCIAL,ECMPA,"XAMS, XBRU","EUR 25,40","-1,36%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015000K93-XAMS
+EUROCOMMERCIAL,ECMPM,MTAA,"EUR 25,30","-2,69%",16:07 CET,https://live.euronext.com/pt/product/equities/NL0015000K93-MTAA
+EUROFINS CEREP,ALECR,ALXP,"EUR 17 800,00",-,29 Dec 2025,https://live.euronext.com/pt/product/equities/FR0013256518-ALXP
+EUROFINS SCIENT,4ERF,ETLX,"EUR 61,90","-0,77%",30 Dec 2025,https://live.euronext.com/pt/product/equities/FR0014000MR3-ETLX
+EUROFINS SCIENT.,ERF,XPAR,"EUR 72,12","-0,47%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014000MR3-XPAR
+EUROFINS SCIENT.,2ERF,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0014000MR3-MTAH
+EUROGROUP LAM,EGLA,MTAA,"EUR 3,488","-0,11%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005527616-MTAA
+EUROLAND CORPORATE,ALERO,ALXP,"EUR 2,94","-0,68%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0010157115-ALXP
+EUROLOG CANOLA,MLCAN,XMLI,"EUR 1 320,00",-,11 Aug 2021,https://live.euronext.com/pt/product/equities/ES0105586004-XMLI
+EURONET WORLDWIDE,1EEFT,BGEM,"EUR 72,00","-1,37%",24 Oct 2025,https://live.euronext.com/pt/product/equities/US2987361092-BGEM
+EURONEXT,ENXP,XLIS,-,-,-,https://live.euronext.com/pt/product/equities/NL0006294274-XLIS
+EURONEXT,2ENX,MTAH,"EUR 154,10",-,06 May 2025,https://live.euronext.com/pt/product/equities/NL0006294274-MTAH
+EURONEXT,ENX,"XPAR, XAMS, XBRU","EUR 121,80","0,08%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0006294274-XPAR
+EUROPACORP,ALECP,ALXP,"EUR 0,425",-,15:18 CET,https://live.euronext.com/pt/product/equities/FR0010490920-ALXP
+European Medical S,ALEMS,"ALXB, ALXP","EUR 4,999","-1,96%",17:38 CET,https://live.euronext.com/pt/product/equities/BE0974497290-ALXB
+EUROPLASMA,ALEUP,ALXP,"EUR 0,1349","-0,07%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014011QJ8-ALXP
+EUROPRIS,EPR,XOSL,"NOK 90,90","0,22%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010735343-XOSL
+EUROTECH,ETH,MTAA,"EUR 1,036","0,39%",17:36 CET,https://live.euronext.com/pt/product/equities/IT0003895668-MTAA
+EUTELSAT COMMUNIC.,ETL,XPAR,"EUR 2,235","-0,89%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010221234-XPAR
+EUTELSAT COMMUNIC.,2ETL,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0010221234-MTAH
+Everest Group Ltd,1EG,BGEM,"EUR 280,00","-1,13%",13 Jan 2026,https://live.euronext.com/pt/product/equities/BMG3223R1088-BGEM
+EVERGREEN,EGR,XPAR,"EUR 0,33","0,03%",08 Apr 2025,https://live.euronext.com/pt/product/equities/FR0000035784-XPAR
+Evergy Inc,1EVRG,BGEM,"EUR 62,02","1,54%",18 Dec 2025,https://live.euronext.com/pt/product/equities/US30034W1062-BGEM
+EVERSOURCE ENERGY,1ES,BGEM,"EUR 54,50","-6,03%",22 Dec 2025,https://live.euronext.com/pt/product/equities/US30040W1080-BGEM
+EVERSOURCE ENERGY,4ES,ETLX,"EUR 59,00","1,72%",15 Dec 2025,https://live.euronext.com/pt/product/equities/US30040W1080-ETLX
+EVERSOURCE ENERGY,2ES,MTAH,"EUR 64,50","1,58%",29 Oct 2025,https://live.euronext.com/pt/product/equities/US30040W1080-MTAH
+EVISO,EVISO,EXGM,"EUR 7,74","-0,13%",17:37 CET,https://live.euronext.com/pt/product/equities/IT0005430936-EXGM
+EVN AG,1EVN,BGEM,"EUR 29,00","-1,36%",09 Jan 2026,https://live.euronext.com/pt/product/equities/AT0000741053-BGEM
+Evolution AB,1EVO,BGEM,"EUR 57,10","1,35%",14 Jan 2026,https://live.euronext.com/pt/product/equities/SE0012673267-BGEM
+EVONIK INDUSTRIES,1EVK,BGEM,"EUR 13,10","-3,11%",16:42 CET,https://live.euronext.com/pt/product/equities/DE000EVNK013-BGEM
+EVONIK INDUSTRIES,4EVK,ETLX,"EUR 12,94",-,08 Dec 2025,https://live.euronext.com/pt/product/equities/DE000EVNK013-ETLX
+EVONIK INDUSTRIES,2EVK,MTAH,"EUR 18,305","-3,51%",25 Jul 2024,https://live.euronext.com/pt/product/equities/DE000EVNK013-MTAH
+EVOTEC,1EVT,BGEM,"EUR 6,308","-0,28%",17:21 CET,https://live.euronext.com/pt/product/equities/DE0005664809-BGEM
+EVOTEC,2EVT,MTAH,"EUR 5,20","-1,10%",07 Nov 2025,https://live.euronext.com/pt/product/equities/DE0005664809-MTAH
+EVOTEC,4EVT,ETLX,"EUR 5,70","-2,83%",08 Sep 2025,https://live.euronext.com/pt/product/equities/DE0005664809-ETLX
+FMC Corp,1FMC,BGEM,"EUR 13,42","3,03%",16:09 CET,https://live.euronext.com/pt/product/equities/US3024913036-BGEM
+FNAC DARTY,2FNAC,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0011476928-MTAH
+FNAC DARTY,FNAC,XPAR,"EUR 28,35","-2,24%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0011476928-XPAR
+FNM,FNM,MTAA,"EUR 0,516","-0,39%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0000060886-MTAA
+FNPTECHNOLOGIESSA,MLFNP,XMLI,"EUR 0,17","0,59%",18 Dec 2025,https://live.euronext.com/pt/product/equities/FR0013230067-XMLI
+FONCIERE 7 INVEST,LEBL,XPAR,"EUR 0,30",-,07 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000065930-XPAR
+FONCIERE INEA,INEA,XPAR,"EUR 34,00",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0010341032-XPAR
+FONCIERE VINDI,MLVIN,XMLI,"EUR 4,58","-0,43%",13 Jan 2026,https://live.euronext.com/pt/product/equities/FR0011605617-XMLI
+FONCIERE VOLTA,SPEL,XPAR,"EUR 9,50","18,75%",11:30 CET,https://live.euronext.com/pt/product/equities/FR0000053944-XPAR
+FOPE,FPE,EXGM,"EUR 42,00","0,96%",14:52 CET,https://live.euronext.com/pt/product/equities/IT0005203424-EXGM
+FORD MOTOR,1F,BGEM,"EUR 12,006","0,17%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US3453708600-BGEM
+FORD MOTOR,2F,MTAH,"EUR 11,558","0,14%",13 Nov 2025,https://live.euronext.com/pt/product/equities/US3453708600-MTAH
+FORD MOTOR,4F,ETLX,"EUR 11,136","-0,94%",05 Dec 2025,https://live.euronext.com/pt/product/equities/US3453708600-ETLX
+FORESTIERE EQUAT.,FORE,XPAR,"EUR 675,00",-,23 Oct 2025,https://live.euronext.com/pt/product/equities/CI0000053161-XPAR
+FORFARMERS,FFARM,XAMS,"EUR 5,09","0,20%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0011832811-XAMS
+FORSEE POWER,FORSE,XPAR,"EUR 0,2655","-1,67%",16:12 CET,https://live.euronext.com/pt/product/equities/FR0014005SB3-XPAR
+Fortinet Inc,1FTNT,BGEM,"EUR 65,27","-2,16%",17:35 CET,https://live.euronext.com/pt/product/equities/US34959E1091-BGEM
+Fortive Corp,1FTV,BGEM,"EUR 44,47","-0,40%",15 Jul 2025,https://live.euronext.com/pt/product/equities/US34959J1088-BGEM
+FORTUM,2FORT,MTAH,"EUR 13,54",-,28 Jan 2025,https://live.euronext.com/pt/product/equities/FI0009007132-MTAH
+FORTUM,1FORT,BGEM,"EUR 18,90","0,03%",12 Jan 2026,https://live.euronext.com/pt/product/equities/FI0009007132-BGEM
+FORTUM,4FORT,ETLX,"EUR 15,595",-,29 Sep 2025,https://live.euronext.com/pt/product/equities/FI0009007132-ETLX
+FORVIA,2FRVIA,MTAH,"EUR 13,685","-1,41%",18:02 CET,https://live.euronext.com/pt/product/equities/FR0000121147-MTAH
+FORVIA,4FRVIA,ETLX,"EUR 14,50","1,68%",14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000121147-ETLX
+FORVIA,FRVIA,XPAR,"EUR 13,99","-1,96%",17:36 CET,https://live.euronext.com/pt/product/equities/FR0000121147-XPAR
+FORVIA,1FRVIA,BGEM,"EUR 13,88","-4,38%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000121147-BGEM
+FOUNTAIN,FOU,XBRU,"EUR 1,45",-,11:30 CET,https://live.euronext.com/pt/product/equities/BE0003752665-XBRU
+FOUNTAINE PAJOT,ALFPC,ALXP,"EUR 102,40","0,20%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010485268-ALXP
+Fox Corp,1FOXA,BGEM,"EUR 62,50","-0,79%",23 Dec 2025,https://live.euronext.com/pt/product/equities/US35137L1052-BGEM
+Fox Corp B,1FOX,BGEM,"EUR 56,00",-,08 Jan 2026,https://live.euronext.com/pt/product/equities/US35137L2043-BGEM
+FOYER,,VPXB,"EUR 64,01",-,15 Mar 2022,https://live.euronext.com/pt/product/equities/NSCEX0000018-VPXB
+FRANCAISE ENERGIE,FDE,XPAR,"EUR 32,75","-0,46%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013030152-XPAR
+FRANCE TOURISME,MLFTI,XMLI,"EUR 0,0525",-,11:30 CET,https://live.euronext.com/pt/product/equities/FR0010823724-XMLI
+FRANCHETTI,FCH,EXGM,"EUR 5,05","1,82%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005508574-EXGM
+FRANCHI UMB MARMI,FUM,EXGM,"EUR 3,93","-2,72%",15:52 CET,https://live.euronext.com/pt/product/equities/IT0005335754-EXGM
+Franklin,1BEN,BGEM,"EUR 22,20","1,37%",10:34 CET,https://live.euronext.com/pt/product/equities/US3546131018-BGEM
+FRAPORT,1FRA,BGEM,"EUR 73,20","1,88%",15 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005773303-BGEM
+FRAPORT,4FRA,ETLX,"EUR 71,25","0,92%",12 Dec 2025,https://live.euronext.com/pt/product/equities/DE0005773303-ETLX
+FRAPORT,2FRA,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/DE0005773303-MTAH
+FREELANCE.COM,ALFRE,ALXP,"EUR 2,54","2,42%",17:28 CET,https://live.euronext.com/pt/product/equities/FR0004187367-ALXP
+Freenet AG,1FNTN,BGEM,"EUR 29,58","10,37%",15 Dec 2025,https://live.euronext.com/pt/product/equities/DE000A0Z2ZZ5-BGEM
+FREEPORT-MCMORAN,2FCX,MTAH,"EUR 50,27","0,73%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US35671D8570-MTAH
+FREEPORT-MCMORAN,1FCX,BGEM,"EUR 50,44","-2,63%",17:35 CET,https://live.euronext.com/pt/product/equities/US35671D8570-BGEM
+FREEPORT-MCMORAN,4FCX,ETLX,"EUR 34,74","-1,32%",04 Nov 2025,https://live.euronext.com/pt/product/equities/US35671D8570-ETLX
+FRENDY ENERGY,FRE,EXGM,"EUR 0,22",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0004819857-EXGM
+FRESENIUS,2FRE,MTAH,"EUR 52,18","2,96%",12 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005785604-MTAH
+FRESENIUS,4FRE,ETLX,"EUR 48,20","0,65%",06 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005785604-ETLX
+FRESENIUS,1FRE,BGEM,"EUR 50,02","-3,29%",15 Jan 2026,https://live.euronext.com/pt/product/equities/DE0005785604-BGEM
+FRESENIUS MED CARE,2FME,MTAH,"EUR 48,69","-2,97%",05 Jun 2025,https://live.euronext.com/pt/product/equities/DE0005785802-MTAH
+FRESENIUS MED CARE,4FME,ETLX,"EUR 52,24","-2,39%",22 May 2025,https://live.euronext.com/pt/product/equities/DE0005785802-ETLX
+FRESENIUS MED CARE,1FME,BGEM,"EUR 37,14","0,81%",09:34 CET,https://live.euronext.com/pt/product/equities/DE0005785802-BGEM
+FRESHPET INC,1FRPT,BGEM,"EUR 44,64","-1,83%",30 Oct 2025,https://live.euronext.com/pt/product/equities/US3580391056-BGEM
+FRESHWORKS INC-CL,1FRSH,BGEM,"EUR 10,00","-1,96%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US3580541049-BGEM
+FREY,FREY,XPAR,"EUR 29,80",-,11:30 CET,https://live.euronext.com/pt/product/equities/FR0010588079-XPAR
+FRIENDS,AMI,EXGM,"EUR 1,255","-1,95%",17:04 CET,https://live.euronext.com/pt/product/equities/IT0005664641-EXGM
+FRONTLINE,FRO,XOSL,"NOK 267,20","3,13%",16:43 CET,https://live.euronext.com/pt/product/equities/CY0200352116-XOSL
+FSDV,FSDV,XPAR,"EUR 18,00",-,11:30 CET,https://live.euronext.com/pt/product/equities/FR0000031973-XPAR
+FUCHS SE,1FPE,BGEM,"EUR 37,90","-2,57%",23 Sep 2025,https://live.euronext.com/pt/product/equities/DE000A3E5D64-BGEM
+FUELCELL ENERGY,2FEY2,MTAH,"EUR 6,659","1,96%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US35952H7008-MTAH
+FUELCELL ENERGY,4FEY2,ETLX,"EUR 5,487","1,59%",28 Nov 2025,https://live.euronext.com/pt/product/equities/US35952H7008-ETLX
+FUELCELL ENERGY,1FEY2,BGEM,"EUR 6,83","8,19%",17:24 CET,https://live.euronext.com/pt/product/equities/US35952H7008-BGEM
+FUGRO,2FUR,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL00150003E1-MTAH
+FUGRO,FUR,XAMS,"EUR 9,53","-0,73%",17:36 CET,https://live.euronext.com/pt/product/equities/NL00150003E1-XAMS
+FUT.CLUBE PORTO,FCP,XLIS,"EUR 3,80",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/PTFCP0AM0008-XLIS
+G.A.I.,MLGAI,XMLI,"EUR 145,00","-25,26%",05 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000053415-XMLI
+G.M. LEATHER,GML,EXGM,"EUR 0,885","-1,12%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005498610-EXGM
+GABETTI,GAB,MTAA,"EUR 0,65",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0005023038-MTAA
+GAIASHOPPING - SIC,MLGSH,ENXL,-,-,-,https://live.euronext.com/pt/product/equities/PTGHP0AM0005-ENXL
+gAIn360,GAIN,EXGM,"EUR 1,66","3,75%",12 Dec 2025,https://live.euronext.com/pt/product/equities/IT0005672461-EXGM
+GALAPAGOS,2GLPG,MTAH,"EUR 24,30",-,06 Jun 2024,https://live.euronext.com/pt/product/equities/BE0003818359-MTAH
+GALAPAGOS,4GLPG,ETLX,"EUR 27,50","-2,55%",29 Aug 2025,https://live.euronext.com/pt/product/equities/BE0003818359-ETLX
+GALAPAGOS,GLPG,"XAMS, XBRU","EUR 28,98","-1,23%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003818359-XAMS
+GALAXY DIGITAL A,1GLXY,BGEM,"EUR 28,80","9,09%",17:29 CET,https://live.euronext.com/pt/product/equities/US36317J2096-BGEM
+Galderma Group,1GALD,BGEM,"EUR 169,00","-2,87%",15 Jan 2026,https://live.euronext.com/pt/product/equities/CH1335392721-BGEM
+GALENICA,1GALE,BGEM,"EUR 103,00","-1,91%",05 Jan 2026,https://live.euronext.com/pt/product/equities/CH0360674466-BGEM
+GALEO,MLGAL,XMLI,"EUR 2,16","-13,60%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0011100759-XMLI
+GALP ENERGIA-NOM,GALP,XLIS,"EUR 16,15","0,12%",16:35 WET,https://live.euronext.com/pt/product/equities/PTGAL0AM0009-XLIS
+GALP ENERGIA-NOM,2GALP,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/PTGAL0AM0009-MTAH
+GAMBERO ROSSO,GAMB,EXGM,"EUR 0,26","1,56%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005122392-EXGM
+GAMESTOP CORP,1GME,BGEM,"EUR 18,458","1,15%",15:35 CET,https://live.euronext.com/pt/product/equities/US36467W1099-BGEM
+GAMESTOP CORP,2GME,MTAH,"EUR 18,608","-2,98%",10 Dec 2025,https://live.euronext.com/pt/product/equities/US36467W1099-MTAH
+Garmin Ltd,1GRMN,BGEM,"EUR 178,00","-2,20%",12 Jan 2026,https://live.euronext.com/pt/product/equities/CH0114405324-BGEM
+GAROF HEALTH CARE,GHC,MTAA,"EUR 5,57","1,64%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005345233-MTAA
+Gartner Inc,1IT,BGEM,"EUR 207,50","1,12%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US3666511072-BGEM
+GAS PLUS,GSP,MTAA,"EUR 6,88","-1,43%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0004098510-MTAA
+GASCOGNE,ALBI,ALXP,"EUR 2,22","-2,63%",14:47 CET,https://live.euronext.com/pt/product/equities/FR0000124414-ALXP
+GAUMONT,GAM,XPAR,"EUR 99,00","-1,00%",13:43 CET,https://live.euronext.com/pt/product/equities/FR0000034894-XPAR
+GBL,2GBLB,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/BE0003797140-MTAH
+GBL,GBLB,XBRU,"EUR 80,25","-0,37%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003797140-XBRU
+GE AEROSPACE,2GE,MTAH,"EUR 278,50","0,91%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US3696043013-MTAH
+GE AEROSPACE,1GE,BGEM,"EUR 275,50","-0,90%",15:35 CET,https://live.euronext.com/pt/product/equities/US3696043013-BGEM
+GE HealthCare T,1GEHC,BGEM,"EUR 74,10","1,52%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US36266G1076-BGEM
+GE Vernova Inc,1GEV,BGEM,"EUR 592,00","5,53%",17:03 CET,https://live.euronext.com/pt/product/equities/US36828A1016-BGEM
+GEA GRENOBL.ELECT.,GEA,XPAR,"EUR 83,00","5,73%",16:39 CET,https://live.euronext.com/pt/product/equities/FR0000053035-XPAR
+GEA GROUP,4G,ETLX,"EUR 61,00","-1,53%",03 Nov 2025,https://live.euronext.com/pt/product/equities/DE0006602006-ETLX
+GEA GROUP,2GG,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/DE0006602006-MTAH
+GEA GROUP,1G,BGEM,"EUR 59,40","-2,06%",13 Jan 2026,https://live.euronext.com/pt/product/equities/DE0006602006-BGEM
+Geberit,1GEBN,BGEM,"EUR 665,00","-1,48%",14:15 CET,https://live.euronext.com/pt/product/equities/CH0030170408-BGEM
+GECI INTL,ALGEC,ALXP,"EUR 2,85","-0,70%",17:10 CET,https://live.euronext.com/pt/product/equities/FR001400M1R1-ALXP
+GECINA,GFC,XPAR,"EUR 79,65","-0,19%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010040865-XPAR
+GECINA,2GFC,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0010040865-MTAH
+GEFRAN,GE,MTAA,"EUR 10,20","-0,97%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0003203947-MTAA
+GEL,GEL,EXGM,"EUR 2,44","-0,81%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005312365-EXGM
+GEN DIGITAL,1NLOK,BGEM,"EUR 23,00","-2,54%",13 Nov 2025,https://live.euronext.com/pt/product/equities/US6687711084-BGEM
+GEN DIGITAL,2NLOK,MTAH,"EUR 23,00","1,77%",31 Oct 2025,https://live.euronext.com/pt/product/equities/US6687711084-MTAH
+GEN DIGITAL,4NLOK,ETLX,"EUR 22,40","0,90%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US6687711084-ETLX
+Generac Hold,1GNRC,BGEM,"EUR 128,70","3,00%",06 Jan 2026,https://live.euronext.com/pt/product/equities/US3687361044-BGEM
+GENERAL DYNAMICS,1GD,BGEM,"EUR 318,20","1,86%",15:36 CET,https://live.euronext.com/pt/product/equities/US3695501086-BGEM
+GENERAL DYNAMICS,2GD,MTAH,"EUR 293,30","-1,73%",20 Nov 2025,https://live.euronext.com/pt/product/equities/US3695501086-MTAH
+GENERAL DYNAMICS,4GD,ETLX,"EUR 273,95","1,26%",19 Aug 2025,https://live.euronext.com/pt/product/equities/US3695501086-ETLX
+General Mills Inc,1GIS,BGEM,"EUR 39,55","1,32%",09:00 CET,https://live.euronext.com/pt/product/equities/US3703341046-BGEM
+GENERAL MOTORS,2GM,MTAH,"EUR 70,45","0,34%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US37045V1008-MTAH
+GENERAL MOTORS,1GM,BGEM,"EUR 69,95","-0,50%",13:31 CET,https://live.euronext.com/pt/product/equities/US37045V1008-BGEM
+GENERAL MOTORS,4GM,ETLX,"EUR 56,83","-1,42%",22 Oct 2025,https://live.euronext.com/pt/product/equities/US37045V1008-ETLX
+GENERALFINANCE,GF,MTAA,"EUR 24,60","-0,81%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005144784-MTAA
+GENERALI,2G,MTAH,"EUR 35,00","0,20%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0000062072-MTAH
+GENERALI,G,MTAA,"EUR 34,94","0,03%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0000062072-MTAA
+GENESIS,MLGNS,XMLI,"EUR 1,58",-,20 Dec 2024,https://live.euronext.com/pt/product/equities/ES0105807004-XMLI
+GENEURO,GNRO,XPAR,"EUR 0,0322","6,62%",16:01 CET,https://live.euronext.com/pt/product/equities/CH0308403085-XPAR
+GENFIT,GNFT,XPAR,"EUR 5,265","-2,59%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0004163111-XPAR
+GENOWAY,ALGEN,ALXP,"EUR 2,55","8,51%",16:46 CET,https://live.euronext.com/pt/product/equities/FR0004053510-ALXP
+GENSIGHT BIOLOGICS,SIGHT,XPAR,"EUR 0,0915","3,62%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013183985-XPAR
+GENSIGHT BSA,SIGBS,ALXP,-,-,-,https://live.euronext.com/pt/product/equities/FR0014010IB4-ALXP
+GENTIAN DIAGNOSTIC,GENT,XOSL,"NOK 58,60","-0,34%",16:27 CET,https://live.euronext.com/pt/product/equities/NO0010748866-XOSL
+GENTILI MOSCONI,GM,EXGM,"EUR 3,52","1,73%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005531261-EXGM
+GENTLEMENS EQUITY,MLGEQ,XMLI,"EUR 0,021",-,11:30 CET,https://live.euronext.com/pt/product/equities/PTGVE1AE0009-XMLI
+Genuine Parts Co,1GPC,BGEM,"EUR 111,45","0,54%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US3724601055-BGEM
+GEORG FISCHER,1GF,BGEM,"EUR 57,50",-,30 Dec 2025,https://live.euronext.com/pt/product/equities/CH1169151003-BGEM
+GEOX,GEO,MTAA,"EUR 0,31","-2,36%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0003697080-MTAA
+GERON CORP,1GERN,BGEM,"EUR 1,1335","-0,09%",17:11 CET,https://live.euronext.com/pt/product/equities/US3741631036-BGEM
+Gerresheimer,1GXI,BGEM,"EUR 28,34","-4,06%",29 Dec 2025,https://live.euronext.com/pt/product/equities/DE000A0LD6E6-BGEM
+Getinge AB,1GETI,BGEM,"EUR 19,80",-,30 Dec 2025,https://live.euronext.com/pt/product/equities/SE0000202624-BGEM
+GETLINK SE,2GET,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0010533075-MTAH
+GETLINK SE,GET,XPAR,"EUR 16,18","1,51%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010533075-XPAR
+GEVELOT,ALGEV,ALXP,"EUR 172,00",-,11:30 CET,https://live.euronext.com/pt/product/equities/FR0000033888-ALXP
+GIG,CABLE,XAMS,"GBP 2,72",-,03 Oct 2025,https://live.euronext.com/pt/product/equities/GG00BMB5XZ39-XAMS
+GIGANTE SALMON,GIGA,MERK,"NOK 8,42","0,24%",16:09 CET,https://live.euronext.com/pt/product/equities/NO0011013765-MERK
+GIGLIO.COM,GCOM,EXGM,"EUR 0,845","-0,59%",16:01 CET,https://live.euronext.com/pt/product/equities/IT0005453003-EXGM
+GILEAD SCIENCES,4GILD,ETLX,"EUR 96,88","1,41%",25 Sep 2025,https://live.euronext.com/pt/product/equities/US3755581036-ETLX
+GILEAD SCIENCES,1GILD,BGEM,"EUR 106,84","0,47%",17:29 CET,https://live.euronext.com/pt/product/equities/US3755581036-BGEM
+GILEAD SCIENCES,2GILD,MTAH,"EUR 105,54",-,07 Jan 2026,https://live.euronext.com/pt/product/equities/US3755581036-MTAH
+GIMV,GIMB,XBRU,"EUR 46,05","-0,54%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003699130-XBRU
+GIOCAMONDO STUDY,GMS,EXGM,"EUR 1,745","-1,13%",15:58 CET,https://live.euronext.com/pt/product/equities/IT0005652489-EXGM
+GISMONDI 1754,GIS,EXGM,"EUR 1,41","-0,70%",17:12 CET,https://live.euronext.com/pt/product/equities/IT0005391138-EXGM
+GITLAB INC-CL A,1GTLB,BGEM,"EUR 29,60","-3,90%",15:32 CET,https://live.euronext.com/pt/product/equities/US37637K1088-BGEM
+Givaudan,1GIVN,BGEM,"EUR 3 420,00",-,13 Jan 2026,https://live.euronext.com/pt/product/equities/CH0010645932-BGEM
+GJENSIDIGE FORSIKR,GJF,XOSL,"NOK 279,20","-0,71%",16:26 CET,https://live.euronext.com/pt/product/equities/NO0010582521-XOSL
+GL EVENTS,GLO,XPAR,"EUR 28,45","-3,07%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000066672-XPAR
+GLANBIA PLC,GL9,XMSM,"EUR 15,73","0,90%",16:30 GMT,https://live.euronext.com/pt/product/equities/IE0000669501-XMSM
+GLASS TO POWER,MLGL,XMLI,-,-,-,https://live.euronext.com/pt/product/equities/IT0005613739-XMLI
+GLENCORE,4GLEN,ETLX,"EUR 5,652","-0,63%",13:32 CET,https://live.euronext.com/pt/product/equities/JE00B4T3BW64-ETLX
+GLENVEAGH PROP.PLC,GVR,XMSM,"EUR 2,01","1,01%",16:30 GMT,https://live.euronext.com/pt/product/equities/IE00BD6JX574-XMSM
+GLINTT,GLINT,XLIS,"EUR 1,42","-4,05%",15:01 WET,https://live.euronext.com/pt/product/equities/PTPAD0AM0007-XLIS
+GLOBAL PAYMENTS,1GPN,BGEM,"EUR 69,80","-1,22%",19 Dec 2025,https://live.euronext.com/pt/product/equities/US37940X1028-BGEM
+GLOBAL PAYMENTS,4GPN,ETLX,"EUR 69,44","1,73%",15 Jul 2025,https://live.euronext.com/pt/product/equities/US37940X1028-ETLX
+GLOBAL PAYMENTS,2GPN,MTAH,"EUR 108,75","0,51%",06 Feb 2025,https://live.euronext.com/pt/product/equities/US37940X1028-MTAH
+GLOBAL PIELAGO,MLNDG,XMLI,"EUR 4,92",-,16 Apr 2021,https://live.euronext.com/pt/product/equities/ES0105537007-XMLI
+GLOBALBIOENERGIES,ALGBE,ALXP,"EUR 0,0185","-7,50%",28 Nov 2025,https://live.euronext.com/pt/product/equities/FR0011052257-ALXP
+GLOBALFOUNDRIES,1GFS,BGEM,"EUR 36,36","-0,22%",17:35 CET,https://live.euronext.com/pt/product/equities/KYG393871085-BGEM
+GoDaddy Inc,1GDDY,BGEM,"EUR 94,50","2,72%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US3802371076-BGEM
+GOLD BY GOLD,ALGLD,ALXP,"EUR 3,64",-,16:30 CET,https://live.euronext.com/pt/product/equities/FR0011208693-ALXP
+GOLDEN ENERGY OFF,GEOS,MERK,"NOK 6,50","-1,52%",15:44 CET,https://live.euronext.com/pt/product/equities/NO0013228585-MERK
+GOLDMAN SACHS GR,2GSG,MTAH,"EUR 857,00","2,98%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US38141G1040-MTAH
+GOLDMAN SACHS GR,4GS,ETLX,"EUR 628,50","-5,57%",17 Oct 2025,https://live.euronext.com/pt/product/equities/US38141G1040-ETLX
+GOLDMAN SACHS GR,1GS,BGEM,"EUR 829,10","-0,37%",16:03 CET,https://live.euronext.com/pt/product/equities/US38141G1040-BGEM
+GOODTECH,GOD,XOSL,"NOK 9,84","-0,20%",16:10 CET,https://live.euronext.com/pt/product/equities/NO0004913609-XOSL
+GOODYEAR TIRE & RU,1GT,BGEM,"EUR 7,732","-0,82%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US3825501014-BGEM
+GOPRO - CLASSE A,2GPRO,MTAH,"EUR 1,323","-1,27%",20 Nov 2025,https://live.euronext.com/pt/product/equities/US38268T1034-MTAH
+GOPRO - CLASSE A,1GPRO,BGEM,"EUR 1,185","-4,28%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US38268T1034-BGEM
+GOPRO - CLASSE A,4GPRO,ETLX,"EUR 1,93","4,95%",22 Oct 2025,https://live.euronext.com/pt/product/equities/US38268T1034-ETLX
+GOSSON KESSALES,,VPXB,"EUR 55,11",-,09 Jun 2015,https://live.euronext.com/pt/product/equities/BE0011395465-VPXB
+GPE GROUP PIZZORNO,GPE,XPAR,"EUR 56,00","-0,71%",17:15 CET,https://live.euronext.com/pt/product/equities/FR0010214064-XPAR
+GPI,GPI,MTAA,"EUR 15,58","-1,64%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005221517-MTAA
+GRAINES VOLTZ,GRVO,XPAR,"EUR 18,80","0,53%",17:20 CET,https://live.euronext.com/pt/product/equities/FR0000065971-XPAR
+GREAT WESTERN MIN.,8GW,XESM,"EUR 0,024",-,16 Oct 2025,https://live.euronext.com/pt/product/equities/IE000T78CHJ8-XESM
+GREEN EARTH GROUP,EARTH,XAMS,"EUR 1,025","9,51%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0009169515-XAMS
+GREEN MINERALS,GEM,MERK,"NOK 1,56","1,63%",15:26 CET,https://live.euronext.com/pt/product/equities/NO0010907744-MERK
+GREEN OLEO,GRN,EXGM,"EUR 0,65","-2,26%",16:58 CET,https://live.euronext.com/pt/product/equities/IT0005549768-EXGM
+GREENCOAT REN.,GRP,XESM,"EUR 0,707","-1,81%",16:30 GMT,https://live.euronext.com/pt/product/equities/IE00BF2NR112-XESM
+GRIEG SEAFOOD,GSF,XOSL,"NOK 72,20","-1,57%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010365521-XOSL
+GRIFAL,GRAL,EXGM,"EUR 1,18","-1,67%",15:36 CET,https://live.euronext.com/pt/product/equities/IT0005332595-EXGM
+Grifols,1GRF,BGEM,"EUR 11,44","-8,37%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0171996087-BGEM
+Grifols,4GRF,ETLX,"EUR 10,915","1,96%",05 Dec 2025,https://live.euronext.com/pt/product/equities/ES0171996087-ETLX
+GROLLEAU,ALGRO,ALXP,"EUR 2,72","0,74%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014005ZM5-ALXP
+GRONG SPAREBANK,GRONG,MERK,"NOK 167,48",-,10:33 CET,https://live.euronext.com/pt/product/equities/NO0010636491-MERK
+GROTTES DE HAN,,VPXB,"EUR 122,00","-0,08%",21 Nov 2017,https://live.euronext.com/pt/product/equities/BE0057677594-VPXB
+GROUPE CARNIVOR,MLGRC,XMLI,"EUR 23,20",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000076960-XMLI
+GROUPE CRIT,CEN,XPAR,"EUR 61,00",-,14:27 CET,https://live.euronext.com/pt/product/equities/FR0000036675-XPAR
+GROUPE GUILLIN,ALGIL,ALXP,"EUR 25,40",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0012819381-ALXP
+GROUPE JAJ,GJAJ,XPAR,"EUR 1,27","5,83%",12 Jan 2026,https://live.euronext.com/pt/product/equities/FR0004010338-XPAR
+GROUPE JOSI,,VPXB,"EUR 1 432,00","77,23%",21 Apr 2015,https://live.euronext.com/pt/product/equities/BE0011606630-VPXB
+GROUPE LDLC,ALLDL,ALXP,"EUR 18,70",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0000075442-ALXP
+GROUPE OKWIND,ALOKW,ALXP,"EUR 0,447","1,59%",17:29 CET,https://live.euronext.com/pt/product/equities/FR0013439627-ALXP
+GROUPE PARTOUCHE,PARP,XPAR,"EUR 18,00","-0,28%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0012612646-XPAR
+GROUPE PLUS-VALUES,MLPVG,XMLI,"EUR 0,01",-,18 Mar 2013,https://live.euronext.com/pt/product/equities/FR0010529719-XMLI
+GROUPE SFPI,SFPI,XPAR,"EUR 1,725","-0,29%",17:29 CET,https://live.euronext.com/pt/product/equities/FR0004155000-XPAR
+GROUPE TERA,ALGTR,ALXP,"EUR 6,00",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0013429404-ALXP
+GROUPIMO,ALIMO,ALXP,"EUR 0,222","-26,00%",08 Jan 2026,https://live.euronext.com/pt/product/equities/FR0014000RP6-ALXP
+GROWENS,GROW,EXGM,"EUR 2,86","0,35%",15:59 CET,https://live.euronext.com/pt/product/equities/IT0005040354-EXGM
+GROWNERS,,VPXB,"EUR 8,00",-,26 Oct 2021,https://live.euronext.com/pt/product/equities/BE0003861789-VPXB
+GT TALENT GROUP,GT,EXGM,"EUR 0,16","5,26%",23 May 2025,https://live.euronext.com/pt/product/equities/IT0005607699-EXGM
+HITECHPROS,ALHIT,ALXP,"EUR 14,60","-2,67%",11:30 CET,https://live.euronext.com/pt/product/equities/FR0010396309-ALXP
+HK,MLHK,XMLI,"EUR 41,80","-5,00%",17:16 CET,https://live.euronext.com/pt/product/equities/DE000A11Q133-XMLI
+HOCHE BAINS L.BAIN,MLHBB,XMLI,"EUR 63,00","1,61%",30 Dec 2025,https://live.euronext.com/pt/product/equities/FR0000051302-XMLI
+HOCHTIEF,4HOT,ETLX,"EUR 258,00","0,47%",06 Oct 2025,https://live.euronext.com/pt/product/equities/DE0006070006-ETLX
+HOCHTIEF,1HOT,BGEM,"EUR 372,00","0,76%",16:51 CET,https://live.euronext.com/pt/product/equities/DE0006070006-BGEM
+HOCHTIEF,2HOT,MTAH,"EUR 348,20","2,90%",15 Dec 2025,https://live.euronext.com/pt/product/equities/DE0006070006-MTAH
+HOFFMANN,ALHGR,ALXP,"EUR 4,415","-2,32%",17:16 CET,https://live.euronext.com/pt/product/equities/FR0013451044-ALXP
+HOFSETH BIOCARE,HBC,XOSL,"NOK 1,295","-4,43%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010598683-XOSL
+Holcim,1HOLN,BGEM,"EUR 85,00","3,03%",12:21 CET,https://live.euronext.com/pt/product/equities/CH0012214059-BGEM
+HOLLAND COLOURS,HOLCO,XAMS,"EUR 87,00","-2,25%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000440311-XAMS
+Holmen,1HOLM,BGEM,"EUR 33,00","-0,18%",08 Jan 2026,https://live.euronext.com/pt/product/equities/SE0011090018-BGEM
+Hologic Inc,1HOLX,BGEM,"EUR 63,50",-,24 Oct 2025,https://live.euronext.com/pt/product/equities/US4364401012-BGEM
+HOME CONCEPT,MLHCF,XMLI,"EUR 16,40","6,49%",06 Nov 2025,https://live.euronext.com/pt/product/equities/FR0012336691-XMLI
+HOME DEPOT,1HD,BGEM,"EUR 325,80","-0,21%",16:27 CET,https://live.euronext.com/pt/product/equities/US4370761029-BGEM
+HOME DEPOT,2HD,MTAH,"EUR 311,00","0,52%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US4370761029-MTAH
+HOME DEPOT,4HD,ETLX,"EUR 339,45","2,97%",17 Oct 2025,https://live.euronext.com/pt/product/equities/US4370761029-ETLX
+HOME INVEST BE.,HOMI,XBRU,"EUR 18,80","-1,26%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974409410-XBRU
+HOMIZY,HZY,EXGM,"EUR 3,88","-2,02%",07 Nov 2024,https://live.euronext.com/pt/product/equities/IT0005468662-EXGM
+HONEYWELL INTERN,4HON,ETLX,"EUR 167,00","-2,24%",22 Dec 2025,https://live.euronext.com/pt/product/equities/US4385161066-ETLX
+HONEYWELL INTERN,1HON,BGEM,"EUR 183,50","-0,01%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US4385161066-BGEM
+HONEYWELL INTERN,2HON,MTAH,"EUR 179,18","1,03%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US4385161066-MTAH
+HOPENING,MLHPE,XMLI,"EUR 6,35","11,40%",24 Dec 2025,https://live.euronext.com/pt/product/equities/FR0010312181-XMLI
+HOPIUM,ALHPI,ALXP,"EUR 0,005","-3,85%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014010QE1-ALXP
+HOPSCOTCH GROUPE,ALHOP,ALXP,"EUR 13,20","0,76%",14:30 CET,https://live.euronext.com/pt/product/equities/FR0000065278-ALXP
+Hormel Foods Corp,1HRL,BGEM,"EUR 19,545","0,77%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US4404521001-BGEM
+HOSTELWORLD GROUP,HSW,XMSM,"EUR 1,38",-,16:30 GMT,https://live.euronext.com/pt/product/equities/GB00BYYN4225-XMSM
+HOT.MAJESTIC CANNE,MLHMC,XMLI,"EUR 6 400,00",-,11:32 CET,https://live.euronext.com/pt/product/equities/FR0006226791-XMLI
+HOTELES BESTPRICE,MLHBP,XMLI,"EUR 4,20",-,19 Dec 2025,https://live.euronext.com/pt/product/equities/ES0105664009-XMLI
+HOTELIM,MLHOT,XMLI,"EUR 51,00","12,83%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000053738-XMLI
+HOTELS DE PARIS,HDP,XPAR,"EUR 1,94","-1,52%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0004165801-XPAR
+HOTL.IMMOB.NICE,MLHIN,XMLI,"EUR 216,00","-0,92%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0006563904-XMLI
+Howmet Aerospace,1HWM,BGEM,"EUR 193,00","-1,18%",15:56 CET,https://live.euronext.com/pt/product/equities/US4432011082-BGEM
+HP,2HPQ,MTAH,"EUR 18,05","0,11%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US40434L1052-MTAH
+HP,4HPQ,ETLX,"EUR 23,33","3,18%",06 Nov 2025,https://live.euronext.com/pt/product/equities/US40434L1052-ETLX
+HP,1HPQ,BGEM,"EUR 17,748","-1,38%",17:11 CET,https://live.euronext.com/pt/product/equities/US40434L1052-BGEM
+HUBSPOT INC,1HUBS,BGEM,"EUR 283,70","-3,70%",15:29 CET,https://live.euronext.com/pt/product/equities/US4435731009-BGEM
+HUDDLESTOCK FINTEC,HUDL,MERK,"NOK 0,644","-2,72%",16:28 CET,https://live.euronext.com/pt/product/equities/NO0010859648-MERK
+HUDDLY,HDLY,MERK,"NOK 13,50","-4,26%",15:36 CET,https://live.euronext.com/pt/product/equities/NO0013470534-MERK
+HUGO BOSS,4BOSS,ETLX,"EUR 34,37","-12,21%",03 Dec 2025,https://live.euronext.com/pt/product/equities/DE000A1PHFF7-ETLX
+HUGO BOSS,2BOSS,MTAH,"EUR 36,27","2,95%",12 Jan 2026,https://live.euronext.com/pt/product/equities/DE000A1PHFF7-MTAH
+HUGO BOSS,1BOSS,BGEM,"EUR 34,73","-0,52%",10:20 CET,https://live.euronext.com/pt/product/equities/DE000A1PHFF7-BGEM
+Huhtamaki Oyj,1HUH,BGEM,"EUR 32,40","-1,34%",11 Jun 2025,https://live.euronext.com/pt/product/equities/FI0009000459-BGEM
+Humana Inc,1HUM,BGEM,"EUR 236,40","-0,13%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US4448591028-BGEM
+HUNTER GROUP,HUNT,XOAS,"NOK 2,36","2,83%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0012953720-XOAS
+HUNTINGTON BANCSH,2HU3,MTAH,"EUR 14,776","-0,65%",23 Sep 2025,https://live.euronext.com/pt/product/equities/US4461501045-MTAH
+HUNTINGTON BANCSH,1HU3,BGEM,"EUR 14,648","-0,20%",05 Dec 2025,https://live.euronext.com/pt/product/equities/US4461501045-BGEM
+HUNTINGTON BANCSH,4HU3,ETLX,"EUR 15,346","2,36%",11 Sep 2025,https://live.euronext.com/pt/product/equities/US4461501045-ETLX
+Huntington Ing,1HII,BGEM,"EUR 331,70","-0,78%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US4464131063-BGEM
+HUNYVERS,ALHUN,ALXP,"EUR 7,52","-2,08%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014007LQ2-ALXP
+Husqvarna,1HUSQ,BGEM,"EUR 4,147","-0,79%",03 Nov 2025,https://live.euronext.com/pt/product/equities/SE0001662230-BGEM
+HUT 8 CORP. O.N.,2HUT,MTAH,"EUR 48,70","-1,22%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US44812J1043-MTAH
+HUT 8 CORP. O.N.,1HUT,BGEM,"EUR 49,30","-3,33%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US44812J1043-BGEM
+HYBRID SOFTWARE GR,HYSG,XBRU,"EUR 4,00","-2,44%",13:51 CET,https://live.euronext.com/pt/product/equities/GB00BYN5BY03-XBRU
+HYDRATEC,HYDRA,XAMS,"EUR 174,00","2,35%",13:14 CET,https://live.euronext.com/pt/product/equities/NL0009391242-XAMS
+HYDRAULIQUEHOLDING,MLHYD,XMLI,"EUR 760,00",-,13 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000064735-XMLI
+HYDRO-EXPLOIT.,MLHYE,XMLI,"EUR 125,00","-1,58%",23 Oct 2025,https://live.euronext.com/pt/product/equities/FR0005843125-XMLI
+HYDROGEN REFUELING,ALHRS,ALXP,"EUR 1,698","-0,12%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014001PM5-ALXP
+HYDROGENPRO,HYPRO,XOSL,"NOK 2,05","3,64%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010892359-XOSL
+HYLORIS,HYL,XBRU,"EUR 7,90","-0,75%",16:39 CET,https://live.euronext.com/pt/product/equities/BE0974363955-XBRU
+HYNION,HYN,MERK,"NOK 0,0196","1,03%",16:27 CET,https://live.euronext.com/pt/product/equities/NO0010920945-MERK
+Hypoport SE,1HYQ,BGEM,"EUR 177,20","-4,83%",11 Aug 2025,https://live.euronext.com/pt/product/equities/DE0005493365-BGEM
+HÖEGH AUTOLINERS,HAUTO,XOSL,"NOK 101,50","3,15%",16:29 CET,https://live.euronext.com/pt/product/equities/NO0011082075-XOSL
+HØLAND OG SETSKOG,HSPG,XOSL,"NOK 153,02",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/NO0010012636-XOSL
+I GRANDI VIAGGI,IGV,MTAA,"EUR 2,81","-0,35%",17:17 CET,https://live.euronext.com/pt/product/equities/IT0005108219-MTAA
+I.CO.P.,ICOP,EXGM,"EUR 18,60","1,92%",14:55 CET,https://live.euronext.com/pt/product/equities/IT0001214433-EXGM
+I.M.D.,IMD,EXGM,"EUR 1,49","0,68%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005549255-EXGM
+I2S,ALI2S,ALXP,"EUR 6,95","-0,71%",14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0005854700-ALXP
+IAC INC,1IAC,BGEM,"EUR 34,47","0,91%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US44891N2080-BGEM
+IANTE INVESTMENTS,MLINT,XMLI,"EUR 4,62",-,20 May 2022,https://live.euronext.com/pt/product/equities/ES0105479002-XMLI
+IBA,IBAB,XBRU,"EUR 14,04","-1,40%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003766806-XBRU
+IBERDROLA,1IBE,BGEM,"EUR 18,575","1,73%",17:05 CET,https://live.euronext.com/pt/product/equities/ES0144580Y14-BGEM
+IBERDROLA,4IBE,ETLX,"EUR 18,31","-0,68%",13 Jan 2026,https://live.euronext.com/pt/product/equities/ES0144580Y14-ETLX
+IBERDROLA,2IBE,MTAH,"EUR 18,04","-4,80%",08 Jan 2026,https://live.euronext.com/pt/product/equities/ES0144580Y14-MTAH
+"IBERSOL,SGPS",IBS,XLIS,"EUR 10,15","2,32%",16:36 WET,https://live.euronext.com/pt/product/equities/PTIBS0AM0008-XLIS
+IBM,2IBM,MTAH,"EUR 259,80","0,27%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US4592001014-MTAH
+IBM,1IBM,BGEM,"EUR 261,60","-1,21%",17:11 CET,https://live.euronext.com/pt/product/equities/US4592001014-BGEM
+IBM,4IBM,ETLX,"EUR 254,35","-3,97%",11:42 CET,https://live.euronext.com/pt/product/equities/US4592001014-ETLX
+ICADE,2ICAD,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000035081-MTAH
+ICADE,ICAD,XPAR,"EUR 21,40","-0,93%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000035081-XPAR
+ICAPE HOLDING,ALICA,ALXP,"EUR 6,26","2,29%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400A3Q3-ALXP
+ICELANDIC SALMON,ISLAX,MERK,"NOK 78,40","2,35%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010724701-MERK
+ID LOGISTICS GROUP,IDL,XPAR,"EUR 433,00","-0,80%",17:36 CET,https://live.euronext.com/pt/product/equities/FR0010929125-XPAR
+IDEX BIOMETRICS,IDEX,XOSL,"NOK 6,553","6,97%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013536078-XOSL
+IDEX Corp,1IEX,BGEM,"EUR 160,50","-1,08%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US45167R1041-BGEM
+IDEXX Lab,1IDXX,BGEM,"EUR 576,80","-0,76%",02 Jan 2026,https://live.euronext.com/pt/product/equities/US45168D1046-BGEM
+IDI,IDIP,XPAR,"EUR 69,20",-,16:29 CET,https://live.euronext.com/pt/product/equities/FR0000051393-XPAR
+IDNTT,IDNTT,EXGM,"EUR 2,82","2,17%",11:35 CET,https://live.euronext.com/pt/product/equities/CH1118852594-EXGM
+IDS,MLIDS,XMLI,"EUR 0,52","1,96%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000079691-XMLI
+IEP INVEST,IEP,XBRU,"EUR 5,30","4,95%",17:29 CET,https://live.euronext.com/pt/product/equities/BE0003748622-XBRU
+IES HOLDINGS INC,1IESC,BGEM,"EUR 297,00","-4,50%",23 Oct 2025,https://live.euronext.com/pt/product/equities/US44951W1062-BGEM
+IGD,IGD,MTAA,"EUR 3,48","-0,29%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005322612-MTAA
+IGIS NEPTUNE,MLABC,XMLI,"EUR 11,43",-,31 Aug 2021,https://live.euronext.com/pt/product/equities/ES0105551008-XMLI
+IKONISYS,ALIKO,ALXP,"EUR 1,51","-4,43%",17:35 CET,https://live.euronext.com/pt/product/equities/FR00140048X2-ALXP
+ILLA,ILLA,EXGM,"EUR 0,0001",-,07 Jun 2024,https://live.euronext.com/pt/product/equities/IT0005578395-EXGM
+Illinois Tool W,1ITW,BGEM,"EUR 218,30","0,09%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US4523081093-BGEM
+ILLUMINA,4ILMN,ETLX,"EUR 65,50","4,05%",22 Apr 2025,https://live.euronext.com/pt/product/equities/US4523271090-ETLX
+ILLUMINA,2ILMN,MTAH,"EUR 104,34","-0,80%",10 Nov 2025,https://live.euronext.com/pt/product/equities/US4523271090-MTAH
+ILLUMINA,1ILMN,BGEM,"EUR 123,52","-0,53%",17:26 CET,https://live.euronext.com/pt/product/equities/US4523271090-BGEM
+ILPRA,ILP,EXGM,"EUR 5,65","0,89%",10:27 CET,https://live.euronext.com/pt/product/equities/IT0005359101-EXGM
+IMALLIANCE,MLIML,XMLI,"EUR 0,264",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0010086371-XMLI
 IMBAKIN HOLDING,,VPXB,"EUR 0,10","11,11%",06 Jan 2026,https://live.euronext.com/pt/product/equities/BE6264882406-VPXB
 IMCD,IMCD,XAMS,"EUR 76,88","-4,95%",17:36 CET,https://live.euronext.com/pt/product/equities/NL0010801007-XAMS
 IMCD,2IMCD,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0010801007-MTAH
 IMEON ENERGY,MLIME,XMLI,-,-,-,https://live.euronext.com/pt/product/equities/FR001400QW73-XMLI
-IMERYS,2NK,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000120859-MTAH
-IMERYS,NK,XPAR,"EUR 25,24","-2,02%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000120859-XPAR
-IMM.PARIS.PERLE,MLIPP,XMLI,"EUR 55,50","23,33%",08 May 2025,https://live.euronext.com/pt/product/equities/FR0006859039-XMLI
-IMMAGRIFOR,,VPXB,"EUR 396,00",-,04 Aug 2015,https://live.euronext.com/pt/product/equities/BE0020932779-VPXB
-IMMERSION,ALIMR,ALXP,"EUR 3,38","-0,59%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0013060100-ALXP
-IMMO MCC,MCC,XBRU,"EUR 530,00","0,95%",14:19 CET,https://live.euronext.com/pt/product/equities/BE0974287196-XBRU
-IMMO MOURY,IMMOU,XBRU,"EUR 33,60",-,11:30 CET,https://live.euronext.com/pt/product/equities/BE0003893139-XBRU
-IMMOB.DASSAULT,IMDA,XPAR,"EUR 51,60","0,78%",12:07 CET,https://live.euronext.com/pt/product/equities/FR0000033243-XPAR
-IMMOBEL,IMMO,XBRU,"EUR 25,00","3,73%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003599108-XBRU
-IMMSI,IMS,MTAA,"EUR 0,557","-1,76%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001413837-MTAA
-IMPIANTI,MPT,EXGM,"EUR 0,93","-0,53%",14:33 CET,https://live.euronext.com/pt/product/equities/IT0005518953-EXGM
-IMPINJ INC,1PI,BGEM,"EUR 149,95","-7,32%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US4532041096-BGEM
-IMPLANET,ALIMP,ALXP,"EUR 0,24","3,00%",17:29 CET,https://live.euronext.com/pt/product/equities/FR0013470168-ALXP
-"IMPRESA,SGPS",IPR,XLIS,"EUR 0,20",-,16:35 WET,https://live.euronext.com/pt/product/equities/PTIPR0AM0000-XLIS
-IMPRIMERIE CHIRAT,MLIMP,XMLI,"EUR 4,70","-2,08%",11:30 CET,https://live.euronext.com/pt/product/equities/FR0000065773-XMLI
-IMPULSE FITNESS,MLIFS,XMLI,"EUR 7,00","-11,95%",02 Dec 2024,https://live.euronext.com/pt/product/equities/ES0105590006-XMLI
-INCLUSIO SA/NV,INCLU,XBRU,"EUR 17,65",-,17:35 CET,https://live.euronext.com/pt/product/equities/BE0974374069-XBRU
-INCYTE,2INCY,MTAH,"EUR 92,16","0,48%",14 Nov 2025,https://live.euronext.com/pt/product/equities/US45337C1027-MTAH
-INCYTE,4INCY,ETLX,"EUR 83,94","-0,64%",09 Dec 2025,https://live.euronext.com/pt/product/equities/US45337C1027-ETLX
-INCYTE,1INCY,BGEM,"EUR 88,06","-2,11%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US45337C1027-BGEM
-IND CHIMICHE FORES,ICF,EXGM,"EUR 6,12","-1,61%",15:07 CET,https://live.euronext.com/pt/product/equities/IT0005416281-EXGM
-INDEL B,INDB,MTAA,"EUR 19,50","-0,76%",16:27 CET,https://live.euronext.com/pt/product/equities/IT0005245508-MTAA
-INDITEX,1ITX,BGEM,"EUR 55,42","-0,68%",13:59 CET,https://live.euronext.com/pt/product/equities/ES0148396007-BGEM
-INDITEX,2ITX,MTAH,"EUR 58,48","2,24%",07 Jan 2026,https://live.euronext.com/pt/product/equities/ES0148396007-MTAH
-INDITEX,4ITX,ETLX,"EUR 56,12","-0,07%",30 Dec 2025,https://live.euronext.com/pt/product/equities/ES0148396007-ETLX
-Indra Sistemas,1IDR,BGEM,"EUR 59,80","3,64%",14:23 CET,https://live.euronext.com/pt/product/equities/ES0118594417-BGEM
-INDUCT,INDCT,MERK,"NOK 4,40","-1,79%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010536048-MERK
-INDUS HOLDING,2INH,MTAH,"EUR 23,80","-2,66%",31 Mar 2025,https://live.euronext.com/pt/product/equities/DE0006200108-MTAH
-INDUS HOLDING,4INH,ETLX,"EUR 23,70","-1,66%",28 Jul 2025,https://live.euronext.com/pt/product/equities/DE0006200108-ETLX
-INDUS HOLDING,1INH,BGEM,"EUR 30,00","2,22%",08 Jan 2026,https://live.euronext.com/pt/product/equities/DE0006200108-BGEM
-INDUSTRIE DE NORA,DNR,MTAA,"EUR 7,54","-1,50%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005186371-MTAA
-Industrivarden,1INDU,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0000107203-BGEM
-Indutrade,1INDT,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0001515552-BGEM
-INFINEON TECHNOLOG,2IFX,MTAH,"EUR 40,82","-3,09%",07 Jan 2026,https://live.euronext.com/pt/product/equities/DE0006231004-MTAH
-INFINEON TECHNOLOG,4IFX,ETLX,"EUR 41,35","-2,78%",14 Jan 2026,https://live.euronext.com/pt/product/equities/DE0006231004-ETLX
-INFINEON TECHNOLOG,1IFX,BGEM,"EUR 41,76","-1,97%",16:47 CET,https://live.euronext.com/pt/product/equities/DE0006231004-BGEM
-INFOCLIP,MLIFC,XMLI,"EUR 2,00",-,27 Oct 2025,https://live.euronext.com/pt/product/equities/FR0011158823-XMLI
-INFOTEL,INF,XPAR,"EUR 40,20","-0,74%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000071797-XPAR
-INFRABEL,,VPXB,"EUR 6,70","20,72%",16 Sep 2025,https://live.euronext.com/pt/product/equities/BE6265912038-VPXB
-ING GROEP,4INGA,ETLX,"EUR 23,46","0,88%",17 Dec 2025,https://live.euronext.com/pt/product/equities/NL0011821202-ETLX
-ING GROEP,2INGA,MTAH,"EUR 21,06","2,96%",29 Jul 2025,https://live.euronext.com/pt/product/equities/NL0011821202-MTAH
-ING GROEP,1INGA,BGEM,"EUR 24,91","-0,26%",13:01 CET,https://live.euronext.com/pt/product/equities/NL0011821202-BGEM
-ING GROEP N.V.,INGA,"XAMS, XBRU","EUR 25,045","0,20%",17:36 CET,https://live.euronext.com/pt/product/equities/NL0011821202-XAMS
-INIFY LABORATORIES,INIFY,MERK,"NOK 3,88","2,11%",15:41 CET,https://live.euronext.com/pt/product/equities/SE0017486103-MERK
-ININ GROUP,ININ,MERK,"NOK 3,15","-4,26%",13:46 CET,https://live.euronext.com/pt/product/equities/NO0010864036-MERK
-INIZIAT BRESCIANE,IB,EXGM,"EUR 11,90","-1,65%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005037905-EXGM
-INMARK,MLINM,XMLI,"EUR 17,90",-,08 Apr 2021,https://live.euronext.com/pt/product/equities/ES0105511002-XMLI
-INMOLECULE,MLINA,XMLI,"EUR 3,98",-,29 Oct 2025,https://live.euronext.com/pt/product/equities/ES0105908000-XMLI
-INMOSUPA,MLISP,XMLI,"EUR 1,62",-,06 Apr 2020,https://live.euronext.com/pt/product/equities/ES0105473005-XMLI
-INNATE PHARMA,4IPH,ETLX,"EUR 1,80","-4,05%",11 Nov 2025,https://live.euronext.com/pt/product/equities/FR0010331421-ETLX
-INNATE PHARMA,IPH,XPAR,"EUR 1,506","0,13%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010331421-XPAR
-INNELEC MULTIMEDIA,ALINN,ALXP,"EUR 3,15","-0,94%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000064297-ALXP
-INNODATA INC,1INOD,BGEM,"EUR 53,30","-1,93%",16:02 CET,https://live.euronext.com/pt/product/equities/US4576422053-BGEM
-INNOVATEC,INC,EXGM,"EUR 0,247","-0,80%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005412298-EXGM
-INNOVATIVE RFK SPA,MLIRF,XMLI,"EUR 1,92",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005391161-XMLI
-INPOST,2INPST,MTAH,"EUR 10,93","2,82%",20 Oct 2025,https://live.euronext.com/pt/product/equities/LU2290522684-MTAH
-INPOST,INPST,XAMS,"EUR 13,65","1,26%",17:35 CET,https://live.euronext.com/pt/product/equities/LU2290522684-XAMS
-INSIGHT ENTERPRISE,1NSIT,BGEM,"EUR 75,98","2,15%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US45765U1034-BGEM
-INSMED INC,1INSM,BGEM,"EUR 140,00","0,72%",15:48 CET,https://live.euronext.com/pt/product/equities/US4576693075-BGEM
-INSTABANK,INSTA,MERK,"NOK 3,77","1,89%",16:46 CET,https://live.euronext.com/pt/product/equities/NO0010762792-MERK
-INSTALLUX,ALLUX,ALXP,"EUR 306,00",-,16:30 CET,https://live.euronext.com/pt/product/equities/FR0000060451-ALXP
-Insulet Corp,1PODD,BGEM,"EUR 254,20","2,38%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US45784P1012-BGEM
-INTEGRAGEN,ALINT,ALXP,"EUR 0,135","-1,46%",14:53 CET,https://live.euronext.com/pt/product/equities/FR0010908723-ALXP
-INTEGRATED WIND SO,IWS,XOSL,"NOK 50,51","-0,12%",16:27 CET,https://live.euronext.com/pt/product/equities/NO0013461350-XOSL
-INTEGRITAS VIAGER,MLVIE,XMLI,"EUR 115,00","-8,73%",14 Aug 2023,https://live.euronext.com/pt/product/equities/FR0014003FN0-XMLI
-INTEL,1INTC,BGEM,"EUR 40,615","-3,82%",17:35 CET,https://live.euronext.com/pt/product/equities/US4581401001-BGEM
-INTEL,4INTC,ETLX,"EUR 41,80","-0,24%",09:41 CET,https://live.euronext.com/pt/product/equities/US4581401001-ETLX
-INTEL,2INTC,MTAH,"EUR 42,00","-0,54%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US4581401001-MTAH
-Interactive,1IBKR,BGEM,"EUR 56,50","-0,53%",11 Dec 2025,https://live.euronext.com/pt/product/equities/US45841N1072-BGEM
-Intercontinental,1ICE,BGEM,"EUR 149,48","2,33%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US45866F1049-BGEM
-INTERCOS,ICOS,MTAA,"EUR 12,42","0,16%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005455875-MTAA
-INTERDIGITAL INC,1IDCC,BGEM,"EUR 278,00","2,96%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US45867G1013-BGEM
-INTERNAT CARE COMP,ICC,EXGM,"EUR 1,27",-,11:26 CET,https://live.euronext.com/pt/product/equities/IT0005469371-EXGM
-INTERNATIONAL C A,4IAG,ETLX,"EUR 4,70","2,02%",09 Oct 2025,https://live.euronext.com/pt/product/equities/ES0177542018-ETLX
-INTERNATIONAL C A,1IAG,BGEM,"EUR 4,673","-0,21%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0177542018-BGEM
-INTERNATIONAL C A,2IAG,MTAH,"EUR 4,513","2,97%",16 Jul 2025,https://live.euronext.com/pt/product/equities/ES0177542018-MTAH
-International F&F,1IFF,BGEM,"EUR 58,96","-1,77%",02 Dec 2025,https://live.euronext.com/pt/product/equities/US4595061015-BGEM
-International P,1IP,BGEM,"EUR 33,04","-2,10%",02 Dec 2025,https://live.euronext.com/pt/product/equities/US4601461035-BGEM
-INTEROIL EXPL PROD,IOX,XOSL,"NOK 0,931","-4,02%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013119255-XOSL
-INTERPARFUMS,2ITP,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0004024222-MTAH
-INTERPARFUMS,ITP,XPAR,"EUR 25,52","-1,16%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0004024222-XPAR
-INTERPUMP GROUP,2IP,MTAH,"EUR 47,10",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/IT0001078911-MTAH
-INTERPUMP GROUP,IP,MTAA,"EUR 48,26","0,12%",17:39 CET,https://live.euronext.com/pt/product/equities/IT0001078911-MTAA
-INTESA SANPAOLO,2ISP,MTAH,"EUR 6,008","0,07%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0000072618-MTAH
-INTESA SANPAOLO,ISP,MTAA,"EUR 5,94","-1,07%",17:39 CET,https://live.euronext.com/pt/product/equities/IT0000072618-MTAA
-INTEXA,ITXT,XPAR,"EUR 2,50",-,20 Nov 2025,https://live.euronext.com/pt/product/equities/FR0000064958-XPAR
-INTRASENSE,ALINS,ALXP,"EUR 0,23","-4,17%",17:06 CET,https://live.euronext.com/pt/product/equities/FR0011179886-ALXP
-INTRED,ITD,EXGM,"EUR 9,90","-0,80%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005337818-EXGM
-INTUIT,2INTU,MTAH,"EUR 485,00","0,32%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US4612021034-MTAH
-INTUIT,4INTU,ETLX,"EUR 473,30","-2,07%",15:47 CET,https://live.euronext.com/pt/product/equities/US4612021034-ETLX
-INTUIT,1INTU,BGEM,"EUR 462,10","-4,42%",16:59 CET,https://live.euronext.com/pt/product/equities/US4612021034-BGEM
-INTUITIVE SURGICAL,4ISRG,ETLX,"EUR 379,80","0,50%",14 Oct 2025,https://live.euronext.com/pt/product/equities/US46120E6023-ETLX
-INTUITIVE SURGICAL,1ISRG,BGEM,"EUR 467,15","-0,22%",10:19 CET,https://live.euronext.com/pt/product/equities/US46120E6023-BGEM
-INTUITIVE SURGICAL,2ISRG,MTAH,"EUR 458,70","0,25%",22 Oct 2025,https://live.euronext.com/pt/product/equities/US46120E6023-MTAH
-INVENTIVA,IVA,XPAR,"EUR 5,71","8,14%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013233012-XPAR
-Invesco Ltd,1IVZ,BGEM,"EUR 25,35","0,80%",16:23 CET,https://live.euronext.com/pt/product/equities/BMG491BT1088-BGEM
-IMBAKIN HOLDING,,VPXB,"EUR 0,10","11,11%",06 Jan 2026,https://live.euronext.com/pt/product/equities/BE6264882406-VPXB
-LEVI STRAUSS & CO,4LEVI,ETLX,"EUR 18,525","-1,07%",12:19 CET,https://live.euronext.com/pt/product/equities/US52736R1023-ETLX
-LEVI STRAUSS&CO,2LEVI,MTAH,"EUR 18,395","-0,38%",19 Dec 2025,https://live.euronext.com/pt/product/equities/US52736R1023-MTAH
+KID,KID,XOSL,"NOK 125,60","-1,72%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010743545-XOSL
+Kimberly-Clark,1KMB,BGEM,"EUR 86,53","0,22%",10:35 CET,https://live.euronext.com/pt/product/equities/US4943681035-BGEM
+Kinder Morgan Inc,1KMI,BGEM,"EUR 23,315","1,28%",29 Dec 2025,https://live.euronext.com/pt/product/equities/US49456B1017-BGEM
+KINEPOLIS GROUP,KIN,XBRU,"EUR 27,20","-0,55%",17:37 CET,https://live.euronext.com/pt/product/equities/BE0974274061-XBRU
+KINGSPAN GROUP PLC,KRX,XMSM,"EUR 72,00","-0,89%",16:30 GMT,https://live.euronext.com/pt/product/equities/IE0004927939-XMSM
+Kinnevik AB,1KINV,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0022060521-BGEM
+KION GROUP,2KGX,MTAH,"EUR 54,35","-2,86%",13 Oct 2025,https://live.euronext.com/pt/product/equities/DE000KGX8881-MTAH
+KION GROUP,1KGX,BGEM,"EUR 64,10","0,39%",15 Jan 2026,https://live.euronext.com/pt/product/equities/DE000KGX8881-BGEM
+KION GROUP,4KGX,ETLX,"EUR 61,45",-,06 Nov 2025,https://live.euronext.com/pt/product/equities/DE000KGX8881-ETLX
+KITRON,KIT,XOSL,"NOK 81,70","4,21%",16:29 CET,https://live.euronext.com/pt/product/equities/NO0003079709-XOSL
+KKO INTERNATIONAL,ALKKO,ALXP,"EUR 0,107",-,17:24 CET,https://live.euronext.com/pt/product/equities/FR0013374667-ALXP
+KKR & Co Inc,1KKR,BGEM,"EUR 117,50","2,42%",06 Jan 2026,https://live.euronext.com/pt/product/equities/US48251W1045-BGEM
+KLA-TENCOR,4KLAC,ETLX,"EUR 1 050,00","2,58%",15 Dec 2025,https://live.euronext.com/pt/product/equities/US4824801009-ETLX
+KLA-TENCOR,2KLAC,MTAH,"EUR 1 344,40","-0,27%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US4824801009-MTAH
+KLA-TENCOR,1KLAC,BGEM,"EUR 1 332,40","-1,16%",16:12 CET,https://live.euronext.com/pt/product/equities/US4824801009-BGEM
+KLARSEN,ALKLA,ALXP,"EUR 0,868","5,85%",17:23 CET,https://live.euronext.com/pt/product/equities/FR0011038348-ALXP
+KLARSEN BSA O,KLBSO,ALXP,"EUR 0,029","-51,67%",14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0014013TD1-ALXP
+KLARSEN BSA P,KLBSP,ALXP,"EUR 0,50",-,19 Dec 2025,https://live.euronext.com/pt/product/equities/FR0014013TC3-ALXP
+KLAVENESS COMBINAT,KCC,XOSL,"NOK 83,90","-0,47%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010833262-XOSL
+KLEA HOLDING,ALKLH,ALXP,"EUR 0,2285","2,24%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013481835-ALXP
+KLEPIERRE,2LI,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000121964-MTAH
+KLEPIERRE,LI,XPAR,"EUR 33,06","-0,12%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000121964-XPAR
+KLEPIERRE REIT,4LI,ETLX,"EUR 33,20","-2,18%",12 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000121964-ETLX
+KLM,,VPXB,"EUR 1,87",-,14 Jan 2025,https://live.euronext.com/pt/product/equities/NL0000009645-VPXB
+KMC PROPERTIES,KMCP,XOSL,"NOK 5,95","-0,83%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013637181-XOSL
+KME GROUP,KME,MTAA,"EUR 0,91","0,22%",15:59 CET,https://live.euronext.com/pt/product/equities/IT0004552359-MTAA
+KME GROUP RSP,KMER,MTAA,"EUR 1,40","2,19%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0004552367-MTAA
+Knorr-Bremse,1KBX,BGEM,"EUR 96,20","-2,98%",09 Jan 2026,https://live.euronext.com/pt/product/equities/DE000KBX1006-BGEM
+KOENIG & BAUER,4SKB,ETLX,"EUR 14,88","7,83%",11 Jul 2025,https://live.euronext.com/pt/product/equities/DE0007193500-ETLX
+KOENIG & BAUER,1SKB,BGEM,"EUR 10,44","-1,51%",15 Dec 2025,https://live.euronext.com/pt/product/equities/DE0007193500-BGEM
+KOENIG&BAUER,2SKB,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/DE0007193500-MTAH
+Kojamo Oyj,1KOJA,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/FI4000312251-BGEM
+KOMPLETT,KOMPL,XOSL,"NOK 13,40","-2,55%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0011016040-XOSL
+KOMPUESTOS,ALKOM,ALXP,"EUR 1,02",-,09:00 CET,https://live.euronext.com/pt/product/equities/ES0105425005-ALXP
+KONE,4KNEBV,ETLX,"EUR 52,22","-2,43%",08 Aug 2025,https://live.euronext.com/pt/product/equities/FI0009013403-ETLX
+KONE,2KNEBV,MTAH,"EUR 49,21",-,23 Jan 2025,https://live.euronext.com/pt/product/equities/FI0009013403-MTAH
+KONE,1KNEBV,BGEM,"EUR 62,20","0,32%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FI0009013403-BGEM
+Konecranes Oyj,1KCR,BGEM,"EUR 91,00","1,39%",08 Dec 2025,https://live.euronext.com/pt/product/equities/FI0009005870-BGEM
+KONGSBERG AUTOMOT,KOA,XOSL,"NOK 2,275","-0,44%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0003033102-XOSL
+KONGSBERG GRUPPEN,KOG,XOSL,"NOK 332,40","9,49%",16:29 CET,https://live.euronext.com/pt/product/equities/NO0013536151-XOSL
+KONINKLIJKE KPN,4KPN,ETLX,"EUR 3,777","-0,50%",14 Jan 2026,https://live.euronext.com/pt/product/equities/NL0000009082-ETLX
+KPN KON,2KPN,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0000009082-MTAH
+KPN KON,KPN,XAMS,"EUR 3,803","0,16%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000009082-XAMS
+KRAFT BANK,KRAB,MERK,"NOK 11,70","-0,85%",16:20 CET,https://live.euronext.com/pt/product/equities/NO0010815103-MERK
+KRATOS DEFENSE & S,1KTOS,BGEM,"EUR 112,80","6,62%",17:35 CET,https://live.euronext.com/pt/product/equities/US50077B2079-BGEM
+KROGER,1KR,BGEM,"EUR 54,50","2,46%",17:05 CET,https://live.euronext.com/pt/product/equities/US5010441013-BGEM
+KROGER,4KR,ETLX,"EUR 59,84","1,44%",24 Oct 2025,https://live.euronext.com/pt/product/equities/US5010441013-ETLX
+KROGER,2KR,MTAH,"EUR 58,12","-0,45%",11 Sep 2025,https://live.euronext.com/pt/product/equities/US5010441013-MTAH
+Krones AG,1KRN,BGEM,"EUR 146,20","4,73%",13 Jan 2026,https://live.euronext.com/pt/product/equities/DE0006335003-BGEM
+KRUSO KAPITAL,KK,EXGM,"EUR 1,60","1,27%",14 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005573800-EXGM
+KRYSTAL BIOTECH IN,1KRYS,BGEM,"EUR 255,00","1,63%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US5011471027-BGEM
+Kuehne Nagel Inter,1KNIN,BGEM,"EUR 185,00","0,54%",23 Dec 2025,https://live.euronext.com/pt/product/equities/CH0025238863-BGEM
+KUMULUS VAPE,ALVAP,ALXP,"EUR 3,99","0,50%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013419876-ALXP
+L'AIR LIQUIDE,4AI,ETLX,"EUR 160,64",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000120073-ETLX
+L'OREAL,4OR,ETLX,"EUR 389,00","-0,68%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000120321-ETLX
+L'OREAL,OR,XPAR,"EUR 384,85","-0,59%",17:36 CET,https://live.euronext.com/pt/product/equities/FR0000120321-XPAR
+L'OREAL,2OR,MTAH,"EUR 363,35","-2,98%",23 Apr 2025,https://live.euronext.com/pt/product/equities/FR0000120321-MTAH
+L3Harris Tech,1LHX,BGEM,"EUR 292,00","0,93%",15:52 CET,https://live.euronext.com/pt/product/equities/US5024311095-BGEM
+LAB FARMACEUT ERFO,ERFO,EXGM,"EUR 1,40","0,72%",14:55 CET,https://live.euronext.com/pt/product/equities/IT0005497885-EXGM
+LABO EUROMEDIS,ALEMG,ALXP,"EUR 3,92",-,09:00 CET,https://live.euronext.com/pt/product/equities/FR0000075343-ALXP
+Laboratorios Farma,1ROVI,BGEM,"EUR 64,95","-4,84%",13 Jan 2026,https://live.euronext.com/pt/product/equities/ES0157261019-BGEM
+LACROIX GROUP,LACR,XPAR,"EUR 12,10","-0,41%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000066607-XPAR
+LAGARDERE SA,MMB,XPAR,"EUR 18,92","-0,94%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000130213-XPAR
+Lagercrantz G,1LAGR,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0014990966-BGEM
+LAM RESEARCH,4LRCX,ETLX,"EUR 191,50","0,04%",14:20 CET,https://live.euronext.com/pt/product/equities/US5128073062-ETLX
+LAM RESEARCH,2LRCX,MTAH,"EUR 132,92","-0,57%",17 Dec 2025,https://live.euronext.com/pt/product/equities/US5128073062-MTAH
+LAM RESEARCH,1LRCX,BGEM,"EUR 192,96","0,76%",15:49 CET,https://live.euronext.com/pt/product/equities/US5128073062-BGEM
+LANDI RENZO,LNDR,MTAA,"EUR 1,034","1,17%",16:52 CET,https://live.euronext.com/pt/product/equities/IT0005619843-MTAA
+LANSON-BCC,ALLAN,ALXP,"EUR 32,30","-0,62%",17:28 CET,https://live.euronext.com/pt/product/equities/FR0004027068-ALXP
+LANTHEUS HOLDINGS,1LNTH,BGEM,"EUR 56,80","-0,49%",30 Dec 2025,https://live.euronext.com/pt/product/equities/US5165441032-BGEM
+LANXESS,1LXS,BGEM,"EUR 17,76","-3,74%",09:31 CET,https://live.euronext.com/pt/product/equities/DE0005470405-BGEM
+LANXESS,2LXS,MTAH,"EUR 16,58","-2,93%",06 Nov 2025,https://live.euronext.com/pt/product/equities/DE0005470405-MTAH
+LANXESS,4LXS,ETLX,"EUR 22,85","-1,04%",05 Mar 2024,https://live.euronext.com/pt/product/equities/DE0005470405-ETLX
+LARGO,ALLGO,ALXP,"EUR 1,81",-,15:54 CET,https://live.euronext.com/pt/product/equities/FR0013308582-ALXP
+Las Vegas Sands,1LVS,BGEM,"EUR 51,83","1,49%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US5178341070-BGEM
+LATECOERE,LAT,XPAR,"EUR 0,0179","-0,56%",17:30 CET,https://live.euronext.com/pt/product/equities/FR001400JY13-XPAR
+LATTICE SEMICONDUC,1LSCC,BGEM,"EUR 77,16","2,23%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US5184151042-BGEM
+LAURENT-PERRIER,LPE,XPAR,"EUR 90,80","0,22%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0006864484-XPAR
+LAVIDE HOLDING,LVIDE,XAMS,"EUR 0,487","-0,61%",09:00 CET,https://live.euronext.com/pt/product/equities/NL0010545679-XAMS
+LDC,LOUP,XPAR,"EUR 92,80","-0,75%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400SF56-XPAR
+LEBON,ALBON,ALXP,"EUR 99,00","-0,80%",13:51 CET,https://live.euronext.com/pt/product/equities/FR0000121295-ALXP
+LECTRA,LSS,XPAR,"EUR 24,05","-0,62%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000065484-XPAR
+LECTRA NV26,LSSNV,XPAR,-,-,-,https://live.euronext.com/pt/product/equities/FR0014013WP9-XPAR
+LEG IMMOBILIEN,2LEG,MTAH,"EUR 77,92","3,95%",25 Jun 2024,https://live.euronext.com/pt/product/equities/DE000LEG1110-MTAH
+LEG IMMOBILIEN,1LEG,BGEM,"EUR 61,00","0,08%",15 Dec 2025,https://live.euronext.com/pt/product/equities/DE000LEG1110-BGEM
+LEG IMMOBILIEN,4LEG,ETLX,"EUR 76,22","3,59%",15 Jan 2025,https://live.euronext.com/pt/product/equities/DE000LEG1110-ETLX
+LEGRAND,2LR,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0010307819-MTAH
+LEGRAND,LR,XPAR,"EUR 128,10","0,43%",17:36 CET,https://live.euronext.com/pt/product/equities/FR0010307819-XPAR
+Leidos Hold,1LDOS,BGEM,"EUR 167,35","-3,07%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US5253271028-BGEM
+LEMON SISTEMI,LS,EXGM,"EUR 1,605","-0,93%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005573438-EXGM
+Lennar Corp,1LEN,BGEM,"EUR 103,14","-1,55%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US5260571048-BGEM
+LENNOX INTERNATION,1LII,BGEM,"EUR 428,50","-3,38%",28 Nov 2025,https://live.euronext.com/pt/product/equities/US5261071071-BGEM
+Lenzing AG,1LNZ,BGEM,"EUR 24,40","-4,69%",08 Jan 2026,https://live.euronext.com/pt/product/equities/AT0000644505-BGEM
+LEONARDO,LDO,MTAA,"EUR 59,02","1,72%",17:38 CET,https://live.euronext.com/pt/product/equities/IT0003856405-MTAA
+LEONARDO,2LDO,MTAH,"EUR 59,00","-0,03%",18:55 CET,https://live.euronext.com/pt/product/equities/IT0003856405-MTAH
+LEONE FILM GROUP,LFG,EXGM,"EUR 1,33","0,76%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0004973696-EXGM
+LEPERMISLIBRE,ALLPL,ALXP,"EUR 0,085","1,19%",17:27 CET,https://live.euronext.com/pt/product/equities/FR001400F2Z1-ALXP
+LERØY SEAFOOD GP,LSG,XOSL,"NOK 48,00","-1,40%",16:26 CET,https://live.euronext.com/pt/product/equities/NO0003096208-XOSL
+LES HOTELS BAVEREZ,ALLHB,ALXP,"EUR 73,50",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0007080254-ALXP
+LEVI STRAUSS & CO,1LEVI,BGEM,"EUR 18,605","-0,93%",17:19 CET,https://live.euronext.com/pt/product/equities/US52736R1023-BGEM
 MFE B,MFEB,MTAA,"EUR 4,026","-0,40%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015001OJ9-MTAA
 MFE B,2MFEB,MTAH,"EUR 4,078","1,65%",14 Jan 2026,https://live.euronext.com/pt/product/equities/NL0015001OJ9-MTAH
 MG INTERNATIONAL,ALMGI,ALXP,"EUR 2,42","3,42%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0010204453-ALXP
@@ -235,11 +1114,11 @@ MICHELIN,ML,XPAR,"EUR 30,07","-0,79%",17:35 CET,https://live.euronext.com/pt/pro
 MICROCHIP TECHNOL,4MCHP,ETLX,"EUR 59,00","2,18%",12 Dec 2025,https://live.euronext.com/pt/product/equities/US5950171042-ETLX
 MICROCHIP TECHNOL,2MCHP,MTAH,"EUR 62,71","0,43%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US5950171042-MTAH
 MICROCHIP TECHNOL,1MCHP,BGEM,"EUR 64,24","-0,23%",17:21 CET,https://live.euronext.com/pt/product/equities/US5950171042-BGEM
-MICRON TECHNOLOGY,2MT,MTAH,"EUR 293,25","-0,95%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US5951121038-MTAH
+MICRON TECHNOLOGY,2MT,MTAH,"EUR 307,00","0,16%",18:25 CET,https://live.euronext.com/pt/product/equities/US5951121038-MTAH
 MICRON TECHNOLOGY,1MU,BGEM,"EUR 306,50","3,53%",17:35 CET,https://live.euronext.com/pt/product/equities/US5951121038-BGEM
 MICRON TECHNOLOGY,4MU,ETLX,"EUR 291,00","-0,78%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US5951121038-ETLX
 MICROSOFT CORP,4MSFT,ETLX,"EUR 394,50","-0,72%",13:08 CET,https://live.euronext.com/pt/product/equities/US5949181045-ETLX
-MICROSOFT CORP,2MSFT,MTAH,"EUR 396,70","0,14%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US5949181045-MTAH
+MICROSOFT CORP,2MSFT,MTAH,"EUR 397,20",-,18:30 CET,https://live.euronext.com/pt/product/equities/US5949181045-MTAH
 MICROSOFT CORP,1MSFT,BGEM,"EUR 397,20","0,27%",17:35 CET,https://live.euronext.com/pt/product/equities/US5949181045-BGEM
 MICS PARTNERS,,VPXB,-,-,-,https://live.euronext.com/pt/product/equities/BE0010610377-VPXB
 MIGUET ET ASSOCIES,MLNMA,XMLI,"EUR 0,058","-3,33%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0010500363-XMLI
@@ -253,7 +1132,7 @@ MKB Nedsense,NEDSE,XAMS,"EUR 0,193",-,16:44 CET,https://live.euronext.com/pt/pro
 MKS INSTRUMENTS IN,1MKSI,BGEM,"EUR 126,75","1,81%",20 Nov 2025,https://live.euronext.com/pt/product/equities/US55306N1046-BGEM
 MODERNA,4MRNA,ETLX,"EUR 35,64","4,00%",15:45 CET,https://live.euronext.com/pt/product/equities/US60770K1079-ETLX
 MODERNA,1MRNA,BGEM,"EUR 35,98","4,28%",17:35 CET,https://live.euronext.com/pt/product/equities/US60770K1079-BGEM
-MODERNA,2MRNA,MTAH,"EUR 35,70","3,46%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US60770K1079-MTAH
+MODERNA,2MRNA,MTAH,"EUR 35,015","-2,68%",18:26 CET,https://live.euronext.com/pt/product/equities/US60770K1079-MTAH
 MODINE MANUFACTURI,1MOD,BGEM,"EUR 107,50","-4,19%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US6078281002-BGEM
 Mohawk Ind,1MHK,BGEM,"EUR 103,00","4,04%",25 Jul 2025,https://live.euronext.com/pt/product/equities/US6081901042-BGEM
 Molina Healthcare,1MOH,BGEM,"EUR 165,75","-0,15%",15:45 CET,https://live.euronext.com/pt/product/equities/US60855R1005-BGEM
@@ -262,11 +1141,11 @@ MOLTIPLY GROUP,MOL,MTAA,"EUR 37,45","-0,40%",17:35 CET,https://live.euronext.com
 MON COURTIER ENERG,ALMCE,ALXP,"EUR 4,68","-1,68%",12:03 CET,https://live.euronext.com/pt/product/equities/FR001400H3A0-ALXP
 MONCEY (FIN.) NOM.,FMONC,XPAR,"EUR 125,50","-1,57%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400SU99-XPAR
 MONCLER,MONC,MTAA,"EUR 51,00","-0,82%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0004965148-MTAA
-MONCLER,2MONC,MTAH,"EUR 51,60","0,35%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0004965148-MTAH
+MONCLER,2MONC,MTAH,"EUR 50,64","-0,71%",18:43 CET,https://live.euronext.com/pt/product/equities/IT0004965148-MTAH
 MONDADORI EDIT,MN,MTAA,"EUR 2,115","-2,08%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001469383-MTAA
 MONDELEZ INTERN,2MDLZ,MTAH,"EUR 60,39","0,45%",18 Jul 2025,https://live.euronext.com/pt/product/equities/US6092071058-MTAH
-MONDELEZ INTERN,4MDLZ,ETLX,"EUR 54,28","0,18%",26 Sep 2025,https://live.euronext.com/pt/product/equities/US6092071058-ETLX
 MONDELEZ INTERN,1MDLZ,BGEM,"EUR 49,26","1,16%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US6092071058-BGEM
+MONDELEZ INTERN,4MDLZ,ETLX,"EUR 54,28","0,18%",26 Sep 2025,https://live.euronext.com/pt/product/equities/US6092071058-ETLX
 MONDO TV,MTV,MTAA,"EUR 0,067","-2,05%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0001447785-MTAA
 MONDO TV FRANCE,MTVFR,EXGM,"EUR 0,028","3,70%",10:13 CET,https://live.euronext.com/pt/product/equities/FR0014011ND8-EXGM
 MongoDB Inc,1MDB,BGEM,"EUR 337,30","1,47%",09:00 CET,https://live.euronext.com/pt/product/equities/US60937P1066-BGEM
@@ -326,128 +1205,322 @@ NATURGY ENERGY GR,4NTGY,ETLX,"EUR 24,74","1,06%",12 Dec 2025,https://live.eurone
 NAVAMEDIC,NAVA,XOSL,"NOK 21,80","-0,46%",16:28 CET,https://live.euronext.com/pt/product/equities/NO0010205966-XOSL
 NEDAP,NEDAP,XAMS,"EUR 90,90","-1,20%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000371243-XAMS
 NEKKAR,NKR,XOSL,"NOK 12,60","-0,79%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0003049405-XOSL
-MFE B,MFEB,MTAA,"EUR 4,026","-0,40%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015001OJ9-MTAA
-NEL,NEL,XOSL,"NOK 2,306","2,04%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010081235-XOSL
-NEMETSCHEK,2NEMX,MTAH,"EUR 125,30","2,87%",11 Feb 2025,https://live.euronext.com/pt/product/equities/DE0006452907-MTAH
-NEMETSCHEK,4NEMX,ETLX,"EUR 124,80","1,79%",19 Aug 2025,https://live.euronext.com/pt/product/equities/DE0006452907-ETLX
+NORWEGIAN AIR SHUT,NAS,XOSL,"NOK 16,075","-1,86%",16:26 CET,https://live.euronext.com/pt/product/equities/NO0010196140-XOSL
+NORWEGIAN BLOCK EX,NBX,MERK,"NOK 0,45","-3,02%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010984966-MERK
+NOS NOVA,NOSN,MERK,"NOK 1,37",-,16:29 CET,https://live.euronext.com/pt/product/equities/NO0010917339-MERK
+"NOS, SGPS",2NOS,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/PTZON0AM0006-MTAH
+"NOS, SGPS",NOS,XLIS,"EUR 4,165","-2,23%",16:35 WET,https://live.euronext.com/pt/product/equities/PTZON0AM0006-XLIS
+NOTORIOUS PICTURES,NPI,EXGM,"EUR 0,708","2,31%",10:01 CET,https://live.euronext.com/pt/product/equities/IT0005025355-EXGM
+"NOVABASE,SGPS",NBA,XLIS,"EUR 9,15","-0,54%",13:39 WET,https://live.euronext.com/pt/product/equities/PTNBA0AM0006-XLIS
+NOVACYT,ALNOV,ALXP,"EUR 0,3935","-2,72%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010397232-ALXP
+NOVAMARINE,NOVA,EXGM,"EUR 7,70","1,32%",09:43 CET,https://live.euronext.com/pt/product/equities/IT0005605701-EXGM
+Novartis,1NOVN,BGEM,"EUR 123,00","-2,38%",15:30 CET,https://live.euronext.com/pt/product/equities/CH0012005267-BGEM
+NOVATECH IND.,MLNOV,XMLI,"EUR 19,70","-0,51%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0000185464-XMLI
+NR21,NR21,XPAR,"EUR 39,00","-3,47%",23 Dec 2025,https://live.euronext.com/pt/product/equities/FR0014001PV6-XPAR
+NRC GROUP,NRC,XOSL,"NOK 9,42","2,28%",16:27 CET,https://live.euronext.com/pt/product/equities/NO0003679102-XOSL
+NRG Energy Inc,1NRG,BGEM,"EUR 135,80","0,11%",15:11 CET,https://live.euronext.com/pt/product/equities/US6293775085-BGEM
+NRJ GROUP,NRG,XPAR,"EUR 7,68","0,26%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000121691-XPAR
+NSC GROUPE,ALNSC,ALXP,"EUR 74,50","11,19%",11:30 CET,https://live.euronext.com/pt/product/equities/FR0000064529-ALXP
+NSE,ALNSE,ALXP,"EUR 47,70","0,42%",17:28 CET,https://live.euronext.com/pt/product/equities/FR0004065639-ALXP
+NSI N.V.,NSI,XAMS,"EUR 19,78","-1,59%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0012365084-XAMS
+NU Holdings,1NUH,BGEM,"EUR 14,086","-2,06%",16:35 CET,https://live.euronext.com/pt/product/equities/KYG6683N1034-BGEM
+Nucor Corp,1NUE,BGEM,"EUR 151,14","2,37%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US6703461052-BGEM
+NUSCO,NUS,EXGM,"EUR 0,815","0,62%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005453110-EXGM
+NVENT ELECTRIC PLC,1NVT,BGEM,"EUR 95,00","0,53%",12:56 CET,https://live.euronext.com/pt/product/equities/IE00BDVJJQ56-BGEM
+NVIDIA CORP,1NVDA,BGEM,"EUR 161,92","0,24%",17:35 CET,https://live.euronext.com/pt/product/equities/US67066G1040-BGEM
+NVIDIA CORP,2NVDA,MTAH,"EUR 161,84","-0,05%",18:55 CET,https://live.euronext.com/pt/product/equities/US67066G1040-MTAH
+NVIDIA CORP,4NVDA,ETLX,"EUR 160,08","-0,87%",16:58 CET,https://live.euronext.com/pt/product/equities/US67066G1040-ETLX
+NVR Inc,1NVR,BGEM,"EUR 7 000,00",-,14 Aug 2025,https://live.euronext.com/pt/product/equities/US62944T1051-BGEM
+NX FILTRATION,NXFIL,XAMS,"EUR 2,70",-,17:35 CET,https://live.euronext.com/pt/product/equities/NL0015000D50-XAMS
+NXP SEMICONDUCTORS,2NXPI,MTAH,"EUR 183,00","2,52%",02 Dec 2025,https://live.euronext.com/pt/product/equities/NL0009538784-MTAH
+NXP SEMICONDUCTORS,4NXPI,ETLX,"EUR 197,00","-1,50%",02 Sep 2025,https://live.euronext.com/pt/product/equities/NL0009538784-ETLX
+NXP SEMICONDUCTORS,1NXPI,BGEM,"EUR 205,00","-1,44%",09:19 CET,https://live.euronext.com/pt/product/equities/NL0009538784-BGEM
+NYKODE THERAPEUTIC,NYKD,XOSL,"NOK 2,64","6,97%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010714785-XOSL
+NYRSTAR,NYR,XBRU,"EUR 0,068","2,72%",16:52 CET,https://live.euronext.com/pt/product/equities/BE0974294267-XBRU
+NYXOAH,NYXH,XBRU,"EUR 4,345","-3,34%",17:37 CET,https://live.euronext.com/pt/product/equities/BE0974358906-XBRU
+O'Reilly Auto,1ORLY,BGEM,"EUR 80,56","2,08%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US67103H1077-BGEM
+OBIZ,ALBIZ,ALXP,"EUR 2,93","3,53%",17:23 CET,https://live.euronext.com/pt/product/equities/FR0014003711-ALXP
+OBSERVE MEDICAL,OBSRV,XOAS,"NOK 0,715","-4,67%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013457952-XOAS
+OCCIDENTAL PETR,1OXY,BGEM,"EUR 36,84","-2,49%",16:56 CET,https://live.euronext.com/pt/product/equities/US6745991058-BGEM
+OCCIDENTAL PETR,2OXY,MTAH,"EUR 35,04","0,20%",12 Dec 2025,https://live.euronext.com/pt/product/equities/US6745991058-MTAH
+OCCIDENTAL PETR,4OXY,ETLX,"EUR 35,745","2,63%",06 Jan 2026,https://live.euronext.com/pt/product/equities/US6745991058-ETLX
+OCEAN GEOLOOP,OCEAN,MERK,"NOK 2,60","-6,48%",14:31 CET,https://live.euronext.com/pt/product/equities/NO0010914641-MERK
+OCEAN SUN,OSUN,MERK,"NOK 1,50","2,74%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010887565-MERK
+OCI,2OCI,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0010558797-MTAH
+OCI,OCI,XAMS,"EUR 3,036","-1,24%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0010558797-XAMS
+OCTOPUS BIOSAFETY,MLOCT,XMLI,"EUR 0,185","-2,12%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0013310281-XMLI
+ODFJELL DRILLING,ODL,XOSL,"NOK 90,20","-0,22%",16:25 CET,https://live.euronext.com/pt/product/equities/BMG671801022-XOSL
+ODFJELL SER. A,ODF,XOSL,"NOK 136,00","0,74%",16:27 CET,https://live.euronext.com/pt/product/equities/NO0003399909-XOSL
+ODFJELL SER. B,ODFB,XOSL,"NOK 131,20","1,39%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0003399917-XOSL
+ODFJELL TECHNOLOGY,OTL,XOSL,"NOK 57,10","0,18%",16:25 CET,https://live.euronext.com/pt/product/equities/BMG6716L1081-XOSL
+ODIOT S.A.,MLODT,XMLI,"EUR 40,00",-,05 Jan 2026,https://live.euronext.com/pt/product/equities/FR0014010DV3-XMLI
+ODYSSEE TECHNO,ALODY,ALXP,"EUR 31,30","-0,95%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400U4P9-ALXP
+OENEO,SBT,XPAR,"EUR 9,20",-,17:35 CET,https://live.euronext.com/pt/product/equities/FR0000052680-XPAR
+Oesterreichische,1POST,BGEM,"EUR 29,95","-4,77%",18 Nov 2025,https://live.euronext.com/pt/product/equities/AT0000APOST4-BGEM
+OFFICINA STELLARE,OS,EXGM,"EUR 25,00",-,16:59 CET,https://live.euronext.com/pt/product/equities/IT0005374035-EXGM
+OK PROPERTIES,MLOKP,XMLI,"EUR 12,00",-,29 Mar 2023,https://live.euronext.com/pt/product/equities/ES0105698007-XMLI
+OKEA,OKEA,XOSL,"NOK 23,90","4,14%",16:27 CET,https://live.euronext.com/pt/product/equities/NO0010816895-XOSL
+OKEANIS ECO TANKER,OET,XOSL,"NOK 404,50","3,32%",16:25 CET,https://live.euronext.com/pt/product/equities/MHY641771016-XOSL
+OKTA INC,1OKTA,BGEM,"EUR 80,25","-1,12%",11:26 CET,https://live.euronext.com/pt/product/equities/US6792951054-BGEM
+OLAV THON EIENDOMS,OLT,XOSL,"NOK 334,00",-,16:25 CET,https://live.euronext.com/pt/product/equities/NO0005638858-XOSL
+Old Dominion,1ODFL,BGEM,"EUR 135,80","6,76%",11 Dec 2025,https://live.euronext.com/pt/product/equities/US6795801009-BGEM
+OLD ENGLAND,,VPXB,"EUR 130,01","10,18%",01 Dec 2015,https://live.euronext.com/pt/product/equities/BE0034169251-VPXB
+OLIDATA,OLI,MTAA,"EUR 2,1785","0,39%",17:05 CET,https://live.euronext.com/pt/product/equities/IT0005634610-MTAA
+OLIMPO REAL ESTATE,MLORE,ENXL,"EUR 3,70",-,05 Dec 2024,https://live.euronext.com/pt/product/equities/PTOTP0AM0004-ENXL
+OMDA,OMDA,MERK,"NOK 46,20","-0,22%",16:28 CET,https://live.euronext.com/pt/product/equities/NO0010894512-MERK
+OMER,OMER,EXGM,"EUR 3,60","-2,70%",17:20 CET,https://live.euronext.com/pt/product/equities/IT0005453748-EXGM
+OMER-DECUGIS & CIE,ALODC,ALXP,"EUR 9,56","3,69%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0014003T71-ALXP
+Omnicom Group Inc,1OMC,BGEM,"EUR 66,10","-2,48%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US6819191064-BGEM
+OMV,1OMV,BGEM,"EUR 49,36","0,53%",14 Jan 2026,https://live.euronext.com/pt/product/equities/AT0000743059-BGEM
+OMV,4OMV,ETLX,"EUR 49,56","1,02%",14:17 CET,https://live.euronext.com/pt/product/equities/AT0000743059-ETLX
+ON HOLDING CLAS A,1ONON,BGEM,"EUR 43,00","6,44%",05 Jan 2026,https://live.euronext.com/pt/product/equities/CH1134540470-BGEM
+ON Semiconductor,1ON,BGEM,"EUR 52,75","-0,57%",15:48 CET,https://live.euronext.com/pt/product/equities/US6821891057-BGEM
+ON Semiconductor,2ON,MTAH,"EUR 51,04","-2,97%",18:00 CET,https://live.euronext.com/pt/product/equities/US6821891057-MTAH
+ONCODESIGN PM,ALOPM,ALXP,"EUR 0,71","11,99%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400CM63-ALXP
+ONCOINVENT,ONCIN,XOSL,"NOK 0,44","-1,35%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013251173-XOSL
+ONDAS HOLDINGS INC,1ONDS,BGEM,"EUR 10,64","-6,01%",17:35 CET,https://live.euronext.com/pt/product/equities/US68236H2040-BGEM
+ONE EXP BSA 2025 2,ONEBS,ALXP,"EUR 0,016","6,67%",11:51 CET,https://live.euronext.com/pt/product/equities/FR00140126G1-ALXP
+ONE EXPERIENCE,ALEXP,ALXP,"EUR 0,65",-,17:37 CET,https://live.euronext.com/pt/product/equities/FR0013266772-ALXP
+ONEOK,1OKE,BGEM,"EUR 63,04","1,35%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US6826801036-BGEM
+ONEOK,2OKE,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/US6826801036-MTAH
+ONEOK,4OKE,ETLX,"EUR 65,31","1,13%",28 Aug 2025,https://live.euronext.com/pt/product/equities/US6826801036-ETLX
+ONLINEFORMAPRO,MLONL,XMLI,"EUR 0,74",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0004174712-XMLI
+ONTEX GROUP,ONTEX,XBRU,"EUR 5,33","4,31%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974276082-XBRU
+ONWARD MEDICAL,ONWD,"XBRU, XAMS, XPAR","EUR 4,53","-0,33%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015000HT4-XBRU
+OPENDOOR TECHNOLOG,1OPEN,BGEM,"EUR 5,72","1,38%",17:29 CET,https://live.euronext.com/pt/product/equities/US6837121036-BGEM
+OPMOBILITY,OPM,XPAR,"EUR 16,07","-1,89%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000124570-XPAR
+OPMOBILITY,2OPM,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000124570-MTAH
+OPS ECOM,OEC,MTAA,"EUR 0,151","-0,98%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005122400-MTAA
+OPS ITALIA,OPS,MTAA,"EUR 0,15","-1,64%",16:58 CET,https://live.euronext.com/pt/product/equities/IT0005577868-MTAA
+OPS RETAIL,OPR,MTAA,"EUR 0,04","2,56%",14:42 CET,https://live.euronext.com/pt/product/equities/IT0005545675-MTAA
+OPTIMCO,,VPXB,"EUR 64,00","-9,86%",30 Apr 2024,https://live.euronext.com/pt/product/equities/BE0942448938-VPXB
+OPTION,OPTI,XBRU,"EUR 0,0106","6,00%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003836534-XBRU
+OPTION CARE HEALTH,1OPCH,BGEM,"EUR 22,20","-4,31%",13 Oct 2025,https://live.euronext.com/pt/product/equities/US68404L2016-BGEM
+ORACLE,1ORCL,BGEM,"EUR 162,72","-1,88%",17:35 CET,https://live.euronext.com/pt/product/equities/US68389X1054-BGEM
+ORACLE,2ORCL,MTAH,"EUR 163,60","0,54%",18:10 CET,https://live.euronext.com/pt/product/equities/US68389X1054-MTAH
+ORACLE,4ORCL,ETLX,"EUR 166,60","-4,03%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US68389X1054-ETLX
+ORANGE,ORA,XPAR,"EUR 14,77","1,10%",17:39 CET,https://live.euronext.com/pt/product/equities/FR0000133308-XPAR
+ORANGE,4ORA,ETLX,"EUR 14,185",-,13 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000133308-ETLX
+ORANGE,1ORA,BGEM,"EUR 14,79","1,16%",10:25 CET,https://live.euronext.com/pt/product/equities/FR0000133308-BGEM
+ORANGE,2ORA,MTAH,"EUR 14,355","4,93%",12 Dec 2025,https://live.euronext.com/pt/product/equities/FR0000133308-MTAH
+ORANGE BELGIUM,OBEL,XBRU,"EUR 19,25","-0,26%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003735496-XBRU
+ORBIS PROPERTIES,MLORB,XMLI,"EUR 13,60",-,30 Jul 2020,https://live.euronext.com/pt/product/equities/ES0105490009-XMLI
 NORWEGIAN AIR SHUT,NAS,XOSL,"NOK 16,075","-1,86%",16:26 CET,https://live.euronext.com/pt/product/equities/NO0010196140-XOSL
 NORWEGIAN BLOCK EX,NBX,MERK,"NOK 0,45","-3,02%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010984966-MERK
 ORDISSIMO,ALORD,ALXP,"EUR 0,491","-4,48%",17:19 CET,https://live.euronext.com/pt/product/equities/FR0013318052-ALXP
 OREGE,OREGE,XPAR,"EUR 0,29","-0,68%",16:43 CET,https://live.euronext.com/pt/product/equities/FR0010609206-XPAR
-PHILIP MORRIS INT,2PM,MTAH,"EUR 162,62","2,98%",26 May 2025,https://live.euronext.com/pt/product/equities/US7181721090-MTAH
+ORGANON & CO.,1OGN,BGEM,"EUR 7,482","3,31%",16:52 CET,https://live.euronext.com/pt/product/equities/US68622V1061-BGEM
+ORGANON & CO.,4OGN,ETLX,"EUR 5,796","0,77%",05 Nov 2025,https://live.euronext.com/pt/product/equities/US68622V1061-ETLX
+ORGANON&CO.,2OGN,MTAH,"EUR 6,83","2,95%",18 Nov 2025,https://live.euronext.com/pt/product/equities/US68622V1061-MTAH
 PROTECTOR FORSIKRG,PROT,XOSL,"NOK 538,00","0,75%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010209331-XOSL
+PROXIMAR SEAFOOD,PROXI,MERK,"NOK 0,68","1,49%",16:28 CET,https://live.euronext.com/pt/product/equities/NO0010893902-MERK
+PROXIMUS,2PROX,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/BE0003810273-MTAH
+PROXIMUS,PROX,XBRU,"EUR 7,245","-1,56%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003810273-XBRU
+PRUDENTIAL FIN,4PRU,ETLX,"EUR 89,14","1,25%",23 Oct 2025,https://live.euronext.com/pt/product/equities/US7443201022-ETLX
+PRUDENTIAL FIN,2PRU,MTAH,"EUR 87,48","-0,86%",24 Oct 2025,https://live.euronext.com/pt/product/equities/US7443201022-MTAH
+PRUDENTIAL FIN,1PRU,BGEM,"EUR 100,80","0,82%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US7443201022-BGEM
+PRYME,PRYME,MERK,"NOK 6,48","7,64%",15:03 CET,https://live.euronext.com/pt/product/equities/NL0015002E73-MERK
+PRYSMIAN,2PRY,MTAH,"EUR 95,44","-0,38%",18:53 CET,https://live.euronext.com/pt/product/equities/IT0004176001-MTAH
+PRYSMIAN,PRY,MTAA,"EUR 95,80","2,35%",17:39 CET,https://live.euronext.com/pt/product/equities/IT0004176001-MTAA
+PSP,1PSPN,BGEM,"EUR 156,00",-,05 Jan 2026,https://live.euronext.com/pt/product/equities/CH0018294154-BGEM
+PUBLIC PROPERTY IN,PUBLI,XOSL,"NOK 23,75","-0,21%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0013178616-XOSL
+Public Service Ent,1PEG,BGEM,"EUR 70,00","2,94%",10 Sep 2025,https://live.euronext.com/pt/product/equities/US7445731067-BGEM
+PUBLICIS GROUPE,4PUB,ETLX,"EUR 87,66","0,92%",10:38 CET,https://live.euronext.com/pt/product/equities/FR0000130577-ETLX
+PUBLICIS GROUPE SA,2PUB,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000130577-MTAH
+PUBLICIS GROUPE SA,PUB,XPAR,"EUR 86,28","-0,35%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000130577-XPAR
+Puig Brands,1PUIG,BGEM,"EUR 16,11","6,13%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0105777017-BGEM
+PULLUP ENTERTAIN,ALPUL,ALXP,"EUR 15,78","11,60%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0012419307-ALXP
+PUMA,2PUM,MTAH,"EUR 23,36","-3,47%",09 Jan 2026,https://live.euronext.com/pt/product/equities/DE0006969603-MTAH
+PUMA,4PUM,ETLX,"EUR 24,11","8,70%",08 Jan 2026,https://live.euronext.com/pt/product/equities/DE0006969603-ETLX
+PUMA,1PUM,BGEM,"EUR 22,00","0,09%",17:15 CET,https://live.euronext.com/pt/product/equities/DE0006969603-BGEM
+PURE STORAGE CL A,1PSTG,BGEM,"EUR 60,96","-4,78%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US74624M1027-BGEM
+PYRUM INNOVATIONS,PYRUM,MERK,"NOK 330,00","2,48%",16:25 CET,https://live.euronext.com/pt/product/equities/DE000A2G8ZX8-MERK
+QEV,QEV,XAMS,"EUR 6,80","-1,45%",27 Nov 2025,https://live.euronext.com/pt/product/equities/NL0015000NM7-XAMS
+QEV TREAS SHARES,QEVT,XAMS,-,-,-,https://live.euronext.com/pt/product/equities/NL0015000NL9-XAMS
+QEV WARRANTS,QEVW,XAMS,"EUR 0,22","-70,67%",24 Feb 2022,https://live.euronext.com/pt/product/equities/NL0015000NK1-XAMS
+QIAGEN,4QGEN,ETLX,"EUR 38,28","-3,35%",10 Feb 2025,https://live.euronext.com/pt/product/equities/NL0015002SN0-ETLX
+QIAGEN,2QGEN,MTAH,"EUR 40,185","-2,98%",25 Nov 2024,https://live.euronext.com/pt/product/equities/NL0015002SN0-MTAH
+QIAGEN,1QGEN,BGEM,"EUR 40,65","0,76%",14 Jan 2026,https://live.euronext.com/pt/product/equities/NL0015002SN0-BGEM
+Qorvo Inc,1QRVO,BGEM,"EUR 69,13","-2,94%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US74736K1016-BGEM
+QRF,QRF,XBRU,"EUR 10,85","1,40%",16:14 CET,https://live.euronext.com/pt/product/equities/BE0974272040-XBRU
+Qt Group Oyj,1QTCO,BGEM,"EUR 38,00","-1,81%",22 Oct 2025,https://live.euronext.com/pt/product/equities/FI4000198031-BGEM
+QUADIENT,QDT,XPAR,"EUR 16,40","-1,56%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000120560-XPAR
+QUALCOMM,1QCOM,BGEM,"EUR 137,96","-2,49%",17:35 CET,https://live.euronext.com/pt/product/equities/US7475251036-BGEM
+QUALCOMM,4QCOM,ETLX,"EUR 139,66","-2,85%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US7475251036-ETLX
+QUALCOMM,2QCOM,MTAH,"EUR 142,82","-0,64%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US7475251036-MTAH
+QUALYS INC,1QLYS,BGEM,"EUR 111,60","-2,87%",02 Jan 2026,https://live.euronext.com/pt/product/equities/US74758T3032-BGEM
+Quanta Services,1PWR,BGEM,"EUR 359,90","-0,22%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US74762E1029-BGEM
+QUANTUM GENOMICS,ALQGC,ALXP,"EUR 0,0721","-1,77%",24 Oct 2024,https://live.euronext.com/pt/product/equities/FR0011648971-ALXP
+Quest Diagnostic,1QDX,BGEM,"EUR 151,30","2,26%",06 Jan 2026,https://live.euronext.com/pt/product/equities/US74834L1008-BGEM
+QUESTERRE ENERGY,QEC,XOSL,"NOK 2,235","0,22%",16:26 CET,https://live.euronext.com/pt/product/equities/CA74836K1003-XOSL
+QUESTFOR GR-PRICAF,QFG,XBRU,"EUR 4,09","-0,24%",17:29 CET,https://live.euronext.com/pt/product/equities/BE0003730448-XBRU
+QWAMPLIFY,ALQWA,ALXP,"EUR 1,80","0,56%",16:25 CET,https://live.euronext.com/pt/product/equities/FR0010889386-ALXP
+RACING FORCE,RFG,EXGM,"EUR 5,02","-1,57%",12:07 CET,https://live.euronext.com/pt/product/equities/IT0005466963-EXGM
+RACING FORCE,ALRFG,ALXP,"EUR 5,16","0,39%",12:34 CET,https://live.euronext.com/pt/product/equities/IT0005466963-ALXP
+RADICI,RAD,EXGM,"EUR 1,03",-,14 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005379737-EXGM
+RAI WAY,RWAY,MTAA,"EUR 5,59","-0,36%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005054967-MTAA
+Raiffeisen Bank,4RBI,ETLX,"EUR 36,24","-2,32%",15 Jan 2026,https://live.euronext.com/pt/product/equities/AT0000606306-ETLX
+Raiffeisen Bank,1RBI,BGEM,"EUR 37,50","1,63%",16:43 CET,https://live.euronext.com/pt/product/equities/AT0000606306-BGEM
+RAIZE,MLRZE,ENXL,"EUR 0,84","2,44%",11:30 CET,https://live.euronext.com/pt/product/equities/PTRIZ0AM0009-ENXL
+Ralph Lauren Corp,1RLA,BGEM,"EUR 309,00","-0,50%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US7512121010-BGEM
+RAMADA,RAM,XLIS,"EUR 7,46","0,54%",16:29 WET,https://live.euronext.com/pt/product/equities/PTFRV0AE0004-XLIS
+RAMBUS INC,1RMBS,BGEM,"EUR 91,00","8,96%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US7509171069-BGEM
+RAMSAY GEN SANTE,GDS,XPAR,"EUR 10,20","5,16%",17:25 CET,https://live.euronext.com/pt/product/equities/FR0000044471-XPAR
+RANA GRUBER,RANA,XOSL,"NOK 77,20",-,16:25 CET,https://live.euronext.com/pt/product/equities/NO0010907389-XOSL
+RANDSTAD NV,RAND,XAMS,"EUR 29,90","-1,81%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000379121-XAMS
+RANDSTAD NV,2RAND,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0000379121-MTAH
+RAPID NUTRITION,ALRPD,ALXP,"EUR 0,0058","-6,45%",17:35 CET,https://live.euronext.com/pt/product/equities/GB00BM9PTW47-ALXP
+Rational AG,1RAA,BGEM,"EUR 667,50","-2,63%",12 Jan 2026,https://live.euronext.com/pt/product/equities/DE0007010803-BGEM
+RATTI,RAT,MTAA,"EUR 1,43",-,17:24 CET,https://live.euronext.com/pt/product/equities/IT0004724107-MTAA
+Raymond James Fin,1RJF,BGEM,"EUR 136,00","-2,16%",13 Oct 2025,https://live.euronext.com/pt/product/equities/US7547301090-BGEM
+RCS MEDIAGROUP,RCS,MTAA,"EUR 0,986","-0,60%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0004931496-MTAA
+REACH SUBSEA,REACH,XOSL,"NOK 6,77","0,15%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0003117202-XOSL
+REALCO,REAL,MLXB,"EUR 19,70","4,79%",14 Jan 2026,https://live.euronext.com/pt/product/equities/BE0003841583-MLXB
+REALITES,ALREA,ALXP,"EUR 0,352","0,57%",15:00 CET,https://live.euronext.com/pt/product/equities/FR0011858190-ALXP
+REBIRTH,ALREB,ALXP,"EUR 2,32","0,87%",28 May 2025,https://live.euronext.com/pt/product/equities/IT0005460081-ALXP
+REC SILICON,RECSI,XOSL,"NOK 1,05","-1,50%",16:29 CET,https://live.euronext.com/pt/product/equities/NO0010112675-XOSL
+RECORDATI ORD,2REC,MTAH,"EUR 48,42","0,33%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0003828271-MTAH
+RECORDATI ORD,REC,MTAA,"EUR 47,98","-0,58%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0003828271-MTAA
+RECTICEL,RECT,XBRU,"EUR 9,74","-1,62%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003656676-XBRU
+RED CAT HOLDINGS I,1RCAT,BGEM,"EUR 12,25","2,08%",17:19 CET,https://live.euronext.com/pt/product/equities/US75644T1007-BGEM
+RED ELECTRICA CORP,4REE,ETLX,"EUR 16,90","1,38%",21 Aug 2025,https://live.euronext.com/pt/product/equities/ES0173093024-ETLX
+RED ELECTRICA CORP,1REE,BGEM,"EUR 14,91","0,95%",10:33 CET,https://live.euronext.com/pt/product/equities/ES0173093024-BGEM
+RED ELECTRICA CORP,2REE,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/ES0173093024-MTAH
+Redcare Pharma,4SAE,ETLX,"EUR 61,20","-2,63%",04 Dec 2025,https://live.euronext.com/pt/product/equities/NL0012044747-ETLX
+Redcare Pharma,1RDC,BGEM,"EUR 76,15","-4,69%",27 Oct 2025,https://live.euronext.com/pt/product/equities/NL0012044747-BGEM
+Reddit Inc,2RDDT,MTAH,"EUR 222,00","1,84%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US75734B1008-MTAH
+Reddit Inc,1RDDT,BGEM,"EUR 198,00","-4,81%",16:41 CET,https://live.euronext.com/pt/product/equities/US75734B1008-BGEM
+REDELFI,RDF,EXGM,"EUR 12,86","0,63%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005496101-EXGM
+REDFISH,RFLTC,EXGM,"EUR 1,295","-1,15%",12:30 CET,https://live.euronext.com/pt/product/equities/IT0005549354-EXGM
+REFUELS,REFL,MERK,"NOK 14,60","5,04%",16:25 CET,https://live.euronext.com/pt/product/equities/NL0015001BF4-MERK
+REGENERON PHARMA,4REGN,ETLX,"EUR 482,00","-1,49%",13 Oct 2025,https://live.euronext.com/pt/product/equities/US75886F1075-ETLX
+REGENERON PHARMA,1REGN,BGEM,"EUR 635,20","-1,12%",16:07 CET,https://live.euronext.com/pt/product/equities/US75886F1075-BGEM
+REGENERON PHARMA,2REGN,MTAH,"EUR 683,60","-0,90%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US75886F1075-MTAH
+Regions Financial,1RFU,BGEM,"EUR 21,00",-,20 Nov 2025,https://live.euronext.com/pt/product/equities/US7591EP1005-BGEM
+REIBEL,REI,MLXB,"EUR 0,01","-91,67%",20 Jun 2024,https://live.euronext.com/pt/product/equities/BE0003829463-MLXB
+REINET INVESTMENTS,REINA,XAMS,"EUR 29,40","0,68%",17:35 CET,https://live.euronext.com/pt/product/equities/LU0383812293-XAMS
+RELX,REN,XAMS,"EUR 35,72","-0,94%",17:35 CET,https://live.euronext.com/pt/product/equities/GB00B2B0DG97-XAMS
+REMY COINTREAU,RCO,XPAR,"EUR 40,70","-1,60%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000130395-XPAR
+REMY COINTREAU,2RCO,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000130395-MTAH
+REN,RENE,XLIS,"EUR 3,31","-0,15%",16:35 WET,https://live.euronext.com/pt/product/equities/PTREL0AM0008-XLIS
+REN,2RENE,MTAH,"EUR 3,06","2,69%",05 Jun 2025,https://live.euronext.com/pt/product/equities/PTREL0AM0008-MTAH
+RENAULT,4RNO,ETLX,"EUR 36,70","-2,21%",16 Dec 2025,https://live.euronext.com/pt/product/equities/FR0000131906-ETLX
+RENAULT,1RNO,BGEM,"EUR 31,97","-2,95%",17:26 CET,https://live.euronext.com/pt/product/equities/FR0000131906-BGEM
+RENAULT,RNO,XPAR,"EUR 31,83","-2,96%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000131906-XPAR
+RENAULT,2RNO,MTAH,"EUR 33,72","-1,09%",08 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000131906-MTAH
+RENOVALO,RNV,EXGM,"EUR 1,435","3,24%",11:55 CET,https://live.euronext.com/pt/product/equities/IT0005500571-EXGM
+REPLIGEN CORP,1RGEN,BGEM,"EUR 128,65","-2,02%",31 Oct 2025,https://live.euronext.com/pt/product/equities/US7599161095-BGEM
+REPLY,REY,MTAA,"EUR 112,40","-0,18%",17:36 CET,https://live.euronext.com/pt/product/equities/IT0005282865-MTAA
+REPSOL,2REP,MTAH,"EUR 16,23","2,95%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0173516115-MTAH
+REPSOL,1REP,BGEM,"EUR 15,89","0,79%",16:29 CET,https://live.euronext.com/pt/product/equities/ES0173516115-BGEM
+REPSOL,4REP,ETLX,"EUR 16,945","3,23%",05 Jan 2026,https://live.euronext.com/pt/product/equities/ES0173516115-ETLX
+Republic Services,1RSG,BGEM,"EUR 180,00","-0,80%",23 Dec 2025,https://live.euronext.com/pt/product/equities/US7607591002-BGEM
+RES,RES,EXGM,"EUR 6,94","2,36%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005543613-EXGM
+RES GESTAE SOCIMI,MLJDL,XMLI,"EUR 7,00",-,29 Jun 2021,https://live.euronext.com/pt/product/equities/ES0105550000-XMLI
+ResMed Inc,1RMD,BGEM,"EUR 222,50","1,09%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US7611521078-BGEM
+RETAIL ESTATES,RET,"XBRU, XAMS","EUR 63,70","0,47%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003720340-XBRU
+RETI,RETI,EXGM,"EUR 1,51",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005418204-EXGM
+REVO INSURANCE,REVO,MTAA,"EUR 23,55","0,86%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005513202-MTAA
+REVOLUTION MEDICIN,1RVMD,BGEM,"EUR 104,00","4,52%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US76155X1000-BGEM
+REWAY GROUP,RWY,EXGM,"EUR 10,30","0,49%",15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005528069-EXGM
+REWORLD MEDIA,ALREW,ALXP,"EUR 1,526","0,39%",17:17 CET,https://live.euronext.com/pt/product/equities/FR0010820274-ALXP
+REXEL,2RXL,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0010451203-MTAH
+REXEL,RXL,XPAR,"EUR 34,42","0,09%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010451203-XPAR
+RH,1RH,BGEM,"EUR 197,40","6,16%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US74967X1037-BGEM
+RHEINMETALL,4RHM,ETLX,"EUR 1 950,00","2,09%",13:52 CET,https://live.euronext.com/pt/product/equities/DE0007030009-ETLX
+RHEINMETALL,1RHM,BGEM,"EUR 1 906,00","-0,21%",17:29 CET,https://live.euronext.com/pt/product/equities/DE0007030009-BGEM
+RHEINMETALL,2RHM,MTAH,"EUR 1 904,00","-0,31%",15 Jan 2026,https://live.euronext.com/pt/product/equities/DE0007030009-MTAH
+RIBA MUNDO,RMT,EXGM,"EUR 2,84","-3,40%",17:29 CET,https://live.euronext.com/pt/product/equities/ES0105724001-EXGM
+RIBER,ALRIB,ALXP,"EUR 3,96","3,94%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000075954-ALXP
+RIGETTI COMPUTING,1RGTI,BGEM,"EUR 21,86","-0,55%",17:28 CET,https://live.euronext.com/pt/product/equities/US76655K1034-BGEM
+RINO PETINO,RPTN,EXGM,"EUR 2,30",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0005663429-EXGM
+Riot Platforms,1RIOT,BGEM,"EUR 15,828","7,38%",17:26 CET,https://live.euronext.com/pt/product/equities/US7672921050-BGEM
+RISANAMENTO,RN,MTAA,"EUR 0,02",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0001402269-MTAA
+RIVER TECH,RIVER,MERK,"NOK 4,12","5,64%",15:46 CET,https://live.euronext.com/pt/product/equities/MT0001710103-MERK
+RIVIAN AUTOMOTIVE,1RIVN,BGEM,"EUR 14,80","-0,27%",15:35 CET,https://live.euronext.com/pt/product/equities/US76954A1034-BGEM
+ROBERTET,RBT,XPAR,"EUR 900,00","-0,33%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000039091-XPAR
+ROBERTET CDV 87,CBR,XPAR,"EUR 91,26","-2,50%",12 Nov 2025,https://live.euronext.com/pt/product/equities/FR0000045619-XPAR
+ROBERTET CI,CBE,XPAR,"EUR 793,80","4,45%",14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000045601-XPAR
+ROBINHOOD MARKETS,4HOOD,ETLX,"EUR 91,26","-8,46%",16:48 CET,https://live.euronext.com/pt/product/equities/US7707001027-ETLX
+ROBINHOOD MARKETS,1HOOD,BGEM,"EUR 93,41","-6,34%",17:35 CET,https://live.euronext.com/pt/product/equities/US7707001027-BGEM
+ROBINHOOD MARKETS,2HOOD,MTAH,"EUR 94,00","0,63%",18:27 CET,https://live.euronext.com/pt/product/equities/US7707001027-MTAH
+ROCHE BOBOIS,RBO,XPAR,"EUR 29,60","-2,31%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013344173-XPAR
+Roche Holding,1ROG,BGEM,"EUR 368,00","-0,54%",14:22 CET,https://live.euronext.com/pt/product/equities/CH0012032048-BGEM
+ROCHE I,1RO,BGEM,"EUR 384,00","2,13%",10:39 CET,https://live.euronext.com/pt/product/equities/CH0012032113-BGEM
+ROCKET LAB CORP,1RKLB,BGEM,"EUR 83,04","9,78%",17:35 CET,https://live.euronext.com/pt/product/equities/US7731211089-BGEM
+ROCKET SHARING C,RKT,EXGM,"EUR 0,276","-2,13%",16:24 CET,https://live.euronext.com/pt/product/equities/IT0005481830-EXGM
+ROCKWELL AUTO,1ROK,BGEM,"EUR 368,10","2,88%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US7739031091-BGEM
+ROCKWELL AUTO,4ROK,ETLX,"EUR 346,90","2,63%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US7739031091-ETLX
+ROCKWELL AUTO,2ROK,MTAH,"EUR 311,00","-4,95%",14 Nov 2025,https://live.euronext.com/pt/product/equities/US7739031091-MTAH
+ROCTOOL,ALROC,ALXP,"EUR 0,48","-4,00%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0010523167-ALXP
+ROGALAND SPAREBANK,ROGS,XOSL,"NOK 143,00",-,16:25 CET,https://live.euronext.com/pt/product/equities/NO0006001007-XOSL
+ROKU,2ROKU,MTAH,"EUR 84,31","-2,14%",13 Nov 2025,https://live.euronext.com/pt/product/equities/US77543R1023-MTAH
+ROKU,1ROKU,BGEM,"EUR 92,63","-3,92%",12 Jan 2026,https://live.euronext.com/pt/product/equities/US77543R1023-BGEM
+ROKU,4ROKU,ETLX,"EUR 85,04","-1,16%",24 Sep 2025,https://live.euronext.com/pt/product/equities/US77543R1023-ETLX
+Rollins Inc,1ROL,BGEM,"EUR 52,72","0,11%",09 Dec 2025,https://live.euronext.com/pt/product/equities/US7757111049-BGEM
+ROMERIKE SPAREBK,ROMER,MERK,"NOK 143,48","1,06%",14:45 CET,https://live.euronext.com/pt/product/equities/NO0010808405-MERK
+ROMREAL,ROM,XOAS,"NOK 2,50","-0,79%",10:04 CET,https://live.euronext.com/pt/product/equities/BMG763301022-XOAS
+Roper Technologies,1ROP,BGEM,"EUR 354,60","-1,85%",15:34 CET,https://live.euronext.com/pt/product/equities/US7766961061-BGEM
+ROSETTI MARINO,YRM,EXGM,"EUR 322,00","1,26%",13:57 CET,https://live.euronext.com/pt/product/equities/IT0001017851-EXGM
+Ross Stores Inc,1ROST,BGEM,"EUR 155,24","-0,01%",18 Dec 2025,https://live.euronext.com/pt/product/equities/US7782961038-BGEM
+ROTON,,VPXB,"EUR 0,43","-8,51%",02 Jul 2024,https://live.euronext.com/pt/product/equities/BE0003660710-VPXB
+ROUGIER S.A.,ALRGR,ALXP,"EUR 14,50","0,69%",11:16 CET,https://live.euronext.com/pt/product/equities/FR0000037640-ALXP
+ROULARTA,ROU,XBRU,"EUR 12,30","0,82%",15 Jan 2026,https://live.euronext.com/pt/product/equities/BE0003741551-XBRU
+ROYAL GOLD INC,1RGLD,BGEM,"EUR 224,10","1,08%",17:36 CET,https://live.euronext.com/pt/product/equities/US7802871084-BGEM
+RSR SINGULAR,MLRSR,ENXL,"EUR 12,98",-,03 Sep 2020,https://live.euronext.com/pt/product/equities/ES0105505004-ENXL
+RT&L,RTL,EXGM,"EUR 4,68","0,02%",16:55 CET,https://live.euronext.com/pt/product/equities/IT0005680373-EXGM
+RTL Group SA,1RRTL,BGEM,"EUR 35,00","0,72%",07 Jan 2026,https://live.euronext.com/pt/product/equities/LU0061462528-BGEM
+RTX Corp,1RTX,BGEM,"EUR 173,22","1,30%",12:02 CET,https://live.euronext.com/pt/product/equities/US75513E1010-BGEM
+RUBIS,2RUI,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0013269123-MTAH
+RUBIS,RUI,XPAR,"EUR 33,10","-0,78%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013269123-XPAR
+RUBRIK INC-A,1RBRK,BGEM,"EUR 60,00","-6,83%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US7811541090-BGEM
+RWE,1RWE,BGEM,"EUR 51,60","1,66%",17:29 CET,https://live.euronext.com/pt/product/equities/DE0007037129-BGEM
+RWE,2RWE,MTAH,"EUR 49,53","2,89%",07 Jan 2026,https://live.euronext.com/pt/product/equities/DE0007037129-MTAH
+RWE,4RWE,ETLX,"EUR 49,53","3,08%",14 Jan 2026,https://live.euronext.com/pt/product/equities/DE0007037129-ETLX
+RYANAIR HOLD. PLC,RYA,XMSM,"EUR 28,80","-0,55%",16:30 GMT,https://live.euronext.com/pt/product/equities/IE00BYTBXV33-XMSM
+S&P Global Inc,1SPGI,BGEM,"EUR 471,35","-0,48%",17:35 CET,https://live.euronext.com/pt/product/equities/US78409V1044-BGEM
+S.CLUBE BRAGA,SCB,ENXL,"EUR 15,30",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/PTSCB0AM0001-ENXL
+S.D. STANDARD ETC,SDSD,XOSL,"NOK 1,875","0,27%",16:25 CET,https://live.euronext.com/pt/product/equities/CY0101550917-XOSL
+S.E.B.,2SK,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000121709-MTAH
+S.E.B.,SK,XPAR,"EUR 48,72","-1,77%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0000121709-XPAR
+S.S. LAZIO,SSL,MTAA,"EUR 1,195",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0003621783-MTAA
+Saab AB,1SAAB,BGEM,"EUR 66,00","1,59%",17:27 CET,https://live.euronext.com/pt/product/equities/SE0021921269-BGEM
+SABAF,SAB,MTAA,"EUR 13,45",-,17:35 CET,https://live.euronext.com/pt/product/equities/IT0001042610-MTAA
+SABLE OFFSHORE COR,1SOC,BGEM,"EUR 9,50","2,15%",17:21 CET,https://live.euronext.com/pt/product/equities/US78574H1041-BGEM
+SACCHERIA F. FRANC,SAC,EXGM,"EUR 1,32","1,54%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005521551-EXGM
+Sacyr SA,1SCYR,BGEM,"EUR 3,816","-3,73%",15 Jan 2026,https://live.euronext.com/pt/product/equities/ES0182870214-BGEM
+SAFE,ALSAF,ALXP,"EUR 0,95","-11,21%",17:13 CET,https://live.euronext.com/pt/product/equities/FR001400ZU25-ALXP
+SAFILO GROUP,SFL,MTAA,"EUR 2,045","-1,21%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0004604762-MTAA
+SAFRAN,2SAF,MTAH,"EUR 213,00","-2,92%",23 Apr 2025,https://live.euronext.com/pt/product/equities/FR0000073272-MTAH
+SAFRAN,4SAF,ETLX,"EUR 323,80","0,97%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000073272-ETLX
+SAFRAN,SAF,XPAR,"EUR 320,70","0,60%",17:39 CET,https://live.euronext.com/pt/product/equities/FR0000073272-XPAR
+SAGA PURE,SAGA,XOSL,"NOK 1,49",-,16:25 CET,https://live.euronext.com/pt/product/equities/NO0010572589-XOSL
+Sagax AB,1SAGA,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0005127818-BGEM
+SAGAX REAL ESTATE,MLSAG,XMLI,"EUR 1,1385",-,14 Jun 2022,https://live.euronext.com/pt/product/equities/ES0105651006-XMLI
+SAINT GOBAIN,2SGO,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0000125007-MTAH
+SAINT GOBAIN,SGO,"XPAR, XAMS, XBRU","EUR 83,94","-1,22%",17:39 CET,https://live.euronext.com/pt/product/equities/FR0000125007-XPAR
+SAINT GOBAIN NV26,SGONV,XPAR,-,-,-,https://live.euronext.com/pt/product/equities/FR0014013KX8-XPAR
+SAINT JEAN GROUPE,SABE,XPAR,"EUR 20,20","-4,72%",16:30 CET,https://live.euronext.com/pt/product/equities/FR0000060121-XPAR
+SAINT-GOBAIN,4SGO,ETLX,"EUR 84,80","0,36%",15 Jan 2026,https://live.euronext.com/pt/product/equities/FR0000125007-ETLX
+SAIPEM,2SPM,MTAH,"EUR 2,729","-0,18%",18:59 CET,https://live.euronext.com/pt/product/equities/IT0005495657-MTAH
+SAIPEM,SPM,MTAA,"EUR 2,734","0,63%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005495657-MTAA
+SAJA REAL ESTATE,MLSJA,XMLI,-,-,-,https://live.euronext.com/pt/product/equities/ES0105910006-XMLI
+SALESFORCE,1CRM,BGEM,"EUR 197,62","-2,55%",17:28 CET,https://live.euronext.com/pt/product/equities/US79466L3024-BGEM
+SALESFORCE,2CRM,MTAH,"EUR 201,40","-0,69%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US79466L3024-MTAH
+SALESFORCE,4CRM,ETLX,"EUR 207,70","-2,69%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US79466L3024-ETLX
+SALMAR,SALM,XOSL,"NOK 571,00","-1,47%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010310956-XOSL
+SALMON EVOLUTION,SALME,XOSL,"NOK 5,02","0,90%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0010892094-XOSL
+SALV FERRAGAMO,2SFER,MTAH,"EUR 7,63",-,15 Jan 2026,https://live.euronext.com/pt/product/equities/IT0004712375-MTAH
+SALV FERRAGAMO,SFER,MTAA,"EUR 7,265","-4,78%",17:36 CET,https://live.euronext.com/pt/product/equities/IT0004712375-MTAA
+REPSOL,1REP,BGEM,"EUR 15,89","0,79%",16:29 CET,https://live.euronext.com/pt/product/equities/ES0173516115-BGEM
+REPSOL,4REP,ETLX,"EUR 16,945","3,23%",05 Jan 2026,https://live.euronext.com/pt/product/equities/ES0173516115-ETLX
 SAMBA DIGITAL,ALSMB,ALXL,"EUR 14,50",-,05 Jan 2026,https://live.euronext.com/pt/product/equities/PTDGL0AM0003-ALXL
+Samhallsby,1SBBB,BGEM,-,-,-,https://live.euronext.com/pt/product/equities/SE0009554454-BGEM
 SIEMENS ENERGY,4ENR,ETLX,"EUR 129,05","1,94%",15 Jan 2026,https://live.euronext.com/pt/product/equities/DE000ENER6Y0-ETLX
-SIEMENS HEALTH,2SHL,MTAH,"EUR 48,45","2,98%",14 Jan 2026,https://live.euronext.com/pt/product/equities/DE000SHL1006-MTAH
-SIEMENS HEALTH,4SHL,ETLX,"EUR 45,20","-2,36%",13 Jun 2025,https://live.euronext.com/pt/product/equities/DE000SHL1006-ETLX
-SOLVAY (CP 41),,VPXB,"EUR 48,00",-,30 May 2017,https://live.euronext.com/pt/product/equities/BE0099887748-VPXB
-Solventum Corp,1SOLV,BGEM,"EUR 69,00","0,29%",06 Jan 2026,https://live.euronext.com/pt/product/equities/US83444M1018-BGEM
 The Campbell's C,1CPB,BGEM,"EUR 22,57","-0,57%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US1344291091-BGEM
-THE CLOROX COMPANY,1CLX,BGEM,"EUR 94,50","-1,05%",15:43 CET,https://live.euronext.com/pt/product/equities/US1890541097-BGEM
 THE CLOROX COMPANY,4CLX,ETLX,"EUR 87,50","2,34%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US1890541097-ETLX
-THE CLOROX COMPANY,2CLX,MTAH,"EUR 140,00",-,07 Mar 2025,https://live.euronext.com/pt/product/equities/US1890541097-MTAH
-THE COCA-COLA COMP,4KO,ETLX,"EUR 61,34","0,02%",12:34 CET,https://live.euronext.com/pt/product/equities/US1912161007-ETLX
-THE COCA-COLA COMP,2KO,MTAH,"EUR 61,30","-0,08%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US1912161007-MTAH
-THE COCA-COLA COMP,1KO,BGEM,"EUR 60,73","-1,01%",17:35 CET,https://live.euronext.com/pt/product/equities/US1912161007-BGEM
-THE ITALIAN SEA G,TISG,MTAA,"EUR 4,75","-0,31%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005439085-MTAA
-THE KINGFISH COMP,KING,MERK,"NOK 4,50","5,63%",16:13 CET,https://live.euronext.com/pt/product/equities/NL00150001S5-MERK
-THE KRAFT HEINZ,2KHC,MTAH,"EUR 19,966","-1,18%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US5007541064-MTAH
-THE KRAFT HEINZ,4KHC,ETLX,"EUR 21,34","1,21%",05 Nov 2025,https://live.euronext.com/pt/product/equities/US5007541064-ETLX
-THE KRAFT HEINZ,1KHC,BGEM,"EUR 20,38","-1,93%",17:29 CET,https://live.euronext.com/pt/product/equities/US5007541064-BGEM
-THE NAVIGATOR COMP,NVG,XLIS,"EUR 3,272","-0,55%",16:35 WET,https://live.euronext.com/pt/product/equities/PTPTI0AM0006-XLIS
-THE SOUTHERN COMP,1SO,BGEM,"EUR 75,75","2,23%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US8425871071-BGEM
-THE SOUTHERN COMP,4SO,ETLX,"EUR 74,24","-3,04%",04 Dec 2025,https://live.euronext.com/pt/product/equities/US8425871071-ETLX
-THE SOUTHERN COMP,2SO,MTAH,"EUR 76,16","0,87%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US8425871071-MTAH
-THE TRAVELERS COMP,1TRV,BGEM,"EUR 223,50","-5,78%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US89417E1091-BGEM
-THE TRAVELERS COMP,2TRVC,MTAH,"EUR 232,60","0,69%",21 Oct 2025,https://live.euronext.com/pt/product/equities/US89417E1091-MTAH
-THE TRAVELERS COMP,4TRV,ETLX,"EUR 235,30","-0,59%",20 Jan 2025,https://live.euronext.com/pt/product/equities/US89417E1091-ETLX
-THE WALT DISNEY,2DIS,MTAH,"EUR 92,00","0,52%",01 Dec 2025,https://live.euronext.com/pt/product/equities/US2546871060-MTAH
-THE WALT DISNEY,4DIS,ETLX,"EUR 95,17","-2,43%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US2546871060-ETLX
-THE WALT DISNEY,1DIS,BGEM,"EUR 97,30","-0,41%",17:13 CET,https://live.euronext.com/pt/product/equities/US2546871060-BGEM
-THEON INTERNAT,THEON,XAMS,"EUR 32,60","3,00%",17:35 CET,https://live.euronext.com/pt/product/equities/CY0200751713-XAMS
-THERACLION,ALTHE,ALXP,"EUR 0,592","-1,33%",14:41 CET,https://live.euronext.com/pt/product/equities/FR0010120402-ALXP
-THERMADOR GROUPE,THEP,XPAR,"EUR 75,30","-5,16%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013333432-XPAR
-THERMO FISHER SC,2TMO,MTAH,"EUR 502,30","0,30%",11 Nov 2025,https://live.euronext.com/pt/product/equities/US8835561023-MTAH
-THERMO FISHER SC,4TMO,ETLX,"EUR 487,40","1,10%",22 Oct 2025,https://live.euronext.com/pt/product/equities/US8835561023-ETLX
-THERMO FISHER SC,1TMO,BGEM,"EUR 535,40","-0,22%",15:36 CET,https://live.euronext.com/pt/product/equities/US8835561023-BGEM
-THOR MEDICAL,TRMED,XOSL,"NOK 4,93","1,03%",16:27 CET,https://live.euronext.com/pt/product/equities/NO0010597883-XOSL
-Thule Group AB,1THUL,BGEM,"EUR 23,74","4,86%",27 Oct 2025,https://live.euronext.com/pt/product/equities/SE0006422390-BGEM
-THX PHARMA,ALTHX,ALXP,"EUR 1,915","-2,30%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013286259-ALXP
-THYSSENKRUPP,2TKA,MTAH,"EUR 10,36","0,44%",09 Jan 2026,https://live.euronext.com/pt/product/equities/DE0007500001-MTAH
-THYSSENKRUPP,4TKA,ETLX,"EUR 10,65","-0,05%",13 Jan 2026,https://live.euronext.com/pt/product/equities/DE0007500001-ETLX
-THYSSENKRUPP,1TKA,BGEM,"EUR 10,33","-0,72%",17:20 CET,https://live.euronext.com/pt/product/equities/DE0007500001-BGEM
-TIETOEVRY,TIETO,XOSL,"NOK 219,40","-0,81%",14:25 CET,https://live.euronext.com/pt/product/equities/FI0009000277-XOSL
-TIKEHAU CAPITAL,TKO,XPAR,"EUR 16,22","-3,22%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013230612-XPAR
-TINC,TINC,XBRU,"EUR 10,66","0,76%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0974282148-XBRU
-TINDE SPAREBANK,TINDE,MERK,"NOK 118,50","0,85%",14:36 CET,https://live.euronext.com/pt/product/equities/NO0010759988-MERK
-TINEXTA,TNXT,MTAA,"EUR 15,14","-0,26%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005037210-MTAA
-TISSAGES BRUGGEMAN,,VPXB,"EUR 39,07","7,63%",29 Sep 2015,https://live.euronext.com/pt/product/equities/BE0036061746-VPXB
-TITAN S.A.,TITC,"XBRU, XPAR","EUR 54,60","-1,27%",17:38 CET,https://live.euronext.com/pt/product/equities/BE0974338700-XBRU
-TJX COMPANIES INC,4TJX,ETLX,"EUR 116,70","1,60%",15 May 2025,https://live.euronext.com/pt/product/equities/US8725401090-ETLX
-TJX COMPANIES INC,1TJX,BGEM,"EUR 134,62","-0,31%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US8725401090-BGEM
-TJX COMPANIES INC,2TJX,MTAH,"EUR 123,88","0,10%",21 Oct 2025,https://live.euronext.com/pt/product/equities/US8725401090-MTAH
-TKH GROUP,2TWEKA,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/NL0000852523-MTAH
-TKH GROUP,TWEKA,XAMS,"EUR 37,18","-0,96%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0000852523-XAMS
-TME PHARMA,ALTME,ALXP,"EUR 0,0614","0,16%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0015000YE1-ALXP
-TMP GROUP,TMP,EXGM,"EUR 4,56","-2,98%",17:07 CET,https://live.euronext.com/pt/product/equities/IT0005531238-EXGM
-TOAST INC-CLASS A,1TOST,BGEM,"EUR 30,36","-0,46%",15 Jan 2026,https://live.euronext.com/pt/product/equities/US8887871080-BGEM
-TOLL BROTHERS INC,1TOL,BGEM,"EUR 125,20","-4,28%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US8894781033-BGEM
-TOMRA SYSTEMS,TOM,XOSL,"NOK 132,20","-0,23%",16:25 CET,https://live.euronext.com/pt/product/equities/NO0012470089-XOSL
-TOMTOM,TOM2,XAMS,"EUR 6,80",-,17:35 CET,https://live.euronext.com/pt/product/equities/NL0013332471-XAMS
-TONNER DRONES,ALTD,ALXP,"EUR 0,0285","-0,70%",17:35 CET,https://live.euronext.com/pt/product/equities/FR001400H2X4-ALXP
-TONNER DRONES BSA,TDBS,ALXP,"EUR 0,0114","-3,39%",13:54 CET,https://live.euronext.com/pt/product/equities/FR001400RIB4-ALXP
-TOOSLA,ALTOO,ALXP,"EUR 0,082","-1,44%",17:26 CET,https://live.euronext.com/pt/product/equities/FR00140062B9-ALXP
-TOSCANA AEROPORTI,TYA,MTAA,"EUR 18,80",-,14:10 CET,https://live.euronext.com/pt/product/equities/IT0000214293-MTAA
-TOTALENERGIES,2TTE,MTAH,"EUR 53,85","2,96%",06 Jun 2025,https://live.euronext.com/pt/product/equities/FR0000120271-MTAH
-TOTALENERGIES,TTE,"XPAR, XBRU","EUR 56,80","0,11%",17:36 CET,https://live.euronext.com/pt/product/equities/FR0000120271-XPAR
-TOTALENERGIES,4TTE,ETLX,"EUR 57,00","0,76%",13:33 CET,https://live.euronext.com/pt/product/equities/FR0000120271-ETLX
-TotalEnergiesGabon,EC,XPAR,"EUR 183,50","-0,81%",17:35 CET,https://live.euronext.com/pt/product/equities/GA0000121459-XPAR
-TOUAX,ALTOU,ALXP,"EUR 4,44","-0,22%",16:40 CET,https://live.euronext.com/pt/product/equities/FR0000033003-ALXP
-TOUR EIFFEL,EIFF,XPAR,"EUR 4,25","-0,93%",17:00 CET,https://live.euronext.com/pt/product/equities/FR0000036816-XPAR
-TOYOTA CAETANO,SCT,XLIS,"EUR 6,40",-,15:30 WET,https://live.euronext.com/pt/product/equities/PTSCT0AP0018-XLIS
-TPG INC,1TPG,BGEM,"EUR 48,00","-0,83%",14 Oct 2025,https://live.euronext.com/pt/product/equities/US8726571016-BGEM
-TPS,TPS,EXGM,"EUR 8,00",-,13:49 CET,https://live.euronext.com/pt/product/equities/IT0005246142-EXGM
-TRACTIAL,ALTRA,ALXP,"EUR 3,15","0,32%",17:28 CET,https://live.euronext.com/pt/product/equities/FR0014014ZV8-ALXP
-Tractor Supply Co,1TSCO,BGEM,"EUR 43,43","-0,33%",15:15 CET,https://live.euronext.com/pt/product/equities/US8923561067-BGEM
-Trade Desk,1TTD,BGEM,"EUR 30,85","-0,88%",16:11 CET,https://live.euronext.com/pt/product/equities/US88339J1051-BGEM
-TRADELAB,TRAI,EXGM,"EUR 3,52","4,14%",12:46 CET,https://live.euronext.com/pt/product/equities/IT0005651507-EXGM
-Trane Tech,1TTH,BGEM,"EUR 331,50","2,09%",09 Jan 2026,https://live.euronext.com/pt/product/equities/IE00BK9ZQ967-BGEM
-TRANSDIGM GROUP IN,1TDG,BGEM,"EUR 1 191,50","-1,81%",07 Jan 2026,https://live.euronext.com/pt/product/equities/US8936411003-BGEM
-TRANSGENE,TNG,XPAR,"EUR 0,95","-1,45%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0005175080-XPAR
-TRANSMEDICS GROUP,1TMDX,BGEM,"EUR 106,00","1,10%",02 Jan 2026,https://live.euronext.com/pt/product/equities/US89377M1099-BGEM
-TRANSUNION,1TRU,BGEM,"EUR 74,00","2,07%",13 Jan 2026,https://live.euronext.com/pt/product/equities/US89400J1079-BGEM
-TRATON,28TRA,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/DE000TRAT0N7-MTAH
-TRATON,48TRA,ETLX,"EUR 26,28","1,31%",20 Oct 2025,https://live.euronext.com/pt/product/equities/DE000TRAT0N7-ETLX
-TRATON,18TRA,BGEM,"EUR 31,40","-1,07%",09 Jan 2026,https://live.euronext.com/pt/product/equities/DE000TRAT0N7-BGEM
-TRAWELL CO,TWL,EXGM,"EUR 6,05","0,83%",11:03 CET,https://live.euronext.com/pt/product/equities/IT0005378325-EXGM
-TRENDEVICE,TD,EXGM,"EUR 0,079","-7,06%",13 Jun 2025,https://live.euronext.com/pt/product/equities/IT0005422792-EXGM
-TREVI FIN IND,TFIN,MTAA,"EUR 0,693","0,29%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005422768-MTAA
-TRIBOO,TB,MTAA,"EUR 0,402","0,25%",15:46 CET,https://live.euronext.com/pt/product/equities/IT0005001554-MTAA
-TRIGANO,TRI,XPAR,"EUR 176,00","-1,24%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0005691656-XPAR
-TRIGANO,2TRI,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/FR0005691656-MTAH
-TRILOGIQ,ALTRI,ALXP,"EUR 5,25","-0,94%",14 Jan 2026,https://live.euronext.com/pt/product/equities/FR0010397901-ALXP
-Trimble Inc,1TRMB,BGEM,"EUR 68,86","2,68%",21 Oct 2025,https://live.euronext.com/pt/product/equities/US8962391004-BGEM
-TRIODOS BANK,TRIO,XAMS,"EUR 29,79","-0,70%",17:35 CET,https://live.euronext.com/pt/product/equities/NL0010407946-XAMS
-TRIPADVISOR,1TRIP,BGEM,"EUR 11,65","-1,65%",17:14 CET,https://live.euronext.com/pt/product/equities/US8969452015-BGEM
-TRIPADVISOR,2TRIP,MTAH,"EUR 11,845","-0,55%",19 Dec 2025,https://live.euronext.com/pt/product/equities/US8969452015-MTAH
-TRIPADVISOR,4TRIP,ETLX,"EUR 11,77","0,04%",30 Dec 2025,https://live.euronext.com/pt/product/equities/US8969452015-ETLX
-TROC ILE,MLTRO,XMLI,"EUR 2,48","25,89%",27 Oct 2025,https://live.euronext.com/pt/product/equities/FR0000031106-XMLI
-TRUIST FINL CORP.,4TFC,ETLX,"EUR 40,665","-0,79%",05 Dec 2025,https://live.euronext.com/pt/product/equities/US89832Q1094-ETLX
-TRUIST FINL CORP.,1TFC,BGEM,"EUR 43,535","0,30%",08 Jan 2026,https://live.euronext.com/pt/product/equities/US89832Q1094-BGEM
-TRUIST FINL CORP.,2TFC,MTAH,"EUR 45,22",-,28 Jan 2025,https://live.euronext.com/pt/product/equities/US89832Q1094-MTAH
-TRØNDELAG SPBK,TRSB,XOSL,"NOK 113,00","-1,74%",16:05 CET,https://live.euronext.com/pt/product/equities/NO0010788268-XOSL
-TUBIZE (ATTR),TUBAT,VPXB,"EUR 0,10","-63,24%",15 Apr 2025,https://live.euronext.com/pt/product/equities/BE0099967573-VPXB
-TUBIZE-FIN,TUB,XBRU,"EUR 235,50","2,17%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003823409-XBRU
-TUI,2TUI1U,MTAH,"EUR 8,248","-2,96%",10 Feb 2025,https://live.euronext.com/pt/product/equities/DE000TUAG505-MTAH
-TUI,1TUI1U,BGEM,"EUR 8,98",-,16:03 CET,https://live.euronext.com/pt/product/equities/DE000TUAG505-BGEM
-TUI,4TUI1U,ETLX,"EUR 8,958","-3,97%",12 Jan 2026,https://live.euronext.com/pt/product/equities/DE000TUAG505-ETLX
-TWIST BIOSCIENCE C,1TWST,BGEM,"EUR 33,48","-1,56%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US90184D1000-BGEM
-The Campbell's C,1CPB,BGEM,"EUR 22,57","-0,57%",14 Jan 2026,https://live.euronext.com/pt/product/equities/US1344291091-BGEM
+THE CLOROX COMPANY,1CLX,BGEM,"EUR 94,50","-1,05%",15:43 CET,https://live.euronext.com/pt/product/equities/US1890541097-BGEM
 VANTAGE DRILLING I,VDI,MERK,"NOK 166,00","3,11%",14 Jan 2026,https://live.euronext.com/pt/product/equities/BMG9551V1081-MERK
-VANTEA SMART,VNT,EXGM,"EUR 0,97","-3,00%",17:35 CET,https://live.euronext.com/pt/product/equities/IT0005433765-EXGM
-VANTIVA,VANTI,XPAR,"EUR 0,1168","-2,50%",17:35 CET,https://live.euronext.com/pt/product/equities/FR0013505062-XPAR
-VARONIS SYSTEMS IN,1VRNS,BGEM,"EUR 28,35","-5,97%",15:52 CET,https://live.euronext.com/pt/product/equities/US9222801022-BGEM
-VASTNED,VASTB,"XBRU, XAMS","EUR 30,60","0,33%",17:35 CET,https://live.euronext.com/pt/product/equities/BE0003754687-XBRU
 WEYERHAEUSER,1WY,BGEM,"EUR 18,84",-,03 Dec 2025,https://live.euronext.com/pt/product/equities/US9621661043-BGEM
 WEYERHAEUSER,4WY,ETLX,"EUR 21,50","-3,11%",08 Jul 2025,https://live.euronext.com/pt/product/equities/US9621661043-ETLX
 WEYERHAEUSER,2WY,MTAH,-,-,-,https://live.euronext.com/pt/product/equities/US9621661043-MTAH
@@ -508,9 +1581,9 @@ ZIGNAGO VETRO,ZV,MTAA,"EUR 8,00","-1,11%",17:35 CET,https://live.euronext.com/pt
 ZILLOW GROUP A,1ZGU,BGEM,"EUR 57,70","0,66%",09 Jan 2026,https://live.euronext.com/pt/product/equities/US98954M1018-BGEM
 ZILLOW GROUP C,1ZUS,BGEM,"EUR 57,62","1,89%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US98954M2008-BGEM
 Zimmer Biomet,1ZBH,BGEM,"EUR 78,46","-0,61%",05 Jan 2026,https://live.euronext.com/pt/product/equities/US98956P1021-BGEM
-ZOETIS,1ZTS,BGEM,"EUR 107,88","0,47%",17:35 CET,https://live.euronext.com/pt/product/equities/US98978V1035-BGEM
 ZOETIS,4ZTS,ETLX,"EUR 126,50","0,16%",22 Oct 2025,https://live.euronext.com/pt/product/equities/US98978V1035-ETLX
-ZOETIS,2ZTS,MTAH,"EUR 108,38",-,12 Jan 2026,https://live.euronext.com/pt/product/equities/US98978V1035-MTAH
+ZOETIS,1ZTS,BGEM,"EUR 107,88","0,47%",17:35 CET,https://live.euronext.com/pt/product/equities/US98978V1035-BGEM
+ZOETIS,2ZTS,MTAH,"EUR 107,76","-0,11%",18:00 CET,https://live.euronext.com/pt/product/equities/US98978V1035-MTAH
 ZOOM COMMUNICATION,4ZM,ETLX,"EUR 72,81","-1,05%",19 Sep 2025,https://live.euronext.com/pt/product/equities/US98980L1017-ETLX
 ZOOM COMMUNICATION,1ZM,BGEM,"EUR 70,03","-1,17%",15:27 CET,https://live.euronext.com/pt/product/equities/US98980L1017-BGEM
 ZOOM COMMUNICATION,2ZM,MTAH,"EUR 70,17","0,17%",19 Nov 2025,https://live.euronext.com/pt/product/equities/US98980L1017-MTAH
