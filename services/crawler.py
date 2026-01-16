@@ -5,13 +5,13 @@ from selenium.webdriver.chrome.options import Options
 from webdriver_manager.chrome import ChromeDriverManager
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import StaleElementReferenceException
+from selenium.common.exceptions import StaleElementReferenceException, TimeoutException
+import os
+import re
+import time
+import unicodedata
 import pandas as pd
 import requests
-import time
-import os
-import unicodedata
-import re
 
 URL = "https://live.euronext.com/pt/products/equities/list"
 CSV_PATH = "data/Crawler/euronext_acoes.csv"
@@ -27,16 +27,58 @@ def load_env(path=".env"):
             line = line.strip()
             if not line or line.startswith("#") or "=" not in line:
                 continue
+            if line.startswith("export "):
+                line = line[len("export "):]
             key, value = line.split("=", 1)
-            env[key.strip()] = value.strip()
+            env[key.strip()] = value.strip().strip("'\"")
     return env
 
-def upload_to_bucket(file_path, bucket_name, file_name=None):
+def validate_supabase_config(url, legacy_key, service_key, legacy_key_source):
+    errors = []
+    warnings = []
+    if not url:
+        errors.append("URL ausente no .env (variavel URL).")
+    if not legacy_key:
+        errors.append("LEGACY_KEY ausente no .env (ou KEY).")
+    if url and not url.startswith("https://"):
+        warnings.append("URL nao comeca com https://.")
+    if url and "supabase.co" not in url:
+        warnings.append("URL nao parece ser do Supabase.")
+    if legacy_key_source == "KEY":
+        warnings.append("LEGACY_KEY nao definido; usando KEY como legacy.")
+    if service_key:
+        warnings.append("SERVICE_KEY definido, mas o modo legacy usa apenas LEGACY_KEY/KEY.")
+    return errors, warnings
+
+def get_supabase_config():
     env = load_env()
     url = env.get("URL") or os.getenv("URL")
-    key = env.get("KEY") or os.getenv("KEY")
-    if not url or not key:
-        raise ValueError("Missing URL/KEY for Supabase upload")
+    service_key = env.get("SERVICE_KEY") or os.getenv("SERVICE_KEY")
+    legacy_key = env.get("LEGACY_KEY") or os.getenv("LEGACY_KEY")
+    legacy_key_source = "LEGACY_KEY"
+    if not legacy_key:
+        legacy_key = env.get("KEY") or os.getenv("KEY")
+        legacy_key_source = "KEY"
+    return url, legacy_key, service_key, legacy_key_source
+
+def upload_to_bucket(file_path, bucket_name, file_name=None):
+    url, legacy_key, service_key, legacy_key_source = get_supabase_config()
+    errors, warnings = validate_supabase_config(url, legacy_key, service_key, legacy_key_source)
+    for warning in warnings:
+        print(f"Aviso: {warning}")
+    if errors:
+        print("Configuracao Supabase invalida:")
+        for err in errors:
+            print(f"- {err}")
+        return False
+    if not os.path.exists(file_path):
+        print(f"Arquivo nao encontrado: {file_path}")
+        return False
+
+    key = legacy_key
+    if not key:
+        print("LEGACY_KEY/KEY nao definido. Upload cancelado.")
+        return False
 
     if file_name is None:
         file_name = os.path.basename(file_path)
@@ -50,7 +92,17 @@ def upload_to_bucket(file_path, bucket_name, file_name=None):
     }
     with open(file_path, "rb") as f:
         response = requests.post(storage_url, headers=headers, data=f)
+    if response.status_code in (400, 401, 403):
+        print(
+            "Falha ao enviar para o bucket. Verifique se o bucket 'data' permite upload com a key atual "
+            "ou defina SERVICE_KEY no .env para usar a service role."
+        )
+        return False
+    if not response.ok:
+        print(f"Falha ao enviar para o bucket: {response.status_code} {response.text}")
+        return False
     response.raise_for_status()
+    return True
 
 def run_crawler():
     os.makedirs(os.path.dirname(CSV_PATH), exist_ok=True)
@@ -63,23 +115,21 @@ def run_crawler():
         options=options
     )
 
-    driver.get(URL)
-    wait = WebDriverWait(driver, 15)
-
-    dados = []
-
     def normalize_header(text):
         text = text.strip().lower()
         text = unicodedata.normalize("NFKD", text)
         text = "".join(ch for ch in text if not unicodedata.combining(ch))
         return " ".join(text.split())
 
-    def map_headers():
-        headers = wait.until(
-            EC.presence_of_all_elements_located(
-                (By.CSS_SELECTOR, "table thead th")
+    def map_headers(wait):
+        try:
+            headers = wait.until(
+                EC.presence_of_all_elements_located(
+                    (By.CSS_SELECTOR, "table thead th")
+                )
             )
-        )
+        except TimeoutException:
+            return {}
         mapped = {}
         for idx, header in enumerate(headers):
             label = normalize_header(header.text)
@@ -99,23 +149,15 @@ def run_crawler():
                 mapped["datetime"] = idx
         return mapped
 
-    header_map = map_headers()
-    if not header_map:
-        header_map = {
-            "name": 1,
-            "symbol": 2,
-            "market": 3,
-            "last": 4,
-            "change_pct": 6,
-            "datetime": 7,
-        }
-
-    def extrair_linhas():
-        linhas = wait.until(
-            EC.presence_of_all_elements_located(
-                (By.CSS_SELECTOR, "table tbody tr")
+    def extrair_linhas(wait, header_map, dados):
+        try:
+            linhas = wait.until(
+                EC.presence_of_all_elements_located(
+                    (By.CSS_SELECTOR, "table tbody tr")
+                )
             )
-        )
+        except TimeoutException:
+            return
 
         for linha in linhas:
             try:
@@ -133,7 +175,7 @@ def run_crawler():
                     try:
                         link_el = linha.find_element(By.TAG_NAME, "a")
                         return link_el.get_attribute("href") or "", link_el.text.strip()
-                    except:
+                    except Exception:
                         return "", ""
 
                 link, nome_link = get_link_info()
@@ -212,22 +254,37 @@ def run_crawler():
             except StaleElementReferenceException:
                 continue
 
-    for pagina in range(1, 41):
-        print(f"Pagina {pagina}")
-        extrair_linhas()
+    dados = []
+    try:
+        driver.get(URL)
+        wait = WebDriverWait(driver, 15)
+        header_map = map_headers(wait)
+        if not header_map:
+            header_map = {
+                "name": 1,
+                "symbol": 2,
+                "market": 3,
+                "last": 4,
+                "change_pct": 6,
+                "datetime": 7,
+            }
 
-        try:
-            proxima = wait.until(
-                EC.element_to_be_clickable(
-                    (By.XPATH, f"//a[.='{pagina + 1}']")
+        for pagina in range(1, 40):
+            print(f"Pagina {pagina}")
+            extrair_linhas(wait, header_map, dados)
+
+            try:
+                proxima = wait.until(
+                    EC.element_to_be_clickable(
+                        (By.XPATH, f"//a[.='{pagina + 1}']")
+                    )
                 )
-            )
-            driver.execute_script("arguments[0].click();", proxima)
-            time.sleep(2)
-        except:
-            break
-
-    driver.quit()
+                driver.execute_script("arguments[0].click();", proxima)
+                time.sleep(2)
+            except Exception:
+                break
+    finally:
+        driver.quit()
 
     df = pd.DataFrame(dados)
     df.to_csv(CSV_PATH, index=False, encoding="utf-8-sig")
@@ -238,8 +295,11 @@ def main_loop():
         print(f"Iniciando crawler: {start}")
         try:
             run_crawler()
-            upload_to_bucket(CSV_PATH, BUCKET_NAME, BUCKET_FILE_PATH)
-            print("CSV atualizado e enviado.")
+            uploaded = upload_to_bucket(CSV_PATH, BUCKET_NAME, BUCKET_FILE_PATH)
+            if uploaded:
+                print("CSV atualizado e enviado.")
+            else:
+                print("CSV atualizado, mas o upload falhou.")
         except Exception as exc:
             print(f"Falha: {exc}")
         time.sleep(300)
