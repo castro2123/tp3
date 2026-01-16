@@ -121,6 +121,33 @@ def run_crawler():
         text = "".join(ch for ch in text if not unicodedata.combining(ch))
         return " ".join(text.split())
 
+    isin_re = re.compile(r"^[A-Z]{2}[A-Z0-9]{10}$")
+    time_re = re.compile(r"\b\d{1,2}:\d{2}\b")
+    month_re = re.compile(r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b", re.I)
+    price_re = re.compile(r"^\d+(?:[.,]\d+)?$")
+    market_re = re.compile(r"^[A-Z0-9]{4}$")
+    symbol_re = re.compile(r"^[A-Z0-9]{1,8}(?:\.[A-Z0-9]{1,3})?$")
+
+    def clean_text(text):
+        return text.replace("\xa0", " ").strip()
+
+    def looks_like_market(text):
+        return bool(text and market_re.match(text))
+
+    def is_price(text):
+        if not text:
+            return False
+        if "%" in text:
+            return False
+        if time_re.search(text) or month_re.search(text):
+            return False
+        if any(ch.isalpha() for ch in text):
+            return False
+        normalized = text.replace(" ", "").replace("\xa0", "")
+        if normalized in {"-", "--"}:
+            return False
+        return bool(price_re.match(normalized))
+
     def map_headers(wait):
         try:
             headers = wait.until(
@@ -179,13 +206,16 @@ def run_crawler():
                         return "", ""
 
                 link, nome_link = get_link_info()
+                market_code = ""
+                if link and "-" in link:
+                    market_code = link.rsplit("-", 1)[-1]
 
                 data_by_label = {}
                 for idx, col in enumerate(colunas):
                     label = col.get_attribute("data-label") or col.get_attribute("aria-label") or ""
                     label = normalize_header(label)
                     if label:
-                        data_by_label[label] = col.text.strip()
+                        data_by_label[label] = clean_text(col.text)
 
                 def get_by_label(tokens):
                     for label, value in data_by_label.items():
@@ -193,24 +223,23 @@ def run_crawler():
                             return value
                     return ""
 
+                isin_val = get_by_label(["isin"])
                 nome = get_by_label(["nome", "name"]) or nome_link or get_cell(header_map.get("name"))
-                simbolo = get_by_label(["simbolo", "symbol"]) or get_cell(header_map.get("symbol"))
+                simbolo = get_by_label(["simbolo", "symbol", "ticker"]) or get_cell(header_map.get("symbol"))
+                if not simbolo:
+                    simbolo = isin_val
                 mercado = get_by_label(["mercado", "market"]) or get_cell(header_map.get("market"))
                 ultimo_preco = get_by_label(["ultimo", "last", "price", "preco"]) or get_cell(header_map.get("last"))
                 variacao_percentual = get_by_label(["variacao", "change", "%"]) or get_cell(header_map.get("change_pct"))
                 data_hora = get_by_label(["data", "hora", "time", "date"]) or get_cell(header_map.get("datetime"))
 
-                texts = [col.text.strip() for col in colunas]
-                if not ultimo_preco or (ultimo_preco.isupper() and len(ultimo_preco) == 4):
-                    market_code = ""
-                    if link and "-" in link:
-                        market_code = link.rsplit("-", 1)[-1]
+                texts = [clean_text(col.text) for col in colunas]
+                if ultimo_preco == mercado or looks_like_market(ultimo_preco):
+                    ultimo_preco = ""
+                if not mercado and market_code:
+                    mercado = market_code
 
-                    isin_re = re.compile(r"^[A-Z]{2}[A-Z0-9]{10}$")
-                    time_re = re.compile(r"\b\d{1,2}:\d{2}\b")
-                    month_re = re.compile(r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)\b", re.I)
-                    price_re = re.compile(r"^\d+(?:[.,]\d+)?$")
-
+                if not ultimo_preco:
                     isin_idx = next((i for i, t in enumerate(texts) if isin_re.match(t)), None)
                     change_idx = next((i for i, t in enumerate(texts) if "%" in t), None)
                     datetime_idx = next((i for i, t in enumerate(texts) if time_re.search(t) or month_re.search(t)), None)
@@ -219,26 +248,29 @@ def run_crawler():
                     if market_code and market_code in texts:
                         market_idx = texts.index(market_code)
                     else:
-                        market_idx = next((i for i, t in enumerate(texts) if len(t) == 4 and t.isalnum() and t.isupper()), None)
+                        market_idx = next((i for i, t in enumerate(texts) if looks_like_market(t)), None)
 
-                    last_idx = next((i for i, t in enumerate(texts) if price_re.match(t) and i not in {change_idx, datetime_idx}), None)
+                    excluded = {idx for idx in [isin_idx, market_idx, change_idx, datetime_idx] if idx is not None}
+                    last_idx = next((i for i, t in enumerate(texts) if is_price(t) and i not in excluded), None)
 
                     symbol_idx = next(
                         (i for i, t in enumerate(texts)
-                         if t and len(t) <= 8 and t.replace(".", "").isalnum()
-                         and i not in {isin_idx, market_idx, last_idx, change_idx, datetime_idx}),
+                         if symbol_re.match(t) and not looks_like_market(t)
+                         and i not in excluded and i != last_idx),
                         None,
                     )
 
-                    if symbol_idx is not None:
+                    if symbol_idx is not None and not simbolo:
                         simbolo = texts[symbol_idx]
-                    if market_idx is not None:
+                    if market_idx is not None and (not mercado or not looks_like_market(mercado)):
                         mercado = texts[market_idx]
                     if last_idx is not None:
                         ultimo_preco = texts[last_idx]
-                    if change_idx is not None:
+                    else:
+                        ultimo_preco = "-"
+                    if change_idx is not None and not variacao_percentual:
                         variacao_percentual = texts[change_idx]
-                    if datetime_idx is not None:
+                    if datetime_idx is not None and not data_hora:
                         data_hora = texts[datetime_idx]
 
                 dados.append({
@@ -257,7 +289,8 @@ def run_crawler():
     dados = []
     try:
         driver.get(URL)
-        wait = WebDriverWait(driver, 15)
+        wait = WebDriverWait(driver, 12)
+        wait_short = WebDriverWait(driver, 5)
         header_map = map_headers(wait)
         if not header_map:
             header_map = {
@@ -269,20 +302,89 @@ def run_crawler():
                 "datetime": 7,
             }
 
-        for pagina in range(1, 40):
+        def get_active_page():
+            selectors = [
+                "a[aria-current='page']",
+                "li.is-active a",
+                "li.active a",
+            ]
+            for sel in selectors:
+                try:
+                    el = driver.find_element(By.CSS_SELECTOR, sel)
+                    text = el.text.strip()
+                    if text:
+                        return text
+                except Exception:
+                    continue
+            return ""
+
+        def click_next_page():
+            selectors = [
+                "a[rel='next']",
+                "button[rel='next']",
+                "a[aria-label*='Next']",
+                "button[aria-label*='Next']",
+                "a[aria-label*='Seguinte']",
+                "button[aria-label*='Seguinte']",
+                "li.pagination-next a",
+                "li.next a",
+                "a.next",
+                "button.next",
+            ]
+            for sel in selectors:
+                try:
+                    for el in driver.find_elements(By.CSS_SELECTOR, sel):
+                        if el.is_displayed() and el.is_enabled():
+                            driver.execute_script("arguments[0].click();", el)
+                            return True
+                except Exception:
+                    continue
+            try:
+                for el in driver.find_elements(
+                    By.XPATH,
+                    "//*[@aria-current='page']/parent::li/following-sibling::li[1]//a",
+                ):
+                    if el.is_displayed() and el.is_enabled():
+                        driver.execute_script("arguments[0].click();", el)
+                        return True
+            except Exception:
+                pass
+            return False
+
+        pagina = 1
+        max_pages = 200
+        while pagina <= max_pages:
             print(f"Pagina {pagina}")
             extrair_linhas(wait, header_map, dados)
 
+            first_row = None
             try:
-                proxima = wait.until(
-                    EC.element_to_be_clickable(
-                        (By.XPATH, f"//a[.='{pagina + 1}']")
-                    )
+                first_row = wait_short.until(
+                    EC.presence_of_element_located((By.CSS_SELECTOR, "table tbody tr"))
                 )
-                driver.execute_script("arguments[0].click();", proxima)
-                time.sleep(2)
-            except Exception:
+            except TimeoutException:
+                pass
+
+            prev_page = get_active_page()
+            if not click_next_page():
                 break
+
+            if prev_page:
+                try:
+                    wait_short.until(lambda d: get_active_page() != prev_page)
+                except TimeoutException:
+                    pass
+
+            if first_row is not None:
+                try:
+                    wait_short.until(EC.staleness_of(first_row))
+                except TimeoutException:
+                    time.sleep(1)
+
+            if prev_page and get_active_page() == prev_page:
+                break
+
+            pagina += 1
     finally:
         driver.quit()
 
