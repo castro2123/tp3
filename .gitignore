@@ -12,3 +12,4 @@ venv/
 data/
 SBdata.csv
 euronext_acoes.csv
+node_modules/

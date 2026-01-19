@@ -18,11 +18,29 @@ CSV_PATH = "data/Crawler/euronext_acoes.csv"
 BUCKET_NAME = "data"
 BUCKET_FILE_PATH = "Crawler/euronext_acoes.csv"
 
-def load_env(path=".env"):
-    if not os.path.exists(path):
-        return {}
+def load_env(filename=".env"):
     env = {}
-    with open(path, "r", encoding="utf-8") as f:
+
+    # diretório atual e diretório pai
+    current_dir = os.path.abspath(os.getcwd())
+    parent_dir = os.path.dirname(current_dir)
+
+    possible_paths = [
+        os.path.join(current_dir, filename),
+        os.path.join(parent_dir, filename),
+    ]
+
+    env_path = None
+    for path in possible_paths:
+        if os.path.exists(path):
+            env_path = path
+            break
+
+    if not env_path:
+        print("Aviso: ficheiro .env não encontrado no diretório atual nem no diretório pai.")
+        return env
+
+    with open(env_path, "r", encoding="utf-8") as f:
         for line in f:
             line = line.strip()
             if not line or line.startswith("#") or "=" not in line:
@@ -31,7 +49,9 @@ def load_env(path=".env"):
                 line = line[len("export "):]
             key, value = line.split("=", 1)
             env[key.strip()] = value.strip().strip("'\"")
+
     return env
+
 
 def validate_supabase_config(url, legacy_key, service_key, legacy_key_source):
     errors = []
