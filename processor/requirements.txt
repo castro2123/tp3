@@ -3,3 +3,4 @@ requests
 yfinance
 flask
 python-dotenv
+aiohttp
