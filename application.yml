@@ -1,4 +1,0 @@
-processor:
-  url: https://processor.onrender.com
-server:
-  port: 8080

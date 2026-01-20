@@ -4,3 +4,4 @@ yfinance
 flask
 python-dotenv
 aiohttp
+asyncio
