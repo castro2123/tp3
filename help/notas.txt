@@ -1,0 +1,25 @@
+ler csv em stream -> le linha a linha
+não posso converter automático o csv para xml, porque foge as relações e o domínio
+modelar a entidade de acordo com o domínio que trabalhamos, por exemplo um sistema para professores não precisa do nif dos alunos
+criar primeiro o scchema
+um mapeador sabe o que recebe e para onde tem que ir - por exemplo o gps de carros da me um caminho de A a B, mas se tiver num pesado a estrada tem que ser diferente
+atributo começa com @
+@id
+tag - por exemplo nome -> dentro tem um text
+
+abrir csv, criar schema
+
+com o mapper serve para qualquer csv como o sor quer que de para qualquer csv
+
+TP3
+CSV - procurar um que faça sentido, um csv de jogos de futebol ou temperatura
+meter no bucket de supabase
+processador de dados - faz um mapper
+crio um csv novo com isso, mando converter para xml usando weebhook (pk é grande o csv)
+weebhook - dou o id quando termina avisa
+	- da me uma resposta
+é tipo uma api o weebhook
+quando recebo a resposta decido o que faço, salvo ou apago, por exemplo para pagamentos muda para pago
+guardar numa base de dados sql
+BI service-pede consultas para o xml xpath
+responde como um json que da para fazer uma tela visualizadora com tabelas e gráficos
