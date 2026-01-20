@@ -1,53 +1,68 @@
-import time
-import yfinance as yf
+import aiohttp
+import asyncio
+import pandas as pd
+import os
+import io
+from mapper import map_dataframe
+from config import PROCESSED_PATH
 
 API_CACHE = {}
 
-def get_financial_sentiment(ticker, retries=3):
+async def get_financial_sentiment(ticker, session):
+    if not ticker or pd.isna(ticker):
+        return {
+            "MarketCap": None,
+            "Sector": None,
+            "Industry": None,
+            "PERatio": None
+        }
+
     if ticker in API_CACHE:
         return API_CACHE[ticker]
 
-    for attempt in range(retries):
-        try:
-            stock = yf.Ticker(ticker)
-            info = stock.info
+    url = f"https://query1.finance.yahoo.com/v10/finance/quoteSummary/{ticker}?modules=summaryDetail,assetProfile"
 
-            data = {
-                "MarketCap": info.get("marketCap"),
-                "Sector": info.get("sector"),
-                "Industry": info.get("industry"),
-                "PERatio": info.get("trailingPE")
+    try:
+        async with session.get(url, timeout=10) as resp:
+            if resp.status != 200:
+                raise Exception(f"Yahoo API error {resp.status}")
+
+            data = await resp.json()
+            result = data.get("quoteSummary", {}).get("result", [{}])[0]
+
+            sentiment = {
+                "MarketCap": result.get("summaryDetail", {}).get("marketCap", {}).get("raw"),
+                "Sector": result.get("assetProfile", {}).get("sector"),
+                "Industry": result.get("assetProfile", {}).get("industry"),
+                "PERatio": result.get("summaryDetail", {}).get("trailingPE", {}).get("raw")
             }
 
-            API_CACHE[ticker] = data
-            return data
+            API_CACHE[ticker] = sentiment
+            return sentiment
 
-        except Exception as e:
-            print(f"[API] Erro {ticker} tentativa {attempt+1}: {e}")
-            time.sleep(1)
-
-    return {
-        "MarketCap": None,
-        "Sector": None,
-        "Industry": None,
-        "PERatio": None,
-        "API_Error": True
-    }
+    except Exception as e:
+        print(f"[API] Erro {ticker}: {e}")
+        return {
+            "MarketCap": None,
+            "Sector": None,
+            "Industry": None,
+            "PERatio": None
+        }
 
 
-def enrich_chunk(chunk):
+async def enrich_chunk(chunk, batch_size=20, batch_delay=0.05):
+    """
+    Enriquecimento assíncrono de um chunk de tickers
+    """
+    tickers = chunk["Ticker"].tolist()
     results = []
-    for ticker in chunk["Ticker"]:
-        if pd.isna(ticker):
-            results.append({"ticker": None, "sentiment": None})
-            continue
-        try:
-            sentiment = get_financial_sentiment(ticker)
-            if sentiment is None:
-                sentiment = {"ticker": ticker, "sentiment": None}
-            results.append(sentiment)
-        except Exception as e:
-            print(f"[API] Erro {ticker}: {e}")
-            results.append({"ticker": ticker, "sentiment": None})
-        time.sleep(0.3)
-    return results
+
+    async with aiohttp.ClientSession() as session:
+        for i in range(0, len(tickers), batch_size):
+            batch = tickers[i:i+batch_size]
+            tasks = [get_financial_sentiment(ticker, session) for ticker in batch]
+            batch_results = await asyncio.gather(*tasks)
+            results.extend(batch_results)
+            await asyncio.sleep(batch_delay)  # evita rate-limit
+
+    return pd.DataFrame(results)
