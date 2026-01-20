@@ -8,7 +8,7 @@ from config import PROCESSED_PATH
 
 async def process_chunk(chunk):
     chunk_mapped = map_dataframe(chunk)
-    financial_df = await enrich_chunk_fast(chunk_mapped, batch_size=50, batch_delay=0.05)
+    financial_df = await enrich_chunk(chunk_mapped, batch_size=50, batch_delay=0.05)
     chunk_enriched = pd.concat([chunk_mapped.reset_index(drop=True), financial_df], axis=1)
     return chunk_enriched
 
