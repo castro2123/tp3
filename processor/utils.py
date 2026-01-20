@@ -1,28 +1,10 @@
-import asyncio
+import time
 import pandas as pd
 import yfinance as yf
-from collections import defaultdict
-import time
 
-# Cache local para evitar múltiplas chamadas
 API_CACHE = {}
 
-async def get_financial_sentiment(ticker, retries=5, delay=1.0):
-    """
-    Obtém dados financeiros de um ticker usando yfinance.
-    Faz retries exponenciais e respeita rate limiting.
-    """
-    if not ticker or pd.isna(ticker):
-        return {
-            "ticker": ticker,
-            "MarketCap": None,
-            "Sector": None,
-            "Industry": None,
-            "PERatio": None,
-            "API_Error": True
-        }
-
-    # Retorna do cache se já existirem dados
+def get_financial_sentiment(ticker, retries=3):
     if ticker in API_CACHE:
         return API_CACHE[ticker]
 
@@ -30,50 +12,84 @@ async def get_financial_sentiment(ticker, retries=5, delay=1.0):
         try:
             stock = yf.Ticker(ticker)
             info = stock.info
-
-            # Algumas chaves podem não existir
             data = {
-                "ticker": ticker,
                 "MarketCap": info.get("marketCap"),
                 "Sector": info.get("sector"),
                 "Industry": info.get("industry"),
-                "PERatio": info.get("trailingPE"),
-                "API_Error": False
+                "PERatio": info.get("trailingPE")
             }
-
-            # Salva no cache
             API_CACHE[ticker] = data
             return data
-
         except Exception as e:
-            wait_time = delay * (2 ** attempt)  # Retry exponencial
-            print(f"[API] Erro {ticker} tentativa {attempt+1}: {e}. Tentando de novo em {wait_time:.1f}s")
-            await asyncio.sleep(wait_time)
+            print(f"[API] Erro {ticker} tentativa {attempt+1}: {e}")
+            time.sleep(1)
+    return {"MarketCap": None, "Sector": None, "Industry": None, "PERatio": None, "API_Error": True}
 
-    # Se falhar todas as tentativas, retorna dados nulos
-    return {
-        "ticker": ticker,
-        "MarketCap": None,
-        "Sector": None,
-        "Industry": None,
-        "PERatio": None,
-        "API_Error": True
-    }
-
-async def enrich_chunk(chunk, batch_delay=0.5):
+async def enrich_chunk(chunk, batch_size=100):
     """
     Enriquecimento assíncrono de um chunk do CSV.
-    Usa asyncio.gather para processar múltiplos tickers.
-    Adiciona delay entre requisições para evitar rate limits.
+    chunk: DataFrame com coluna 'Ticker'
+    batch_size: quantos tickers processar por batch (yfinance.download suporta até ~200)
+    Retorna lista de dicionários com os dados enriquecidos
     """
-    results = []
 
-    async def process_ticker(ticker):
-        data = await get_financial_sentiment(ticker)
-        await asyncio.sleep(batch_delay)  # Pequeno delay entre tickers
-        return data
+    tickers = chunk["Ticker"].tolist()
+    enriched_rows = []
 
-    tasks = [process_ticker(ticker) for ticker in chunk["Ticker"]]
-    results = await asyncio.gather(*tasks)
+    for i in range(0, len(tickers), batch_size):
+        batch = tickers[i:i+batch_size]
+        print(f"[ENRICH] Processando batch {i} a {i+len(batch)-1}")
 
-    return results
+        # Evita chamadas duplicadas para tickers já no cache
+        tickers_to_download = [t for t in batch if t not in API_CACHE]
+
+        batch_data = {}
+        if tickers_to_download:
+            try:
+                # Download rápido via yfinance.download
+                data = yf.download(
+                    tickers=tickers_to_download,
+                    period="1d",
+                    group_by='ticker',
+                    threads=True,
+                    progress=False
+                )
+            except Exception as e:
+                print(f"[WARNING] Erro no batch {i}-{i+len(batch)-1}: {e}")
+                data = pd.DataFrame()
+
+            # Popular cache com dados do batch
+            for ticker in tickers_to_download:
+                try:
+                    info = yf.Ticker(ticker).info
+                    API_CACHE[ticker] = {
+                        "ticker": ticker,
+                        "MarketCap": info.get("marketCap"),
+                        "Sector": info.get("sector"),
+                        "Industry": info.get("industry"),
+                        "PERatio": info.get("trailingPE")
+                    }
+                except Exception:
+                    # Se não existir ou erro, grava None
+                    API_CACHE[ticker] = {
+                        "ticker": ticker,
+                        "MarketCap": None,
+                        "Sector": None,
+                        "Industry": None,
+                        "PERatio": None
+                    }
+
+        # Montar resultado final para cada ticker do batch
+        for ticker in batch:
+            enriched_rows.append(API_CACHE.get(ticker, {
+                "ticker": ticker,
+                "MarketCap": None,
+                "Sector": None,
+                "Industry": None,
+                "PERatio": None
+            }))
+
+        # Pequena pausa para evitar rate limit do Yahoo Finance
+        await asyncio.sleep(0.5)
+
+    return enriched_rows

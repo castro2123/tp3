@@ -7,9 +7,16 @@ from utils import enrich_chunk
 from config import PROCESSED_PATH
 
 async def process_chunk(chunk):
+    # Aplica o mapper
     chunk_mapped = map_dataframe(chunk)
-    financial_data = await enrich_chunk(chunk_mapped, batch_delay=0.5)
+
+    # Enriquecimento assíncrono com batch processing
+    financial_data = await enrich_chunk(chunk_mapped, batch_size=100)
+
+    # Converte resultado em DataFrame
     financial_df = pd.json_normalize(financial_data)
+
+    # Junta dados do CSV original + dados financeiros
     chunk_enriched = pd.concat([chunk_mapped.reset_index(drop=True), financial_df], axis=1)
     return chunk_enriched
 
