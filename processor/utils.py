@@ -1,95 +1,94 @@
-import time
+import aiohttp
+import asyncio
 import pandas as pd
-import yfinance as yf
+from math import ceil
+import os
+FMP_API_KEY = os.getenv("FMP_API_KEY")
+
 
 API_CACHE = {}
 
-def get_financial_sentiment(ticker, retries=3):
+async def get_financial_sentiment(ticker: str):
+    """
+    Pega dados financeiros de um ticker usando FMP API.
+    Retorna None se o ticker não existir.
+    """
+    if not ticker or pd.isna(ticker):
+        return {
+            "ticker": ticker,
+            "MarketCap": None,
+            "DividendYield": None,
+            "Sector": None,
+            "Industry": None,
+        }
+
     if ticker in API_CACHE:
         return API_CACHE[ticker]
 
-    for attempt in range(retries):
-        try:
-            stock = yf.Ticker(ticker)
-            info = stock.info
-            data = {
-                "MarketCap": info.get("marketCap"),
-                "Sector": info.get("sector"),
-                "Industry": info.get("industry"),
-                "PERatio": info.get("trailingPE")
-            }
-            API_CACHE[ticker] = data
-            return data
-        except Exception as e:
-            print(f"[API] Erro {ticker} tentativa {attempt+1}: {e}")
-            time.sleep(1)
-    return {"MarketCap": None, "Sector": None, "Industry": None, "PERatio": None, "API_Error": True}
-
-async def enrich_chunk(chunk, batch_size=100):
-    """
-    Enriquecimento assíncrono de um chunk do CSV.
-    chunk: DataFrame com coluna 'Ticker'
-    batch_size: quantos tickers processar por batch (yfinance.download suporta até ~200)
-    Retorna lista de dicionários com os dados enriquecidos
-    """
-
-    tickers = chunk["Ticker"].tolist()
-    enriched_rows = []
-
-    for i in range(0, len(tickers), batch_size):
-        batch = tickers[i:i+batch_size]
-        print(f"[ENRICH] Processando batch {i} a {i+len(batch)-1}")
-
-        # Evita chamadas duplicadas para tickers já no cache
-        tickers_to_download = [t for t in batch if t not in API_CACHE]
-
-        batch_data = {}
-        if tickers_to_download:
-            try:
-                # Download rápido via yfinance.download
-                data = yf.download(
-                    tickers=tickers_to_download,
-                    period="1d",
-                    group_by='ticker',
-                    threads=True,
-                    progress=False
-                )
-            except Exception as e:
-                print(f"[WARNING] Erro no batch {i}-{i+len(batch)-1}: {e}")
-                data = pd.DataFrame()
-
-            # Popular cache com dados do batch
-            for ticker in tickers_to_download:
-                try:
-                    info = yf.Ticker(ticker).info
-                    API_CACHE[ticker] = {
-                        "ticker": ticker,
-                        "MarketCap": info.get("marketCap"),
-                        "Sector": info.get("sector"),
-                        "Industry": info.get("industry"),
-                        "PERatio": info.get("trailingPE")
-                    }
-                except Exception:
-                    # Se não existir ou erro, grava None
-                    API_CACHE[ticker] = {
+    url = f"https://financialmodelingprep.com/api/v3/profile/{ticker}?apikey={FMP_API_KEY}"
+    try:
+        async with aiohttp.ClientSession() as session:
+            async with session.get(url, timeout=10) as resp:
+                if resp.status != 200:
+                    data = {
                         "ticker": ticker,
                         "MarketCap": None,
+                        "DividendYield": None,
                         "Sector": None,
                         "Industry": None,
-                        "PERatio": None
                     }
+                else:
+                    result = await resp.json()
+                    if not result:
+                        data = {
+                            "ticker": ticker,
+                            "MarketCap": None,
+                            "DividendYield": None,
+                            "Sector": None,
+                            "Industry": None,
+                        }
+                    else:
+                        profile = result[0]
+                        data = {
+                            "ticker": ticker,
+                            "MarketCap": profile.get("mktCap"),
+                            "DividendYield": profile.get("dividendYield"),
+                            "Sector": profile.get("sector"),
+                            "Industry": profile.get("industry"),
+                        }
+        API_CACHE[ticker] = data
+        return data
 
-        # Montar resultado final para cada ticker do batch
-        for ticker in batch:
-            enriched_rows.append(API_CACHE.get(ticker, {
-                "ticker": ticker,
-                "MarketCap": None,
-                "Sector": None,
-                "Industry": None,
-                "PERatio": None
-            }))
+    except Exception:
+        return {
+            "ticker": ticker,
+            "MarketCap": None,
+            "DividendYield": None,
+            "Sector": None,
+            "Industry": None,
+        }
 
-        # Pequena pausa para evitar rate limit do Yahoo Finance
-        await asyncio.sleep(0.5)
 
-    return enriched_rows
+async def enrich_chunk_fast(chunk: pd.DataFrame, batch_size: int = 50, batch_delay: float = 0.05):
+    """
+    Enriquecimento ultra-rápido de um chunk de CSV.
+    Divide os tickers em batches de 'batch_size' e processa em paralelo.
+    batch_delay adiciona atraso entre batches para evitar rate-limit.
+    """
+    tickers = chunk["Ticker"].tolist()
+    n_batches = ceil(len(tickers) / batch_size)
+    results = []
+
+    for i in range(n_batches):
+        batch = tickers[i * batch_size:(i + 1) * batch_size]
+
+        async def process_batch(batch):
+            tasks = [get_financial_sentiment(ticker) for ticker in batch]
+            return await asyncio.gather(*tasks)
+
+        batch_results = await process_batch(batch)
+        results.extend(batch_results)
+
+        await asyncio.sleep(batch_delay)
+
+    return pd.DataFrame(results)
