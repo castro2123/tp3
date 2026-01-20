@@ -1,94 +1,53 @@
-import aiohttp
-import asyncio
-import pandas as pd
-from math import ceil
-import os
-FMP_API_KEY = os.getenv("FMP_API_KEY")
-
+import time
+import yfinance as yf
 
 API_CACHE = {}
 
-async def get_financial_sentiment(ticker: str):
-    """
-    Pega dados financeiros de um ticker usando FMP API.
-    Retorna None se o ticker não existir.
-    """
-    if not ticker or pd.isna(ticker):
-        return {
-            "ticker": ticker,
-            "MarketCap": None,
-            "DividendYield": None,
-            "Sector": None,
-            "Industry": None,
-        }
-
+def get_financial_sentiment(ticker, retries=3):
     if ticker in API_CACHE:
         return API_CACHE[ticker]
 
-    url = f"https://financialmodelingprep.com/api/v3/profile/{ticker}?apikey={FMP_API_KEY}"
-    try:
-        async with aiohttp.ClientSession() as session:
-            async with session.get(url, timeout=10) as resp:
-                if resp.status != 200:
-                    data = {
-                        "ticker": ticker,
-                        "MarketCap": None,
-                        "DividendYield": None,
-                        "Sector": None,
-                        "Industry": None,
-                    }
-                else:
-                    result = await resp.json()
-                    if not result:
-                        data = {
-                            "ticker": ticker,
-                            "MarketCap": None,
-                            "DividendYield": None,
-                            "Sector": None,
-                            "Industry": None,
-                        }
-                    else:
-                        profile = result[0]
-                        data = {
-                            "ticker": ticker,
-                            "MarketCap": profile.get("mktCap"),
-                            "DividendYield": profile.get("dividendYield"),
-                            "Sector": profile.get("sector"),
-                            "Industry": profile.get("industry"),
-                        }
-        API_CACHE[ticker] = data
-        return data
+    for attempt in range(retries):
+        try:
+            stock = yf.Ticker(ticker)
+            info = stock.info
 
-    except Exception:
-        return {
-            "ticker": ticker,
-            "MarketCap": None,
-            "DividendYield": None,
-            "Sector": None,
-            "Industry": None,
-        }
+            data = {
+                "MarketCap": info.get("marketCap"),
+                "Sector": info.get("sector"),
+                "Industry": info.get("industry"),
+                "PERatio": info.get("trailingPE")
+            }
+
+            API_CACHE[ticker] = data
+            return data
+
+        except Exception as e:
+            print(f"[API] Erro {ticker} tentativa {attempt+1}: {e}")
+            time.sleep(1)
+
+    return {
+        "MarketCap": None,
+        "Sector": None,
+        "Industry": None,
+        "PERatio": None,
+        "API_Error": True
+    }
 
 
-async def enrich_chunk(chunk: pd.DataFrame, batch_size: int = 50, batch_delay: float = 0.05):
-    """
-    Enriquecimento ultra-rápido de um chunk de CSV.
-    Divide os tickers em batches de 'batch_size' e processa em paralelo.
-    batch_delay adiciona atraso entre batches para evitar rate-limit.
-    """
-    tickers = chunk["Ticker"].tolist()
-    n_batches = ceil(len(tickers) / batch_size)
+def enrich_chunk(chunk):
     results = []
-
-    for i in range(n_batches):
-        batch = tickers[i * batch_size:(i + 1) * batch_size]
-
-        async def process_batch(batch):
-            tasks = [get_financial_sentiment(ticker) for ticker in batch]
-            return await asyncio.gather(*tasks)
-
-        batch_results = await process_batch(batch)
-        results.extend(batch_results)
-
-        await asyncio.sleep(batch_delay)
-
-    return pd.DataFrame(results)
+    for ticker in chunk["Ticker"]:
+        if pd.isna(ticker):
+            results.append({"ticker": None, "sentiment": None})
+            continue
+        try:
+            sentiment = get_financial_sentiment(ticker)
+            if sentiment is None:
+                sentiment = {"ticker": ticker, "sentiment": None}
+            results.append(sentiment)
+        except Exception as e:
+            print(f"[API] Erro {ticker}: {e}")
+            results.append({"ticker": ticker, "sentiment": None})
+        time.sleep(0.3)
+    return results
