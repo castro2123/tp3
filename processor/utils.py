@@ -69,7 +69,7 @@ async def get_financial_sentiment(ticker: str):
         }
 
 
-async def enrich_chunk_fast(chunk: pd.DataFrame, batch_size: int = 50, batch_delay: float = 0.05):
+async def enrich_chunk(chunk: pd.DataFrame, batch_size: int = 50, batch_delay: float = 0.05):
     """
     Enriquecimento ultra-rápido de um chunk de CSV.
     Divide os tickers em batches de 'batch_size' e processa em paralelo.
