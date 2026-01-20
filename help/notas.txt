@@ -23,3 +23,13 @@ quando recebo a resposta decido o que faço, salvo ou apago, por exemplo para pa
 guardar numa base de dados sql
 BI service-pede consultas para o xml xpath
 responde como um json que da para fazer uma tela visualizadora com tabelas e gráficos
+
+
+
+GraphQL:
+{
+  markets {
+    total
+    data { market count share }
+  }
+}

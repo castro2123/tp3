@@ -1,6 +1,19 @@
-import aiohttp
 import asyncio
+import ssl
+import aiohttp
 from config import BUCKET_NAME, FILE_NAME, get_supabase_config
+
+try:
+    import certifi
+except ImportError:
+    certifi = None
+
+def _build_ssl_context():
+    if not certifi:
+        return None
+    return ssl.create_default_context(cafile=certifi.where())
+
+SSL_CONTEXT = _build_ssl_context()
 
 async def download_from_bucket_async(session, bucket_name=BUCKET_NAME, file_name=FILE_NAME):
     url, key = get_supabase_config()
@@ -11,12 +24,12 @@ async def download_from_bucket_async(session, bucket_name=BUCKET_NAME, file_name
     storage_url = f"{url}/storage/v1/object/{bucket_name}/{file_name}"
     headers = {"Authorization": f"Bearer {key}", "apikey": key}
 
-    async with session.get(storage_url, headers=headers) as resp:
+    async with session.get(storage_url, headers=headers, ssl=SSL_CONTEXT) as resp:
         if resp.status == 404:
             return None
         if resp.status in (400, 401, 403):
             storage_url = f"{url}/storage/v1/object/public/{bucket_name}/{file_name}"
-            async with session.get(storage_url) as resp_public:
+            async with session.get(storage_url, ssl=SSL_CONTEXT) as resp_public:
                 if resp_public.status != 200:
                     print(f"[ERROR] Download público falhou: {resp_public.status}")
                     return None
@@ -37,3 +50,18 @@ async def poll_bucket_async(interval=60):
                     last_hash = new_hash
                     yield content
             await asyncio.sleep(interval)
+
+async def delete_from_bucket_async(bucket_name=BUCKET_NAME, file_name=FILE_NAME):
+    url, key = get_supabase_config()
+    if not url or not key:
+        print("[ERROR] Configuração Supabase inválida para delete.")
+        return False
+
+    storage_url = f"{url}/storage/v1/object/{bucket_name}/{file_name}"
+    headers = {"Authorization": f"Bearer {key}", "apikey": key}
+    async with aiohttp.ClientSession() as session:
+        async with session.delete(storage_url, headers=headers, ssl=SSL_CONTEXT) as resp:
+            if resp.status not in (200, 204):
+                print(f"[ERROR] Delete bucket falhou: {resp.status}")
+                return False
+    return True

@@ -1,0 +1,20 @@
+syntax = "proto3";
+
+package processing;
+
+option go_package = "tp3-grpc/pb;processingpb";
+
+service ProcessingHints {
+  rpc GetHints (HintsRequest) returns (HintsResponse);
+}
+
+message HintsRequest {
+  string source = 1;
+}
+
+message HintsResponse {
+  int32 chunk_size = 1;
+  int32 batch_size = 2;
+  double batch_delay = 3;
+  string note = 4;
+}

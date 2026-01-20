@@ -162,7 +162,10 @@ def run_crawler():
         if time_re.search(text) or month_re.search(text):
             return False
         if any(ch.isalpha() for ch in text):
-            return False
+            normalized = text.replace("\xa0", " ").strip()
+            normalized = re.sub(r"^[A-Z]{2,4}\s+", "", normalized)
+            if not normalized or any(ch.isalpha() for ch in normalized):
+                return False
         normalized = text.replace(" ", "").replace("\xa0", "")
         if normalized in {"-", "--"}:
             return False
@@ -232,7 +235,12 @@ def run_crawler():
 
                 data_by_label = {}
                 for idx, col in enumerate(colunas):
-                    label = col.get_attribute("data-label") or col.get_attribute("aria-label") or ""
+                    label = (
+                        col.get_attribute("data-datapoints")
+                        or col.get_attribute("data-label")
+                        or col.get_attribute("aria-label")
+                        or ""
+                    )
                     label = normalize_header(label)
                     if label:
                         data_by_label[label] = clean_text(col.text)
@@ -249,14 +257,14 @@ def run_crawler():
                 if not simbolo:
                     simbolo = isin_val
                 mercado = get_by_label(["mercado", "market"]) or get_cell(header_map.get("market"))
-                ultimo_preco = get_by_label(["ultimo", "last", "price", "preco"]) or get_cell(header_map.get("last"))
-                variacao_percentual = get_by_label(["variacao", "change", "%"]) or get_cell(header_map.get("change_pct"))
-                data_hora = get_by_label(["data", "hora", "time", "date"]) or get_cell(header_map.get("datetime"))
+                ultimo_preco = get_by_label(["ultimo", "last", "price", "preco", "lastprice"]) or get_cell(header_map.get("last"))
+                variacao_percentual = get_by_label(["variacao", "change", "%", "precentdaychange"]) or get_cell(header_map.get("change_pct"))
+                data_hora = get_by_label(["data", "hora", "time", "date", "lasttradetime"]) or get_cell(header_map.get("datetime"))
 
                 texts = [clean_text(col.text) for col in colunas]
                 if ultimo_preco == mercado or looks_like_market(ultimo_preco):
                     ultimo_preco = ""
-                if not mercado and market_code:
+                if market_code:
                     mercado = market_code
 
                 if not ultimo_preco:
@@ -315,9 +323,9 @@ def run_crawler():
         if not header_map:
             header_map = {
                 "name": 1,
-                "symbol": 2,
-                "market": 3,
-                "last": 4,
+                "symbol": 3,
+                "market": 4,
+                "last": 5,
                 "change_pct": 6,
                 "datetime": 7,
             }

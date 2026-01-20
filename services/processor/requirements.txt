@@ -5,3 +5,5 @@ flask
 python-dotenv
 aiohttp
 asyncio
+grpcio>=1.76.0
+certifi

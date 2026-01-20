@@ -20,7 +20,7 @@ async def process_csv(
         f.write(content)
 
     # Gerar XML
-    xml_string = csv_to_xml_string(tmp_path)
+    xml_string = csv_to_xml_string(tmp_path, MAPPER_VERSION, ID_Requisicao)
 
     # Validar XML
     if not validate_xml(xml_string):
@@ -29,7 +29,7 @@ async def process_csv(
 
     # Persistir no DB
     try:
-        doc_id = insert_xml_document(ID_Requisicao, xml_string, status="OK")
+        doc_id = insert_xml_document(ID_Requisicao, xml_string, MAPPER_VERSION, status="OK")
     except Exception as e:
         await send_webhook(WEBHOOK_URL, ID_Requisicao, "ERRO_PERSISTENCIA", None)
         raise HTTPException(status_code=500, detail="Erro ao salvar XML")

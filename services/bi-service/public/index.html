@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>TP3 BI Dashboard</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page">
+      <header class="header">
+        <div class="title-block">
+          <p class="kicker">TP3 BI Service</p>
+          <h1>Market snapshot</h1>
+          <p class="subtitle">
+            A minimal view of the XML data stream.
+          </p>
+        </div>
+        <div class="status">
+          <span class="status-dot"></span>
+          <span id="status-text">Loading XML service status...</span>
+        </div>
+      </header>
+
+      <section class="table-wrap">
+        <div class="table-head">
+          <div>
+            <h2>Data table</h2>
+            <p class="panel-note">
+              Crawler fields on the left, enrichment fields on the right.
+            </p>
+          </div>
+          <span class="pill" id="records-total">-- rows</span>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr class="group-row">
+                <th colspan="6">Crawler</th>
+                <th colspan="4">Enrichment</th>
+              </tr>
+              <tr>
+                <th>Nome</th>
+                <th>Ticker</th>
+                <th>Mercado</th>
+                <th>Ultimo preco</th>
+                <th>Variacao %</th>
+                <th>Data hora</th>
+                <th>Sector</th>
+                <th>Industria</th>
+                <th>Market cap</th>
+                <th>PE ratio</th>
+              </tr>
+            </thead>
+            <tbody id="records-body">
+              <tr class="empty-row">
+                <td colspan="11">Loading...</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panels">
+        <article class="panel" id="card-markets">
+          <div class="panel-head">
+            <div>
+              <h2>Markets mix</h2>
+              <p class="panel-note">Top markets by count.</p>
+            </div>
+            <span class="pill" id="market-total">-- items</span>
+          </div>
+          <div class="panel-body">
+            <div class="bars" id="markets-bars"></div>
+          </div>
+        </article>
+
+        <article class="panel" id="card-sectors">
+          <div class="panel-head">
+            <div>
+              <h2>Sector spread</h2>
+              <p class="panel-note">Distribution by sector labels.</p>
+            </div>
+            <span class="pill" id="sector-total">-- items</span>
+          </div>
+          <div class="panel-body">
+            <div class="bars" id="sectors-bars"></div>
+          </div>
+        </article>
+
+        <article class="panel" id="card-pe">
+          <div class="panel-head">
+            <div>
+              <h2>Avg PE by sector</h2>
+              <p class="panel-note">Average PE ratio (top values).</p>
+            </div>
+            <span class="pill">Top by value</span>
+          </div>
+          <div class="panel-body">
+            <div class="bars" id="pe-bars"></div>
+          </div>
+        </article>
+      </section>
+    </main>
+
+    <script src="app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified">
+  <xs:element name="RelatorioMercado">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Configuracao">
+          <xs:complexType>
+            <xs:attribute name="validadoPor" type="xs:string" use="required" />
+            <xs:attribute name="requisitante" type="xs:string" use="required" />
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Ativos">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Ativo" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Empresa">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Nome" type="xs:string" minOccurs="0" />
+                          <xs:element name="Sector" type="xs:string" minOccurs="0" />
+                          <xs:element name="Industria" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Negociacao">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="UltimoPreco" type="xs:string" minOccurs="0" />
+                          <xs:element name="VariacaoPercentual" type="xs:string" minOccurs="0" />
+                          <xs:element name="DataHora" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Fundamentos" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="MarketCap" type="xs:string" minOccurs="0" />
+                          <xs:element name="PERatio" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="Fonte" minOccurs="0">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="Link" type="xs:string" minOccurs="0" />
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                  <xs:attribute name="idInterno" type="xs:string" use="required" />
+                  <xs:attribute name="ticker" type="xs:string" use="optional" />
+                  <xs:attribute name="mercado" type="xs:string" use="optional" />
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+      <xs:attribute name="dataGeracao" type="xs:dateTime" use="required" />
+      <xs:attribute name="versao" type="xs:string" use="required" />
+      <xs:attribute name="mapperVersao" type="xs:string" use="required" />
+      <xs:attribute name="requestId" type="xs:string" use="required" />
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
